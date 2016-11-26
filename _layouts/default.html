@@ -11,14 +11,14 @@
     </nav>
   </header>
 
-  <article>
-    <div class="row" style="padding-top: 60px; border: 1px solid #CCC">
-      <div class="col-xs-3">
-        {% include menu.html %}
-      </div>
-      <div class="col-xs-9">
-        {{ content }}
-      </div>
+  <div class="row" style="padding-top: 60px; border: 1px solid #CCC">
+    <div class="col-xs-3">
+      {% include menu.html %}
     </div>
-  </article>
+    <div class="col-xs-9">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+  </div>
 </div>
