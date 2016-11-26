@@ -1,8 +1,8 @@
 ---
 layout: default
 title: トップページ
-toc: true
 ---
+{::options parse_block_html="true" /}
 
 <div style="text-align: center">
   <div style="font-size: 24px; font-weight: bold">Minetest JP Wikiへようこそ。</div>
