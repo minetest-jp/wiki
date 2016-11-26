@@ -2,10 +2,8 @@
 layout: default
 title: トップページ
 ---
-<div style="text-align: center">
-<div style="font-size: 24px">**Minetest JP Wikiへようこそ。**</div>
-このサイトは[Minetest](http://www.minetest.net")の**非公式**Wikiです。
-</div>
+**Minetest JP Wikiへようこそ。**{: style="text-align: center; font-size: 24px"}
+このサイトは[Minetest](http://www.minetest.net")の**非公式**Wikiです。**{: style="text-align: center"}
 
 <p align="center" style="color: #fff; background-color: #808080; font-size: 14px">
 **お知らせ: (5/16) バージョン0.4.14がリリースされました。**
