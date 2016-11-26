@@ -22,13 +22,7 @@
       <div class="col-xs-9">
         <article id="article">
           <p id="article_title">{{ page.title }}</p>
-          {% if page.toc == true %}
-          <div id="toc">
-            <p>目次</p>
-            {{ content | toc_only }}
-          </div>
-          {% endif %}
-          {{ content | inject_anchors}}
+          {{ content}}
         </article>
       </div>
     </div>
