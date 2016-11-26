@@ -19,8 +19,6 @@ html, body {
   background-color: #ccc;
   padding: 3rem 0;
   text-align: center;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 #header a {
@@ -32,13 +30,15 @@ html, body {
   border-right: 1px solid #CCC;
 }
 
+#content {
+  padding-bottom: 50px;
+}
+
 #footer {
   background-color: #ccc;
-  bottom: 0;
   color: #fff;
-  margin-left: 0;
-  margin-right: 0;
+  height: 50px;
+  margin-top: -50px;
   padding: 3rem 0;
-  position:absolute;
   text-align: center;
 }
