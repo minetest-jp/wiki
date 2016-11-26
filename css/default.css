@@ -11,8 +11,10 @@
 
 #header {
   background-color: #ccc;
-  text-align: center;
   padding: 3rem 0;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #header a {
@@ -28,6 +30,8 @@
   background-color: #ccc;
   bottom: 0;
   color: #fff;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
   padding: 3rem 0;
 }
