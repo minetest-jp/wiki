@@ -20,9 +20,8 @@ body {
 }
 
 #header {
-  background-color: #ccc;
-  padding: 3rem 0;
-  text-align: center;
+  background: #E0E0E0;
+  border-bottom: 1px solid #CCC;
 }
 
 #header a {
