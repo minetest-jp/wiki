@@ -13,12 +13,12 @@
 
   <div id="content" class="row">
     <div id="menu" class="col-xs-3">
-      <p class="menu_title">メニュー</p>
+      <p id="menu_title">メニュー</p>
       {% include menu.html %}
     </div>
     <div id="article" class="col-xs-9">
       <article>
-        <p class="article_title">{{ page.title }}</p>
+        <p id="article_title">{{ page.title }}</p>
         {{ content }}
       </article>
     </div>
