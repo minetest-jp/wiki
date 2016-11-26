@@ -46,6 +46,11 @@ body {
   color: #659b4b;
 }
 
+#menu_title,
+#article_title {
+ font-size: 145%;
+}
+
 #menu {
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
