@@ -4,37 +4,21 @@
 <title>{{ page.title }} - {{ site.wiki_name }}</title>
 <link rel="stylesheet" href="{{ site.url }}/css/default.css">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-collapse" aria-expanded="false">
-        <span class="sr-only">メニュー</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.url }}">{{ site.wiki_name }}</a>
-    </div>
-
-<!--
-      <form class="navbar-form navbar-right" action="<%form_action>">
-        <input type="hidden" name="act" value="search_form" />
-        <input type="text" class="form-control" name="keyword" placeholder="検索ワード" />
-        <button type="submit" class="btn btn-default">検索</button>
-      </form>
-    </div>
--->
-
-  </div>
-</nav>
-
 <div class="container">
-  <div class="row" style="padding:60px 0 0 0">
-    <div class="col-md-3">
-      {% include menu.html %}
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <a class="navbar-brand" href="{{ site.url }}">{{ site.wiki_name }}</a>
+    </nav>
+  </header>
+
+  <article>
+    <div class="row" style="padding:60px 0 0 0">
+      <div class="col-md-3">
+        {% include menu.html %}
+      </div>
+      <div class="col-md-9">
+        {{ content }}
+      </div>
     </div>
-    <div class="col-md-9">
-      {{ content }}
-    </div>
-  </div>
+  </article>
 </div>
