@@ -9,6 +9,16 @@
   margin-bottom: 3rem;
 }
 
+#header {
+  background-color: #ccc;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#header a {
+  color: #fff;
+}
+
 #menu {
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
