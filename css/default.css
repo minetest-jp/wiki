@@ -3,6 +3,10 @@ html, body {
   margin: 0;
 }
 
+body {
+  background-image: url(http://minetest.wiki.fc2.com/material/m/i/n/minetest/62608/background);
+}
+
 .container {
   padding: 0;
   width: 925px;
