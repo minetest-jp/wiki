@@ -6,6 +6,7 @@
   min-height: 100%;
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
+  margin-bottom: 3rem;
 }
 
 #menu {
@@ -18,5 +19,4 @@
   color: #fff;
   text-align: center;
   padding: 3rem 0;
-  margin-top: 3rem;
 }
