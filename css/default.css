@@ -67,6 +67,7 @@ body {
 }
 
 #footer {
+  bottom: 0;
   color: #999;
   background: #2e2e2e;
   text-align: center;
