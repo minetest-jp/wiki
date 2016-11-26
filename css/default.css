@@ -12,3 +12,11 @@
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
 }
+
+#footer {
+  background-color: hsl(0, 0, 18%);
+  color: hsl(0, 0, 60%);
+  text-align: center;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
