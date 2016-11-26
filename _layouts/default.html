@@ -4,14 +4,14 @@
 <title>{{ page.title }} - {{ site.wiki_name }}</title>
 <link rel="stylesheet" href="{{ site.url }}/css/default.css">
 
-<div class="container">
+<div class="container" style="max-width: 925px">
   <header>
     <nav class="navbar navbar-default navbar-fixed-top">
       <a class="navbar-brand" href="{{ site.url }}">{{ site.wiki_name }}</a>
     </nav>
   </header>
 
-  <div style="width: 925px; padding-top: 60px; border: 1px solid #CCC">
+  <div class="row" style="padding-top: 60px; border: 1px solid #CCC">
     <div class="col-xs-3" style="border-right: 1px solid #CCC">
       {% include menu.html %}
     </div>
