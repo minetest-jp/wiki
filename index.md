@@ -2,6 +2,8 @@
 layout: default
 title: トップページ
 ---
+{: .no_toc}
+
 **Minetest JP Wikiへようこそ。**
 {: style="text-align: center; font-size: 30px"}  
 
