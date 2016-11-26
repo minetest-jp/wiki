@@ -2,8 +2,6 @@
 layout: default
 title: トップページ
 ---
-{::options parse_block_html="true" /}
-
 <div style="text-align: center">
   <div style="font-size: 24px; font-weight: bold">Minetest JP Wikiへようこそ。</div>
   このサイトは<a target="_blank" href="http://www.minetest.net">Minetest</a>の<span style="font-weight: bold">非公式</span>Wikiです。
