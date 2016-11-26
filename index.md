@@ -3,7 +3,7 @@ layout: default
 title: トップページ
 ---
 **Minetest JP Wikiへようこそ。**
-{: style="text-align: center; font-size: 24px"}  
+{: style="text-align: center; font-size: 30px"}  
 
 このサイトは[Minetest](http://www.minetest.net")の**非公式**Wikiです。
 {: style="text-align: center"}
