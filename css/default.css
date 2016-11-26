@@ -1,3 +1,9 @@
 .container {
   max-width: 925px;
 }
+
+#main {
+  min-height: 100%;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
