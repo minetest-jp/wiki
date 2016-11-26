@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   background-image: url(http://minetest.wiki.fc2.com/material/m/i/n/minetest/62608/background);
 }
 
@@ -24,8 +25,27 @@ body {
   border-bottom: 1px solid #CCC;
 }
 
-#header a {
-  color: #fff;
+
+#header p {
+  background: url(http://minetest.wiki.fc2.com/material/m/i/n/minetest/62608/minetest-logo) no-repeat left center;
+
+  margin: 0 30px;
+  min-height: 30px;
+  padding: 30px 85px 30px 20px;
+
+  line-height: 30px;
+  text-align: left;
+  text-indent: 60px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #659b4b;
+  text-decoration: none;
+}
+
+#header p a {
+  color: #659b4b;
 }
 
 #menu {
