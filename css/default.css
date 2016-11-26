@@ -54,14 +54,12 @@ body {
 #menu {
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding: 15px 10px;
 }
 
 #content {
   min-height: 100%;
-  padding-bottom: 25px;
-  padding-top: 25px
+  padding: 15px 10px;
 }
 
 #footer {
