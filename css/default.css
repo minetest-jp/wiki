@@ -13,9 +13,9 @@
   border-right: 1px solid #CCC;
 }
 
-footer {
-  background-color: hsl(0, 0, 18%);
-  color: hsl(0, 0, 60%);
+#footer {
+  background-color: #ccc;
+  color: #fff;
   text-align: center;
   padding: 3rem 0;
   margin-top: 3rem;
