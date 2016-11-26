@@ -4,6 +4,7 @@ title: トップページ
 ---
 **Minetest JP Wikiへようこそ。**
 {: style="text-align: center; font-size: 24px"}  
+
 このサイトは[Minetest](http://www.minetest.net")の**非公式**Wikiです。
 {: style="text-align: center"}
 
