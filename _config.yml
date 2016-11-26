@@ -1,5 +1,3 @@
 wiki_name: Minetest JP Wiki
 
 markdown: kramdown
-gems: ["jekyll-toc"]
-exclude: ["Gemfile"]
