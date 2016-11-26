@@ -17,7 +17,6 @@ body {
   min-height: 100%;
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
-  margin-bottom: 3rem;
 }
 
 #header {
@@ -48,18 +47,16 @@ body {
 
 #menu_title,
 #article_title {
- font-size: 145%;
+  font-size: 145%;
 }
 
 #menu {
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
-  padding: 15px 10px;
 }
 
 #content {
   min-height: 100%;
-  padding: 15px 10px;
 }
 
 #footer {
