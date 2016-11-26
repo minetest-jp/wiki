@@ -11,12 +11,12 @@
     </div>
   </header>
 
-  <div class="row">
+  <div id="content" class="row">
     <div id="menu" class="col-xs-3">
       <h1 style="text-align: center">メニュー</h1>
       {% include menu.html %}
     </div>
-    <div class="col-xs-9">
+    <div id="article" class="col-xs-9">
       <article>
         <h1 style="text-align: center">{{ page.title }}</h1>
         {{ content }}
