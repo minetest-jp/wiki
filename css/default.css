@@ -45,6 +45,10 @@ body {
   color: #659b4b;
 }
 
+#content {
+  min-height: 100%;
+}
+
 #menu_title,
 #article_title {
   font-size: 145%;
@@ -53,10 +57,13 @@ body {
 #menu {
   border-bottom: 1px solid #CCC;
   border-right: 1px solid #CCC;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-#content {
-  min-height: 100%;
+#article {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #footer {
