@@ -28,7 +28,7 @@
             {{ content | toc_only }}
           </div>
           {% endif %}
-          {{ content }}
+          {{ content | inject_anchors}}
         </article>
       </div>
     </div>
