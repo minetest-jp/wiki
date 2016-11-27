@@ -10,13 +10,13 @@
     </tr>
     {% endif %}
     <tr>
-      <th style="text-align: left">
+      <th style="text-align: left; width: 50%">
         {% for link_data in include.links %}
         {% if forloop.first != true %}/{% endif %}
         <a href="{{ link_data.url }}" target="_blank">{{ link_data.text }}</a>
         {% endfor %}
       </th>
-      <th style="text-align: left">
+      <th style="text-align: left ; width: 50%">
         {% if include.develop_text %}
         {{ include.develop_text }}
         {% else %}
