@@ -12,7 +12,7 @@ layout: default
       <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png">
     </div>
     <div class="carousel-item">
-      <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png">
+      <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png">
     </div>
   </div>
   <a class="left carousel-control" href="#screenshots" role="button" data-slide="prev">
