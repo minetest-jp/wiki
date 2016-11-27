@@ -16,4 +16,4 @@ title: トップページ
 {: style="text-align: center"}
 
 ## Minetestとは？
-[Minetest](http://www.minetest.net){:target="_blank"}は、[Minecraft](https://minecraft.net){:target="_blank"}風のフリーのサンドボックスゲームです。ブロックで家を作ったり、洞窟を探検したり、作物を育てたり。無限に広がる世界で自由に遊ぶことができます。  また、Mod拡張に対応しています。Modは、ブロックを追加するものからワールド全体を変えるものまで様々です。それ以外にも、テクスチャパックとサブゲームがあります。
+[Minetest](http://www.minetest.net){:target="_blank"}は、[Minecraft](https://minecraft.net){:target="_blank"}風のフリーのサンドボックスゲームです。ブロックで家を作ったり、洞窟を探検したり、作物を育てたり。無限に広がる世界で自由に遊ぶことができます。<br>また、Mod拡張に対応しています。Modは、ブロックを追加するものからワールド全体を変えるものまで様々です。それ以外にも、テクスチャパックとサブゲームがあります。
