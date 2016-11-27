@@ -2,7 +2,7 @@
 layout: default
 ---
 <div align="center">
-<div id="screenshots" class="carousel slide" data-ride="carousel">
+<div id="screenshots" class="carousel slide" data-ride="carousel" style="width: 350px; height: 250px">
   <ol class="carousel-indicators">
     <li data-target="#screenshots" data-slide-to="0" class="active"></li>
     <li data-target="#screenshots" data-slide-to="1"></li>
