@@ -12,7 +12,7 @@
     <tr>
       <th style="text-align: left">
         {% for link_data in links %}
-        {% if forloop.first != true %}/{% endfor %}
+        {% if forloop.first != true %}/{% endif %}
         <a href="{{ link_data.url }}" target="_blank">{{ link_data.text }}</a>
         {% endfor %}
       </th>
