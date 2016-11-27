@@ -7,6 +7,7 @@ layout: default
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -17,7 +18,9 @@ layout: default
     <div class="item">
       <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png">
     </div>
-    ...
+    <div class="item">
+      <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png">
+    </div>
   </div>
 
   <!-- Controls -->
