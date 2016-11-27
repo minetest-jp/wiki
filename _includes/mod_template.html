@@ -11,6 +11,31 @@
     </tr>
     {% endif %}
 
+    <tr>
+      <th style="width: 50%; padding: 10px">
+        {% for link_data in include.links %}
+        {% if forloop.first != true %}/{% endif %}
+        <a href="{{ link_data.url }}" target="_blank">
+          {{ link_data.text }}
+        </a>
+        {% endfor %}
+      </th>
+      <th style="width: 50%; padding: 10px">
+        {% if include.develop_text %}
+        {{ include.develop_text }}
+        {% else %}
+        開発:
+        {% endif %}
+        {{ include.developer }}
+      </th>
+    </tr>
+
+    <tr>
+      <td colspan="2" style="padding: 10px">
+        {{ include.description }}
+      </td>
+    </tr>
+
     {% if include.depends %}
     <tr>
       <td colspan="2" style="padding: 10px">
@@ -40,31 +65,6 @@
       </td>
     </tr>
     {% endif %}
-
-    <tr>
-      <th style="width: 50%; padding: 10px">
-        {% for link_data in include.links %}
-        {% if forloop.first != true %}/{% endif %}
-        <a href="{{ link_data.url }}" target="_blank">
-          {{ link_data.text }}
-        </a>
-        {% endfor %}
-      </th>
-      <th style="width: 50%; padding: 10px">
-        {% if include.develop_text %}
-        {{ include.develop_text }}
-        {% else %}
-        開発:
-        {% endif %}
-        {{ include.developer }}
-      </th>
-    </tr>
-
-    <tr>
-      <td colspan="2" style="padding: 10px">
-        {{ include.description }}
-      </td>
-    </tr>
 
   </tbody>
 </table>
