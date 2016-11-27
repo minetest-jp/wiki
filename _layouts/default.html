@@ -3,7 +3,6 @@
 <link rel="shortcut icon" href="{{ site.github.url }}/img/icon.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ site.github.url }}/css/default.css">
-<link rel="stylesheet" href="{{ site.github.url }}/css/toc.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <div id="main" class="container">
@@ -30,7 +29,7 @@
       <div class="col-xs-12 col-sm-9 col-md-9">
         <article id="article">
           <p id="article_title">{{ page.title }}</p>
-          {{ content | toc_generate }}
+          {{ content }}
         </article>
       </div>
     </div>
