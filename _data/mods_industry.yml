@@ -9,6 +9,6 @@
   depends:
     - text: Mesecons
     - text: string helpers
-  optional_depends:
+  depends_optional:
     - text: Hoge
   description: BuildCraftの移植Mod。機械、設備が追加される。
