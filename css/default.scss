@@ -1,7 +1,6 @@
 ---
 ---
-$wiphone: 320px;
-$break-desktop: 1200px;
+$screen-sm-min: 768px;
 
 html, body {
   height: 100%;
@@ -83,7 +82,7 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
 
-  @media (min-width: @screen-sm-min) {
+  @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
     padding-left: 15px;
   }
