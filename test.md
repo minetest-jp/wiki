@@ -1,16 +1,6 @@
 ---
 layout: default
 ---
-{% for mod in site.data.mods_industry %}
-  <h2>{{ mod.name }}</h2>
-  {% include mod_template.html
-    image_url      = mod.image_url
-    links          = mod.links
-    developer_name = mod.developer_name
-    description    = mod.description
-  %}
-{% endfor %}
-
 <div align="center">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!--style="width: 350px; height: 250px"-->
   <!-- Indicators -->
