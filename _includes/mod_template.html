@@ -1,0 +1,34 @@
+<table cellspacing="0" cellpadding="0" style="width: 100%">
+  <tbody>
+    {% if image_url %}
+    <tr>
+      <td colspan="2" style="text-align: center">
+        <a href="{{ image_url }}" rel="lightbox" title="画像を表示" class="lightbox">
+          <img src="{{ image_url }}" alt="画像を表示" height="180px" border="0">
+        </a>
+      </td>
+    </tr>
+    {% endif %}
+    <tr>
+      <th style="text-align: left">
+        {% for link_data in links %}
+        {% if forloop.first != true %}/{% endfor %}
+        <a href="{{ link_data.url }}" target="_blank">{{ link_data.text }}</a>
+        {% endfor %}
+      </th>
+      <th style="text-align: left">
+        {% if develop_text %}
+        {{ develop_text }}
+        {% else %}
+        開発:
+        {% endif %}
+        {{ developer_name }}
+      </th>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: left">
+        {{ description }}
+      </td>
+    </tr>
+  </tbody>
+</table>
