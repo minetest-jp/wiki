@@ -8,7 +8,7 @@ title: トップページ
 **Minetest JP Wikiへようこそ。**
 {: style="text-align: center; font-size: 30px"}  
 
-このサイトは[Minetest](http://www.minetest.net")の**非公式**Wikiです。
+このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。
 {: style="text-align: center"}
 
 **お知らせ: (5/16) バージョン0.4.14がリリースされました。**
