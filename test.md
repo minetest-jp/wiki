@@ -17,7 +17,7 @@ layout: default
 
 <div align="center">
   <ul class="slide" style="width: 350px; height: 250px; box-shadow: 0 10px 10px -10px #777">
-    <li><img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png"></li>
-    <li><img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png"></li>
+    <li><img alt="" width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png"></li>
+    <li><img alt="" width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png"></li>
   </ul>
 </div>
