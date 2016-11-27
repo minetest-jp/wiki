@@ -8,4 +8,4 @@
       url: https://github.com/minermoder27/minetest-buildtest/archive/master.zip
   description: |
     BuildCraftの移植Mod。機械、設備が追加される。
-    [Mesecons](/)とstring helpersが必要。
+    Meseconsとstring helpersが必要。
