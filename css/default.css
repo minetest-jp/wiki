@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  background-image: url(http://minetest.wiki.fc2.com/material/m/i/n/minetest/62608/background);
+  background-image: url(/img/background.png);
+  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック Medium", meiryo, arial, sans-serif;
 }
 
 .container {
@@ -15,35 +15,31 @@ body {
 
 #main {
   background: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   min-height: 100%;
-  border-left: 1px solid #CCC;
-  border-right: 1px solid #CCC;
 }
 
 #header {
-  background: #E0E0E0;
-  border-bottom: 1px solid #CCC;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
 }
 
 #header p {
-  background: url(http://minetest.wiki.fc2.com/material/m/i/n/minetest/62608/minetest-logo) no-repeat left center;
-
+  background: url(/img/icon.svg) no-repeat left center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
   margin: 0 30px;
   min-height: 30px;
   padding: 30px 85px 30px 20px;
-
-  line-height: 30px;
   text-align: left;
-  text-indent: 60px;
-
-  font-size: 20px;
-  font-weight: bold;
-
   text-decoration: none;
+  text-indent: 60px;
 }
 
 #header p a {
-  color: #659b4b;
+  color: #694;
 }
 
 #content {
@@ -56,7 +52,7 @@ body {
 }
 
 #menu {
-  border-right: 1px solid #CCC;
+  border-right: 1px solid #ccc;
   min-height: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -68,9 +64,9 @@ body {
 }
 
 #footer {
+  background: #333;
   bottom: 0;
   color: #999;
-  background: #2e2e2e;
   padding: 15px 0;
   text-align: center;
 }
