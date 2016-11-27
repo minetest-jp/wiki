@@ -1,8 +1,8 @@
-<table border="1" cellspacing="0" cellpadding="10" style="width: 100%">
+<table border="1" cellspacing="0" cellpadding="0" style="width: 100%">
   <tbody>
     {% if include.image_url %}
     <tr>
-      <td colspan="2" style="text-align: center">
+      <td colspan="2" style="text-align: center; padding: 10px">
         <a href="{{ include.image_url }}" rel="lightbox" title="画像を表示" class="lightbox">
           <img src="{{ include.image_url }}" alt="画像を表示" height="180px" border="0">
         </a>
@@ -10,13 +10,13 @@
     </tr>
     {% endif %}
     <tr>
-      <th style="text-align: left; width: 50%">
+      <th style="text-align: left; width: 50%; padding: 10px">
         {% for link_data in include.links %}
         {% if forloop.first != true %}/{% endif %}
         <a href="{{ link_data.url }}" target="_blank">{{ link_data.text }}</a>
         {% endfor %}
       </th>
-      <th style="text-align: left ; width: 50%">
+      <th style="text-align: left ; width: 50%; padding: 10px">
         {% if include.develop_text %}
         {{ include.develop_text }}
         {% else %}
@@ -26,7 +26,7 @@
       </th>
     </tr>
     <tr>
-      <td colspan="2" style="text-align: left">
+      <td colspan="2" style="text-align: left; padding: 10px">
         {{ include.description }}
       </td>
     </tr>
