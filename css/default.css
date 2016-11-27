@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-image: url(/img/background.png);
+  background-image: url(../img/background.png);
   font-family: "Hiragino Kaku Gothic ProN", "游ゴシック Medium", meiryo, arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 #header p {
-  background: url(/img/icon.svg) no-repeat left center;
+  background: url(../img/icon.svg) no-repeat left center;
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
