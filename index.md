@@ -2,8 +2,8 @@
 layout: default
 title: トップページ
 ---
-目次
-*
+
+- 目次
 {:toc}
 
 **Minetest JP Wikiへようこそ。**
