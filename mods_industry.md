@@ -3,7 +3,8 @@ layout: default
 title: 工業Mod
 ---
 ## 目次
-{:no_toc}
+{:.no_toc}
+
 -目次
 {:toc}
 
