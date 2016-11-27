@@ -1,5 +1,5 @@
-[トップページ](/index)
-[掲示板](http://minetest.bbs.fc2.com)
+[トップページ]({{ site.github.url }}/index)  
+[掲示板](http://minetest.bbs.fc2.com)  
 
 Minetestの翻訳状況
 <a href="https://hosted.weblate.org/engage/minetest/ja/?utm_source=widget">
