@@ -1,0 +1,11 @@
+- name: BuildTest
+  image_url: http://minetest.wiki.fc2.com/image/mod_buildtest.png
+  developer_name: minermoder27
+  links:
+    - text: フォーラム
+      url: https://forum.minetest.net/viewtopic.php?t=7799
+    - text: ダウンロード
+      url: https://github.com/minermoder27/minetest-buildtest/archive/master.zip
+  description: |
+    BuildCraftの移植Mod。機械、設備が追加される。
+    Meseconsとstring helpersが必要。
