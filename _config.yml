@@ -1,6 +1,8 @@
 wiki_name: Minetest JP Wiki
 
 markdown: kramdown
+kramdown:
+  gfm_quirks: true
 sass:
   style: compressed
 #gems:
