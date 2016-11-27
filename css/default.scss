@@ -1,5 +1,6 @@
 ---
 ---
+
 $screen-sm-min: 768px;
 
 html, body {
@@ -22,9 +23,12 @@ body {
 
 #main {
   background: #fff;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  min-height: 100%;
+
+  @media (min-width: $screen-sm-min) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    min-height: 100%;
+  }
 }
 
 #header {
@@ -51,8 +55,6 @@ body {
 }
 
 #content {
-  min-height: 100%;
-
   a {
     text-decoration: none;
 
@@ -66,6 +68,10 @@ body {
     &:active {
       color: #456336;
     }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    min-height: 100%;
   }
 }
 
@@ -82,12 +88,12 @@ body {
 }
 
 #article {
-  min-height: 100%;
   padding-bottom: 15px;
   padding-top: 15px;
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
+    min-height: 100%;
     padding-left: 15px;
   }
 }
