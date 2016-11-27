@@ -16,12 +16,10 @@ layout: default
     </div>
   </div>
   <a class="left carousel-control" href="#screenshots" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
   <a class="right carousel-control" href="#screenshots" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
 </div>
