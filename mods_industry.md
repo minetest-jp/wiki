@@ -2,8 +2,10 @@
 layout: default
 title: 工業Mod
 ---
-## 目次{:no_toc}
--目次{:toc}
+## 目次
+{:no_toc}
+-目次
+{:toc}
 
 {% for mod in site.data.mods_industry %}
   <h2>{{ mod.name }}</h2>
