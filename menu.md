@@ -1,6 +1,6 @@
 ---
 ---
-[トップページ](/index)
+[トップページ]({{ site.github.url }}/index)
 
 Minetestの翻訳状況
 <a href="https://hosted.weblate.org/engage/minetest/ja/?utm_source=widget">
