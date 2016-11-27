@@ -6,6 +6,9 @@
       url: https://forum.minetest.net/viewtopic.php?t=7799
     - text: ダウンロード
       url: https://github.com/minermoder27/minetest-buildtest/archive/master.zip
-  description: |
-    BuildCraftの移植Mod。機械、設備が追加される。
-    Meseconsとstring helpersが必要。
+  depends:
+    - text: Mesecons
+    - text: string helpers
+  optional_depends:
+    - text: Hoge
+  description: BuildCraftの移植Mod。機械、設備が追加される。
