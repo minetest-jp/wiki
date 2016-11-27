@@ -1,10 +1,10 @@
 <table border="1" cellspacing="0" cellpadding="0" style="width: 100%">
   <tbody>
-    {% if include.image_url %}
+    {% if include.screenshot %}
     <tr>
       <td colspan="2" style="text-align: center; padding: 10px">
-        <a href="{{ include.image_url }}" rel="lightbox" title="画像を表示" class="lightbox">
-          <img src="{{ include.image_url }}" alt="画像を表示" height="180px" border="0">
+        <a href="{{ include.screenshot }}" rel="lightbox" title="画像を表示" class="lightbox">
+          <img src="{{ include.screenshot }}" alt="画像を表示" height="180px" border="0">
         </a>
       </td>
     </tr>
@@ -22,7 +22,7 @@
         {% else %}
         開発:
         {% endif %}
-        {{ include.developer_name }}
+        {{ include.developer }}
       </th>
     </tr>
     <tr>
