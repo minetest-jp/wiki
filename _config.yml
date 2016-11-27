@@ -3,3 +3,5 @@ wiki_name: Minetest JP Wiki
 markdown: kramdown
 sass:
   style: compressed
+#gems:
+#  - jekyll-sitemap
