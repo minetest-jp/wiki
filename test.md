@@ -2,7 +2,8 @@
 layout: default
 ---
 {% for mod in site.data.mods_industry %}
-  ## {{ mod.name }}
+  {{ mod.name }}
+  --------------
   {% include mod_template.html
     image_url=mod.image_url
     links=mod.links
