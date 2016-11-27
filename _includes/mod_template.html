@@ -32,13 +32,13 @@
 
     {% if include.depends %}
     <tr>
-      <td colspan="2" style="text-align: center; padding: 10px">
+      <td colspan="2" style="padding: 10px">
         依存:
         {% for depend in include.depends %}
         {% if depend.url %}
-        <a href="{{ depend.url }}" target="_blank">{{ depend.text }}</a>
+        <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
         {% else %}
-        {{ depend.text }}
+        "{{ depend.text }}"
         {% endif %}
         {% endfor %}
       </td>
@@ -47,13 +47,13 @@
 
     {% if include.depends_optional %}
     <tr>
-      <td colspan="2" style="text-align: center; padding: 10px">
+      <td colspan="2" style="padding: 10px">
         任意:
         {% for depend in include.depends_optional %}
         {% if depend.url %}
-        <a href="{{ depend.url }}" target="_blank">{{ depend.text }}</a>
+        <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
         {% else %}
-        {{ depend.text }}
+        "{{ depend.text }}"
         {% endif %}
         {% endfor %}
       </td>
