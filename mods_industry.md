@@ -2,7 +2,7 @@
 layout: default
 title: 工業Mod
 ---
-*
+- 目次
 {:toc}
 
 {% for mod in site.data.mods_industry %}
