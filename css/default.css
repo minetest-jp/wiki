@@ -46,6 +46,21 @@ body {
   min-height: 100%;
 }
 
+#content a {
+  text-decoration: none;
+}
+
+#content a:link {
+  color: #588f3d;
+}
+
+#content a:visited,
+#content a:hover,
+#content a:focus,
+#content a:active {
+  color: #456336;
+}
+
 #menu_title,
 #article_title {
   font-size: 145%;
