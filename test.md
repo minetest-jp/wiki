@@ -1,22 +1,15 @@
 ---
 layout: default
-links: [
-  {
-    text: テスト,
-    url: minetest.wiki.fc2.com
-  },
-  {
-    text: い,
-    url: minetest.wiki.fc2.com
-  }
-]
 ---
-{% include mod_template.html
-  image_url="http://minetest.wiki.fc2.com/image/screenshot_1.png"
-  developer_name="開発者名"
-  description="テスト"
-  links=page.links
-%}
+{% for mod in site.data.mods_industry %}
+  ## {{ mod.name }}
+  {% include mod_template.html
+    image_url=mod.image_url
+    links=mod.links
+    developer_name=mod.developer_name
+    description=mod.description
+  %}
+{% endfor %}
 
 <div align="center">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!--style="width: 350px; height: 250px"-->
