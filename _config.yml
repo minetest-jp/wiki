@@ -3,7 +3,7 @@ wiki_name: Minetest JP Wiki
 exclude: ["Gemfile"]
 markdown: kramdown
 kramdown:
-  gfm_quirks: true
+  input: GFM
 sass:
   style: compressed
 #gems:
