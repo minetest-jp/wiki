@@ -1,5 +1,3 @@
----
----
 [トップページ]({{ site.github.url }}/index)
 
 Minetestの翻訳状況
