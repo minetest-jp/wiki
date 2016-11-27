@@ -1,14 +1,14 @@
-- name: BuildTest
-  image_url: http://minetest.wiki.fc2.com/image/mod_buildtest.png
-  developer_name: minermoder27
+- name        : BuildTest
+  developer   : minermoder27
+  screenshot  : http://minetest.wiki.fc2.com/image/mod_buildtest.png
+  description : BuildCraftの移植Mod。機械、設備が追加される。
   links:
-    - text: フォーラム
-      url: https://forum.minetest.net/viewtopic.php?t=7799
-    - text: ダウンロード
-      url: https://github.com/minermoder27/minetest-buildtest/archive/master.zip
+    - text : フォーラム
+      url  : https://forum.minetest.net/viewtopic.php?t=7799
+    - text : ダウンロード
+      url  : https://github.com/minermoder27/minetest-buildtest/archive/master.zip
   depends:
-    - text: Mesecons
-    - text: string helpers
+    - text : Mesecons
+    - text : string helpers
   depends_optional:
-    - text: Hoge
-  description: BuildCraftの移植Mod。機械、設備が追加される。
+    - text : Hoge
