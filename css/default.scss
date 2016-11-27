@@ -14,7 +14,10 @@ body {
 
 .container {
   padding-bottom: 0;
-  //width: 925px;
+
+  @media (min-width: $screen-sm-min) {
+    width: 925px;
+  }
 }
 
 #main {
