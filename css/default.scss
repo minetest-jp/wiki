@@ -2,6 +2,7 @@
 ---
 
 $screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1px);
 
 html, body {
   height: 100%;
@@ -11,6 +12,10 @@ html, body {
 body {
   background-image: url(../img/background.png);
   font-family: "Hiragino Kaku Gothic ProN", "游ゴシック Medium", meiryo, arial, sans-serif;
+
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+  }
 }
 
 .container {
@@ -40,6 +45,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     overflow: hidden;
+    text-align: left;
     text-indent: 10px;
 
     a {
