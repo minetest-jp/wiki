@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="panel-group">
   <div class="panel panel-default">
-    <div align="center" class="panel-body" style="max-height: 150px">
+    <div align="center" class="panel-body">
       <a href="http://minetest.wiki.fc2.com/image/mod_buildtest.png" rel="lightbox">
         <img src="http://minetest.wiki.fc2.com/image/mod_buildtest.png" border="0" style="max-height: 150px">
       </a>
