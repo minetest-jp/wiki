@@ -1,6 +1,6 @@
 {% for mod in include.list %}
 ## {{ mod.name }}
-{% include mod_template.html
+{% include mod_template.md
   name             = mod.name
   developer        = mod.developer
   screenshot       = mod.screenshot
