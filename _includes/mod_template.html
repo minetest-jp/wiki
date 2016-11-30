@@ -1,4 +1,4 @@
-{% assign id = {{ include.name | remove: " " | downcase | url_encode }} %}
+{% assign id = include.name | remove: " " | downcase | url_encode %}
 
 <div class="panel-group">
   <div class="panel panel-default">
