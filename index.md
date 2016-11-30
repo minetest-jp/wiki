@@ -2,8 +2,8 @@
 layout: default
 title: トップページ
 ---
-<div align="center" style="height: 250px box-shadow: 0 10px 10px -10px #777">
-  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px">
+<div align="center" style="height: 250px">
+  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px box-shadow: 0 10px 10px -10px #777">
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png">
