@@ -1,6 +1,6 @@
 wiki_name: Minetest JP Wiki
 
-include: ["_pages"]
+include: ["pages"]
 markdown: kramdown
 sass:
   style: compressed
