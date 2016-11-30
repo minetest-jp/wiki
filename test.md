@@ -20,11 +20,11 @@ layout: default
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#screenshots" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#screenshots" role="button" data-slide="prev" style="color: #fff">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#screenshots" role="button" data-slide="next">
+  <a class="right carousel-control" href="#screenshots" role="button" data-slide="next" style="color: #fff">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
