@@ -1,70 +1,65 @@
-<table border="1" cellspacing="0" cellpadding="0" style="width: 100%">
-  <tbody>
-
+<div class="panel-group">
+  <div class="panel panel-default">
     {% if include.screenshot %}
-    <tr>
-      <td colspan="2" style="text-align: center; padding: 10px">
-        <a href="{{ include.screenshot }}" rel="lightbox" title="画像を表示" class="thumbnail">
-          <img src="{{ include.screenshot }}" alt="画像を表示" border="0" class="thumbnail_square">
-        </a>
-      </td>
-    </tr>
+    <div align="center" class="panel-body">
+      <a href="{{ include.screenshot }}" rel="lightbox">
+        <img src="{{ include.screenshot }}" border="0" style="max-height: 150px">
+      </a>
+    </div>
     {% endif %}
 
-    <tr>
-      <th style="width: 50%; padding: 10px">
+    <ul class="list-group">
+      <li class="list-group-item" align="center">
         {% for link_data in include.links %}
         {% if forloop.first != true %}/{% endif %}
         <a href="{{ link_data.url }}" target="_blank">
           {{ link_data.text }}
         </a>
         {% endfor %}
-      </th>
-      <th style="width: 50%; padding: 10px">
+      </li>
+      <li class="list-group-item">{{ include.description }}</li>
+      <li class="list-group-item">
         {% if include.develop_text %}
         {{ include.develop_text }}
         {% else %}
         開発:
         {% endif %}
         {{ include.developer }}
-      </th>
-    </tr>
+      </li>
 
-    <tr>
-      <td colspan="2" style="padding: 10px">
-        {{ include.description }}
-      </td>
-    </tr>
+      {% if include.depends %}
+      <a data-toggle="collapse" href="#required">
+        <li class="list-group-item">依存Mod<span class="badge">{{ include.depends | size }}</span></li>
+      </a>
+      <div id="required" class="panel-collapse collapse">
+        <li class="list-group-item" style="background-color: rgb(245, 245, 245)">
+          {% for depend in include.depends %}
+          {% if depend.url %}
+          <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
+          {% else %}
+          "{{ depend.text }}"
+          {% endif %}
+          {% endfor %}
+        </li>
+      </div>
+      {% endif %}
 
-    {% if include.depends %}
-    <tr>
-      <td colspan="2" style="padding: 10px">
-        依存:
-        {% for depend in include.depends %}
-        {% if depend.url %}
-        <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
-        {% else %}
-        "{{ depend.text }}"
-        {% endif %}
-        {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-
-    {% if include.depends_optional %}
-    <tr>
-      <td colspan="2" style="padding: 10px">
-        任意:
-        {% for depend in include.depends_optional %}
-        {% if depend.url %}
-        <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
-        {% else %}
-        "{{ depend.text }}"
-        {% endif %}
-        {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-
-  </tbody>
-</table>
+      {% if include.depends_optional %}
+      <a data-toggle="collapse" href="#optional">
+        <li class="list-group-item">依存Mod(任意)<span class="badge">{{ include.depends_optional | size }}</span></li>
+      </a>
+      <div id="optional" class="panel-collapse collapse">
+        <li class="list-group-item" style="background-color: rgb(245, 245, 245)">
+          {% for depend in include.depends_optional %}
+          {% if depend.url %}
+          <a href="{{ depend.url }}" target="_blank">"{{ depend.text }}"</a>
+          {% else %}
+          "{{ depend.text }}"
+          {% endif %}
+          {% endfor %}
+        </li>
+      </div>
+      {% endif %}
+    </ul>
+  </div>
+</div>
