@@ -1,5 +1,4 @@
 ---
-permalink: /
 layout: default
 title: 工業Mod
 ---
