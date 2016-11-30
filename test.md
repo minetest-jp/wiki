@@ -17,13 +17,13 @@ layout: default
         <li class="list-group-item">依存Mod<span class="badge">2</span></li>
       </a>
       <div id="required" class="panel-collapse collapse">
-        <li class="list-group-item" style="bqckground-color: rgb(245, 245, 245)">"Mesecons" "string helpers"</li>
+        <li class="list-group-item" style="background-color: rgb(245, 245, 245)">"Mesecons" "string helpers"</li>
       </div>
       <a data-toggle="collapse" href="#optional">
         <li class="list-group-item">依存Mod(任意)<span class="badge">1</span></li>
       </a>
       <div id="optional" class="panel-collapse collapse">
-        <li class="list-group-item" style="bqckground-color: rgb(245, 245, 245)">"Hoge"</li>
+        <li class="list-group-item" style="background-color: rgb(245, 245, 245)">"Hoge"</li>
       </div>
     </ul>
   </div>
