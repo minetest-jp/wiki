@@ -1,3 +1,5 @@
+{% assign id = {{ include.name | remove: " " | downcase | url_encode }} %}
+
 <div class="panel-group">
   <div class="panel panel-default">
     {% if include.screenshot %}
@@ -28,10 +30,10 @@
       </li>
 
       {% if include.depends %}
-      <a data-toggle="collapse" href="#required">
+      <a data-toggle="collapse" href="#{{ id }}-required">
         <li class="list-group-item">依存Mod<span class="badge">{{ include.depends | size }}</span></li>
       </a>
-      <div id="required" class="panel-collapse collapse">
+      <div id="{{ id }}-required" class="panel-collapse collapse">
         <li class="list-group-item" style="background-color: rgb(245, 245, 245)">
           {% for depend in include.depends %}
           {% if depend.url %}
@@ -45,10 +47,10 @@
       {% endif %}
 
       {% if include.depends_optional %}
-      <a data-toggle="collapse" href="#optional">
+      <a data-toggle="collapse" href="#{{ id }}-optional">
         <li class="list-group-item">依存Mod(任意)<span class="badge">{{ include.depends_optional | size }}</span></li>
       </a>
-      <div id="optional" class="panel-collapse collapse">
+      <div id="{{ id }}-optional" class="panel-collapse collapse">
         <li class="list-group-item" style="background-color: rgb(245, 245, 245)">
           {% for depend in include.depends_optional %}
           {% if depend.url %}
