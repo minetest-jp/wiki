@@ -23,7 +23,7 @@
       <div class="col-xs-12 col-sm-3 col-md-3">
         <div id="menu">
           <p id="menu_title">メニュー</p>
-          {% capture menu %}{% include_relative menu.md %}{% endcapture %}
+          {% capture menu %}{% include_relative /menu.md %}{% endcapture %}
           {{ menu | markdownify }}
         </div>
       </div>
