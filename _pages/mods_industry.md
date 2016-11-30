@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /mods_industry
 layout: default
 title: 工業Mod
 ---
