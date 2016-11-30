@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="text-align: center; width: 350px">
+<div align="center">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 350px">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -27,4 +28,5 @@ layout: default
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
