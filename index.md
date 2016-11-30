@@ -15,6 +15,8 @@ title: トップページ
   </div>
 </div>
 
+<br>
+
 **Minetest JP Wikiへようこそ。**
 {: style="text-align: center; font-size: 30px"}
 
