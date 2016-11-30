@@ -1,6 +1,5 @@
 wiki_name: Minetest JP Wiki
 
-include: ["_pages"]
 exclude: ["Gemfile"]
 markdown: kramdown
 sass:
