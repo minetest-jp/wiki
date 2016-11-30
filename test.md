@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="panel-group">
   <div class="panel panel-default">
-    <div class="panel-body" style="height: 150px">
+    <div class="panel-body" style="max-height: 150px">
       <a href="http://minetest.wiki.fc2.com/image/mod_buildtest.png" rel="lightbox" title="画像を表示" class="thumbnail">
         <img src="http://minetest.wiki.fc2.com/image/mod_buildtest.png" alt="画像を表示" border="0">
       </a>
