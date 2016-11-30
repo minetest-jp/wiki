@@ -1,5 +1,4 @@
-- id          : buildtest
-  name        : BuildTest
+- name        : BuildTest
   developer   : minermoder27
   screenshot  : http://minetest.wiki.fc2.com/image/mod_buildtest.png
   description : BuildCraftの移植Mod。機械、設備が追加される。
