@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" align="center" style="width: 350px">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="text-align: center; width: 350px">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
