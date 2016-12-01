@@ -12,7 +12,8 @@ sass:
 #gems:
 #  - jekyll-sitemap
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      values:
-        layout: "default"
+    values:
+      layout: "default"
