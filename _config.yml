@@ -1,6 +1,11 @@
 wiki_name: Minetest JP Wiki
 
-include: ["pages"]
+source: ./pages
+data_dir: ./pages/data
+destination: ./_site
+layouts_dir: ./_layouts
+includes_dir: ./_includes
+#include: ["css"]
 markdown: kramdown
 sass:
   style: compressed
