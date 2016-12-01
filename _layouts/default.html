@@ -22,21 +22,19 @@
         </header>
       </div>
 
-      <div class="row">
-        <div id="content">
-          <div class="col-xs-12 col-sm-3 col-md-3">
-            <div id="menu">
-              <p id="menu_title">メニュー</p>
+      <div id="content" class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <div id="menu">
+            <p id="menu_title">メニュー</p>
               {% capture menu %}{% include_relative menu.md %}{% endcapture %}
               {{ menu | markdownify }}
-            </div>
           </div>
-          <div class="col-xs-12 col-sm-9 col-md-9">
-            <article id="article">
-              <p id="article_title">{{ page.title }}</p>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-9">
+          <article id="article">
+            <p id="article_title">{{ page.title }}</p>
               {{ content }}
-            </article>
-          </div>
+          </article>
         </div>
       </div>
 
