@@ -4,11 +4,6 @@
 $screen-sm-min: 768px;
 $screen-xs-max: ($screen-sm-min - 1px);
 
-html, body {
-  margin: 0;
-  min-height: 100%;
-}
-
 body {
   background-image: url(background.png);
   font-family: "Hiragino Kaku Gothic ProN", "游ゴシック Medium", meiryo, arial, sans-serif;
@@ -32,7 +27,6 @@ body {
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    min-height: 100%;
   }
 }
 
@@ -75,10 +69,6 @@ body {
       color: #456336;
     }
   }
-
-  @media (min-width: $screen-sm-min) {
-    min-height: 100%;
-  }
 }
 
 #menu_title,
@@ -99,7 +89,6 @@ body {
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
-    min-height: 100%;
     padding-left: 15px;
   }
 }
