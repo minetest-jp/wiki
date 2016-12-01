@@ -1,4 +1,4 @@
-[トップページ]({{ site.github.url }}/index)  
+[トップページ](.)  
 [掲示板](http://minetest.bbs.fc2.com)  
 
 ### 外部リンク
