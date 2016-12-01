@@ -1,7 +1,6 @@
 ---
 title: トップページ
 ---
-{{ site.static_files["screenshot_1.png"].path }}
 <div align="center" style="height: 250px">
   <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px">
     <div class="carousel-inner" role="listbox" style="box-shadow: 0 10px 10px -10px #777">
