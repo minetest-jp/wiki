@@ -11,3 +11,8 @@ sass:
   style: compressed
 #gems:
 #  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      values:
+        layout: "default"
