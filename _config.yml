@@ -9,7 +9,7 @@ layouts_dir  : ./_layouts
 includes_dir : ./_includes
 markdown     : kramdown
 exclude      : ["Gemfile"]
-permalink    : :slug
+permalink    : /
 
 defaults :
   -
