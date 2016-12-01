@@ -5,10 +5,10 @@ title: トップページ
   <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px">
     <div class="carousel-inner" role="listbox" style="box-shadow: 0 10px 10px -10px #777">
       <div class="item active">
-        <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_1.png">
+        <img width="350px" height="250px" src="{{ site.github.url }}/images/screenshot_1.png">
       </div>
       <div class="item">
-        <img width="350px" height="250px" src="http://minetest.wiki.fc2.com/image/screenshot_2.png">
+        <img width="350px" height="250px" src="{{ site.github.url }}/images/screenshot_2.png">
       </div>
     </div>
   </div>
