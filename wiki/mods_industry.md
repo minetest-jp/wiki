@@ -1,7 +1,5 @@
 ---
-layout: default
 title: 工業Mod
-permalink: /mods_industry
 ---
 - 目次
 {:toc}
