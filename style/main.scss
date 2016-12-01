@@ -74,6 +74,10 @@ body {
       color: #456336;
     }
   }
+
+  @media (min-width: $screen-sm-min) {
+    min-height: 100%;
+  }
 }
 
 #menu_title,
