@@ -94,6 +94,7 @@ body {
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
+    min-height: 100%;
     padding-left: 15px;
   }
 }
