@@ -14,7 +14,7 @@ sass:
 defaults:
   -
     scope:
-      path: ""
+      path: "pages"
     values:
       layout: "default"
       permalink: /
