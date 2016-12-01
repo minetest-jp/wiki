@@ -16,7 +16,7 @@ defaults :
       path: "wiki"
     values:
       layout: "default"
-      permalink: /:slug
+      permalink: "/:slug"
 
 sass:
   style: compressed
