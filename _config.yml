@@ -7,10 +7,17 @@ data_dir     : "./wiki/data"
 destination  : "./_site"
 layouts_dir  : "./_layouts"
 includes_dir : "./_includes"
-permalink    : "/:basename"
-layout       : "default"
 markdown     : "kramdown"
 exclude      : ["Gemfile"]
+
+defaults:
+ -
+  scope:
+    path: "wiki"
+  values:
+    layout: "default"
+    permalink: "/:basename"
+
 sass:
   style: compressed
   
