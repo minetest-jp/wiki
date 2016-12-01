@@ -1,5 +1,6 @@
 # Wiki
-wiki_name: "Minetest JP Wiki"
+wiki_name       : "Minetest JP Wiki"
+wiki_images_dir : "./wiki/images"
 
 # Jekyll
 source       : "./wiki"
