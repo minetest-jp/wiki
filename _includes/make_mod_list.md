@@ -1,4 +1,5 @@
-{% for mod in include.list %}
+{% for hash in include.list %}
+{% assign mod = hash[1] %}
 ## {{ mod.name }}
 {% include make_mod_panel.md
   name             = mod.name
