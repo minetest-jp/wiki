@@ -1,20 +1,24 @@
+# Wiki
 wiki_name: Minetest JP Wiki
 
-source: ./wiki
-data_dir: ./wiki/data
-destination: ./_site
-layouts_dir: ./_layouts
-includes_dir: ./_includes
-#include: ["css"]
-markdown: kramdown
-sass:
-  style: compressed
-#gems:
-#  - jekyll-sitemap
-defaults:
+# Jekyll
+source       : ./wiki
+data_dir     : ./wiki/data
+destination  : ./_site
+layouts_dir  : ./_layouts
+includes_dir : ./_includes
+markdown     : kramdown
+
+defaults :
   -
     scope:
       path: "wiki"
     values:
       layout: "default"
       permalink: /
+
+sass:
+  style: compressed
+  
+#gems:
+#  - jekyll-sitemap
