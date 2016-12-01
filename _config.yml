@@ -16,7 +16,7 @@ defaults :
       path: "wiki"
     values:
       layout: "default"
-      permalink: /:basename/
+      permalink: "/:basename"
 
 sass:
   style: compressed
