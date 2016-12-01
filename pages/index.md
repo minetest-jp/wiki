@@ -1,5 +1,4 @@
 ---
-layout: default
 title: トップページ
 ---
 <div align="center" style="height: 250px">
