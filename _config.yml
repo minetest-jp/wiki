@@ -9,7 +9,6 @@ layouts_dir  : ./_layouts
 includes_dir : ./_includes
 markdown     : kramdown
 exclude      : ["Gemfile"]
-permalink    : :title/
 
 defaults :
   -
@@ -17,6 +16,7 @@ defaults :
       path: "wiki"
     values:
       layout: "default"
+      permalink: /:title/
 
 sass:
   style: compressed
