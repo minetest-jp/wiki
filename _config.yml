@@ -1,7 +1,7 @@
 wiki_name: Minetest JP Wiki
 
-source: ./pages
-data_dir: ./pages/data
+source: ./wiki
+data_dir: ./wiki/data
 destination: ./_site
 layouts_dir: ./_layouts
 includes_dir: ./_includes
@@ -14,7 +14,7 @@ sass:
 defaults:
   -
     scope:
-      path: "pages"
+      path: "wiki"
     values:
       layout: "default"
       permalink: /
