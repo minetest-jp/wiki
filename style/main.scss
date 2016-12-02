@@ -5,7 +5,7 @@ $screen-sm-min: 768px;
 $screen-xs-max: ($screen-sm-min - 1px);
 
 $header-height: 90px;
-$footer-height: 70px;
+$footer-height: 30px + 1em;
 
 * {
   -webkit-box-sizing: border-box;
