@@ -45,23 +45,23 @@ body {
 #header {
   background: #eee;
   border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: bold;
   height: $header-height;
+  overflow: hidden;
+  text-align: left;
+  text-indent: 10px;
+  text-height: $header-height;
 
   p {
-    font-size: 20px;
-    font-weight: bold;
-    overflow: hidden;
-    text-align: left;
-    text-indent: 10px;
+    img {
+      margin: 20px;
+      padding-bottom: 10px;
+    }
 
     a {
       color: #694;
       text-decoration: none;
-    }
-
-    img {
-      margin: 20px;
-      padding-bottom: 10px;
     }
   }
 }
