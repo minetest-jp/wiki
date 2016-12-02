@@ -74,6 +74,21 @@ body {
       color: #456336;
     }
   }
+
+  h1 {
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+  }
+
+  h2 {
+    border-bottom: 1px dotted #ddd;
+    font-size: 20px;
+  }
+
+  h3 {
+    border-bottom: 1px dashed #ddd;
+    font-size: 20px;
+  }
 }
 
 #menu_title,
