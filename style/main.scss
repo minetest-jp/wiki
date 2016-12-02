@@ -101,7 +101,7 @@ body {
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
-    min-height: calc(100vh - $header-height - $footer-height);
+    min-height: calc(100vh - #{$header-height} - #{$footer-height});
     padding-left: 15px;
   }
 }
