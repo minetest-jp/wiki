@@ -21,9 +21,6 @@ defaults:
 
 sass:
   style: compressed
-
-kramdown:
-  hard_wrap: false
   
 #gems:
 #  - jekyll-sitemap
