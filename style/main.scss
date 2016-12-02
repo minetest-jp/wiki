@@ -6,6 +6,7 @@ $screen-xs-max: ($screen-sm-min - 1px);
 
 $header-height: 90px;
 $footer-height: 50px;
+$article-height: calc(100vh - #{$header-height} - #{$footer-height});
 
 * {
   -webkit-box-sizing: border-box;
@@ -52,6 +53,7 @@ body {
 
   img {
     margin: 20px;
+    padding-bottom: 10px;
   }
 }
 
@@ -90,7 +92,7 @@ body {
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
-    min-height: calc(100vh - #{$header-height} - #{$footer-height});
+    min-height: $article-height;
     padding-left: 15px;
   }
 }
