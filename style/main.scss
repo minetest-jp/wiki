@@ -1,13 +1,12 @@
 ---
 ---
 
-$screen-sm-min: 768px;
-$screen-xs-max: ($screen-sm-min - 1px);
-
 $header-height: 90px;
 $footer-height: 50px;
-$article-height: calc(100vh - #{$header-height} - #{$footer-height});
 $contents-padding: 20px;
+
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1px);
 
 * {
   -webkit-box-sizing: border-box;
@@ -21,6 +20,7 @@ body {
   background-image: url(background.png);
   font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", meiryo, arial, sans-serif;
 
+  // Mobile
   @media (max-width: $screen-xs-max) {
     text-align: center;
   }
@@ -28,8 +28,8 @@ body {
 
 #main {
   background-color: #fff;
-  padding-bottom: 0;
 
+  // Tablet ~ Desktop
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -109,9 +109,10 @@ body {
 #article {
   padding: $contents-padding;
 
+  // Tablet ~ Desktop
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
-    min-height: $article-height;
+    min-height: calc(100vh - #{$header-height} - #{$footer-height});
   }
 }
 
