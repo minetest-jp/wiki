@@ -2,7 +2,7 @@
 title: トップページ
 ---
 <div align="center" style="height: 250px">
-  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="max-width: 100vw">
+  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px; max-width: 100vw">
     <div class="carousel-inner" role="listbox" style="box-shadow: 0 10px 10px -10px #777">
       <div class="item active">
         <img width="350px" height="250px" src="{{ site.wiki_images_dir }}/screenshot/1.png">
