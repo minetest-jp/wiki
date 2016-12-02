@@ -7,6 +7,7 @@ $screen-xs-max: ($screen-sm-min - 1px);
 $header-height: 90px;
 $footer-height: 50px;
 $article-height: calc(100vh - #{$header-height} - #{$footer-height});
+$contents-padding: 20px;
 
 * {
   -webkit-box-sizing: border-box;
@@ -102,22 +103,15 @@ body {
 }
 
 #menu {
-  padding-bottom: 15px;
-  padding-top: 15px;
-
-  @media (min-width: $screen-sm-min) {
-    padding-right: 15px;
-  }
+  padding: $contents-padding;
 }
 
 #article {
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding: $contents-padding;
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
     min-height: $article-height;
-    padding-left: 15px;
   }
 }
 
