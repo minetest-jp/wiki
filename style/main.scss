@@ -24,16 +24,9 @@ body {
   }
 }
 
-.container {
-  padding-bottom: 0;
-}
-
-.carousel-control.left, .carousel-control.right {
-  background-image: none;
-}
-
 #main {
-  background: #fff;
+  background-color: #fff;
+  padding-bottom: 0;
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
@@ -43,20 +36,18 @@ body {
 }
 
 #header {
-  background: #eee;
+  background-color: #eee;
   border-bottom: 1px solid #ddd;
   font-size: 20px;
   font-weight: bold;
   height: $header-height;
-  overflow: hidden;
+  line-height: $header-height;
   text-align: left;
   text-indent: 10px;
-  text-height: $header-height;
 
   p {
     img {
       margin: 20px;
-      padding-bottom: 10px;
     }
 
     a {
@@ -107,7 +98,7 @@ body {
 }
 
 #footer {
-  background: #333;
+  background-color: #333;
   color: #999;
   height: $footer-height;
   line-height: $footer-height;
