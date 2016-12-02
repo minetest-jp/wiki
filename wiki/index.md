@@ -17,9 +17,7 @@ title: トップページ
 <br>
 
 <div style="text-align: center; font-weight: bold; font-size: 30px">Minetest JP Wikiへようこそ。</div>
-<span style="text-align: center">
-このサイトは[Minetest](http://www.minetest.net){:target="_blank"}の**非公式**Wikiです。
-</span>
+このサイトは[Minetest](http://www.minetest.net){:target="_blank"}の**非公式**Wikiです。{: style="text-align: center"}
 
 <br>
 
