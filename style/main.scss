@@ -28,6 +28,7 @@ body {
 #main {
   background-color: #fff;
   padding-bottom: 0;
+  padding-right: 30px; //test
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
