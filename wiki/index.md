@@ -21,6 +21,8 @@ title: トップページ
 このサイトは[Minetest](http://www.minetest.net){:target="_blank"}の**非公式**Wikiです。
 </div>
 
+<br>
+
 **お知らせ: (5/16) バージョン0.4.14がリリースされました。**
 {: style="text-align: center; color: #fff; background-color: #808080; font-size: 14px"}
 
