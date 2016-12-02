@@ -1,7 +1,7 @@
 [トップページ](.)  
 [掲示板](http://minetest.bbs.fc2.com)  
 
-### 外部リンク
+# 外部リンク
 [公式サイト](http://www.minetest.net)    
 [公式フォーラム](https://forum.minetest.net)  
 [公式Wiki](http://wiki.minetest.net/Main_Page/ja)  
