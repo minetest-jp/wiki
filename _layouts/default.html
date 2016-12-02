@@ -29,13 +29,13 @@
             <div id="menu">
               <p id="menu_title">メニュー</p>
               {% capture menu %}{% include_relative menu.md %}{% endcapture %}
-              {{ menu | markdownify }}
+              <div id="menu_body">{{ menu | markdownify }}</div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-9 col-md-9">
             <article id="article">
               <p id="article_title">{{ page.title }}</p>
-              {{ content }}
+              <div id="article_body">{{ content }}</div>
             </article>
           </div>
         </div>
@@ -43,7 +43,7 @@
 
       <div class="row">
         <footer id="footer">
-          Copyright © 2016 Minetest-JP Team. All Rights Reserved.
+          <p>Copyright © 2016 Minetest-JP Team. All Rights Reserved.</p>
         </footer>
       </div>
     </div>
