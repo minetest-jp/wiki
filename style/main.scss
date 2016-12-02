@@ -28,7 +28,6 @@ body {
 #main {
   background-color: #fff;
   padding-bottom: 0;
-  padding-right: 30px; //test
 
   @media (min-width: $screen-sm-min) {
     border-left: 1px solid #ccc;
@@ -60,6 +59,7 @@ body {
 
 #content {
   letter-spacing: 0.5px;
+  padding-right: 30px; //test
 
   a {
     text-decoration: none;
