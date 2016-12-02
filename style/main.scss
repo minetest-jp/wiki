@@ -18,7 +18,7 @@ $article-height: calc(100vh - #{$header-height} - #{$footer-height});
 
 body {
   background-image: url(background.png);
-  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック Medium", meiryo, arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", meiryo, arial, sans-serif;
 
   @media (max-width: $screen-xs-max) {
     text-align: center;
