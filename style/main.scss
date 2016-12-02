@@ -1,6 +1,7 @@
 ---
 ---
 
+$border-color: #ccc;
 $header-height: 90px;
 $footer-height: 50px;
 $contents-padding: 20px;
@@ -31,15 +32,15 @@ body {
 
   // Tablet ~ Desktop
   @media (min-width: $screen-sm-min) {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
     min-height: 100vh;
   }
 }
 
 #header {
   background-color: #eee;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid $border-color;
   font-size: 20px;
   font-weight: bold;
   height: $header-height;
@@ -111,7 +112,7 @@ body {
 
   // Tablet ~ Desktop
   @media (min-width: $screen-sm-min) {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid $border-color;
     min-height: calc(100vh - #{$header-height} - #{$footer-height});
   }
 }
