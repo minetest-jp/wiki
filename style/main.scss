@@ -103,8 +103,11 @@ body {
 
 #menu {
   padding-bottom: 15px;
-  padding-right: 15px;
   padding-top: 15px;
+
+  @media (min-width: $screen-sm-min) {
+    padding-right: 15px;
+  }
 }
 
 #article {
