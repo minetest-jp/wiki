@@ -5,7 +5,7 @@
     {% if include.screenshot %}
     <div align="center" class="panel-body">
       <a href="{{ include.screenshot }}" rel="lightbox">
-        <img src="{{ include.screenshot }}" border="0" style="max-height: 150px">
+        <img alt="スクリーンショット" border="0" style="max-height: 150px" src="{{ include.screenshot }}">
       </a>
     </div>
     {% endif %}
