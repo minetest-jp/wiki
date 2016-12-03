@@ -14,7 +14,7 @@ exclude      : ["Gemfile"]
 defaults:
  -
   scope:
-    path: "wiki"
+    path: ""
   values:
     layout: "default"
     permalink: ":basename"
