@@ -107,7 +107,8 @@ body {
 
 #menu-title,
 #article-title {
-  font: bold 145%;
+  font-size: 145%;
+  font-weight: bold;
   text-shadow: $heading-text-shadow;
 }
 
