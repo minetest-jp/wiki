@@ -1,10 +1,8 @@
 ---
 title: 工業Mod
 ---
-# 目次
-{:.no_toc}
-
 - 目次
+- toc
 {:toc}
 
 {% include make_mod_list.md
