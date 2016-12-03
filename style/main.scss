@@ -144,7 +144,7 @@ body {
 
   // Mobile
   @media (max-width: $screen-xs-max) {
-    overflow-x: scroll;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
 }
