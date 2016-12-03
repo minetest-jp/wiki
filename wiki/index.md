@@ -2,13 +2,13 @@
 title: トップページ
 ---
 <div align="center" style="height: 250px">
-  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px; max-width: 70vw">
+  <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width: 350px; max-width: 70vw; max-height: 250px">
     <div class="carousel-inner" role="listbox" style="box-shadow: 0 10px 10px -10px #777">
       <div class="item active">
-        <img alt="" width="350px" height="250px" src="{{ site.wiki_images_dir }}/screenshot/1.png">
+        <img alt="" src="{{ site.wiki_images_dir }}/screenshot/1.png">
       </div>
       <div class="item">
-        <img alt="" width="350px" height="250px" src="{{ site.wiki_images_dir }}/screenshot/2.png">
+        <img alt="" src="{{ site.wiki_images_dir }}/screenshot/2.png">
       </div>
     </div>
   </div>
