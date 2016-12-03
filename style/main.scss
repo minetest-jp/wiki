@@ -141,4 +141,9 @@ body {
   height: $footer-height;
   line-height: $footer-height;
   text-align: center;
+
+  // Mobile
+  @media (max-width: $screen-xs-max) {
+    overflow: scroll;
+  }
 }
