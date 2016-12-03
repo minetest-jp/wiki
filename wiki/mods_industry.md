@@ -1,9 +1,7 @@
 ---
 title: 工業Mod
 ---
-目次
-{: style="font-size: 145%; font-weight: bold"}
-
+<span style="font-size: 145%; font-weight: bold">目次</span>
 - 目次
 {:toc}
 
