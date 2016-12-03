@@ -42,10 +42,8 @@ body {
 #header {
   background-color: #eee;
   border-bottom: $border-default;
-  font-size: 20px;
-  font-weight: bold;
+  font: bold 20px / $header-height;
   height: $header-height;
-  line-height: $header-height;
   text-align: left;
   text-indent: 10px;
 
@@ -81,22 +79,19 @@ body {
 
   h1 {
     border-bottom: 1px solid #ddd;
-    font-size: 1.5em;
-    font-weight: bold;
+    font: bold 1.5em;
     text-shadow: $heading-text-shadow;
   }
 
   h2 {
     border-bottom: 1px dotted #ddd;
-    font-size: 1.5em;
-    font-weight: bold;
+    font: bold 1.5em;
     text-shadow: $heading-text-shadow;
   }
 
   h3 {
     border-bottom: 1px dashed #ddd;
-    font-size: 1.5em;
-    font-weight: bold;
+    font: bold 1.5em;
     text-shadow: $heading-text-shadow;
   }
 
@@ -107,8 +102,7 @@ body {
 
 #menu_title,
 #article_title {
-  font-size: 145%;
-  font-weight: bold;
+  font: bold 145%;
   text-shadow: $heading-text-shadow;
 }
 
