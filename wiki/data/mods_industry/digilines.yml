@@ -1,11 +1,11 @@
 name        : Digilines
 developer   : Jeija
-screenshot  : //minetest.wiki.fc2.com/image/mod_digilines.png
+screenshot  : http://minetest.wiki.fc2.com/image/mod_digilines.png
 description : シリアル通信をMinetest内で行えるようにするMod。
 links:
   - text : フォーラム
-    url  : //forum.minetest.net/viewtopic.php?t=5263
+    url  : https://forum.minetest.net/viewtopic.php?t=5263
   - text : ダウンロード
-    url  : //github.com/minetest-mods/digilines/archive/master.zip
+    url  : https://github.com/minetest-mods/digilines/archive/master.zip
 depends_optional:
   - text : Mesecons
