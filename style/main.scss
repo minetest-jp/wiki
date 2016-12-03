@@ -144,8 +144,6 @@ body {
 
   // Mobile
   @media (max-width: $screen-xs-max) {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
+    text-overflow: ellipsis
   }
 }
