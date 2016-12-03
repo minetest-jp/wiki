@@ -42,8 +42,9 @@ body {
 #header {
   background-color: #eee;
   border-bottom: $border-default;
-  font: bold 20px / #{$header-height};
+  font: bold 20px;
   height: $header-height;
+  line-height: $header-height;
   text-align: left;
   text-indent: 10px;
 
