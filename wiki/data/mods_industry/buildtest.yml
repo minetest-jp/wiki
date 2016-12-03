@@ -1,12 +1,12 @@
 name        : BuildTest
 developer   : minermoder27
-screenshot  : //minetest.wiki.fc2.com/image/mod_buildtest.png
+screenshot  : https://minetest.wiki.fc2.com/image/mod_buildtest.png
 description : BuildCraftの移植Mod。機械、設備が追加される。
 links:
   - text : フォーラム
-    url  : //forum.minetest.net/viewtopic.php?t=7799
+    url  : https://forum.minetest.net/viewtopic.php?t=7799
   - text : ダウンロード
-    url  : //github.com/minermoder27/minetest-buildtest/archive/master.zip
+    url  : https://github.com/minermoder27/minetest-buildtest/archive/master.zip
 depends:
   - text : Mesecons
   - text : string helpers
