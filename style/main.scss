@@ -141,4 +141,9 @@ body {
   height: $footer-height;
   line-height: $footer-height;
   text-align: center;
+
+  a {
+    color: #ddd;
+    text-decoration: none;
+  }
 }
