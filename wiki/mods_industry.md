@@ -1,8 +1,6 @@
 ---
 title: 工業Mod
 ---
-目次
-
 - toc
 {:toc}
 
