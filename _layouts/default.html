@@ -25,15 +25,15 @@
         <div id="content">
           <div class="col-xs-12 col-sm-3 col-md-3">
             <div id="menu">
-              <p id="menu_title">メニュー</p>
+              <p id="menu-title">メニュー</p>
               {% capture menu %}{% include_relative menu.md %}{% endcapture %}
-              <div id="menu_body">{{ menu | markdownify }}</div>
+              <div id="menu-body">{{ menu | markdownify }}</div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-9 col-md-9">
             <article id="article">
-              <p id="article_title">{{ page.title }}</p>
-              <div id="article_body">{{ content }}</div>
+              <p id="article-title">{{ page.title }}</p>
+              <div id="article-body">{{ content }}</div>
             </article>
           </div>
         </div>
