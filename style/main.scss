@@ -18,11 +18,6 @@ $screen-xs-max: ($screen-sm-min - 1px);
           box-sizing: border-box;
 }
 
-p {
-  margin-bottom: 1em;
-  margin-top: 1em
-}
-
 body {
   background-image: url(background.png);
   font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", meiryo, arial, sans-serif;
@@ -110,13 +105,6 @@ body {
   }
 }
 
-#menu-title,
-#article-title {
-  font-size: 145%;
-  font-weight: bold;
-  text-shadow: $heading-text-shadow;
-}
-
 #menu {
   padding: $contents-padding;
 }
@@ -128,6 +116,21 @@ body {
   @media (min-width: $screen-sm-min) {
     border-left: $border-default;
     min-height: calc(100vh - #{$header-height} - #{$footer-height});
+  }
+}
+
+#menu-title,
+#article-title {
+  font-size: 145%;
+  font-weight: bold;
+  text-shadow: $heading-text-shadow;
+}
+
+#menu-body,
+#article-body {
+  p {
+    margin-bottom: 1em;
+    margin-top: 1em
   }
 }
 
