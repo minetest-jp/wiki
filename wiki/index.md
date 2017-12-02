@@ -26,10 +26,10 @@ custom-head: >-
 </div>
 
 **Minetest JP Wikiへようこそ。**
-このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。
+このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。旧Wikiはこちらからアクセスできます: [minetest.wiki.fc2.com](http://minetest.wiki.fc2.com/)
 {:class="center"}
 
-**お知らせ: (2017/6/4) バージョン0.4.16がリリースされました。**
+**お知らせ: (2017/12/2) WikiをGithub Pagesに移行しました。**
 {:class="center news"}
 
 現在の最新バージョンは{{ site.minetest.latest_version }}です。アップデートの内容は[アップデート情報](changelog)をご覧ください。
