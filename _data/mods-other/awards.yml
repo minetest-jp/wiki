@@ -1,0 +1,11 @@
+name:        "Archivements"
+author:      "rubenwardy"
+screenshot:  "/mods-other/awards.png"
+description: "実績機能を追加するMod。達成状況はawardsコマンドで確認できる。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4870"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/awards/archive/master.zip"

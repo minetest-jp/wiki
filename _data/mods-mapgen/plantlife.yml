@@ -1,0 +1,15 @@
+name:        "Plantlife"
+author:      "VanessaE"
+screenshot:  "/mods-mapgen/plantlife.png"
+description: "自然豊かなバイオームと多くの草木を追加する。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=3898"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/plantlife_modpack/archive/master.zip"
+depends:
+  -
+    text: "Biome library"
+    url:  "mods-mapgen#biome_lib"

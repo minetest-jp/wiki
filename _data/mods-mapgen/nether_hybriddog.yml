@@ -1,0 +1,18 @@
+name:        "Nether (Hybrid Dog)"
+author:      "Hybrid Dog"
+screenshot:  "/mods-mapgen/nether_hybriddog.png"
+description: "ネザーを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=10265"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/HybridDog/minetest-nether/archive/master.zip"
+depends:
+  -
+    text: "Glow"
+    url:  "https://github.com/HybridDog/minetest-glow/archive/master.zip"
+  -
+    text: "Giant Mushroom/ Mushrooms"
+    url:  "https://github.com/HybridDog/riesenpilz/archive/master.zip"

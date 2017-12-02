@@ -1,0 +1,11 @@
+name:        "More Blocks"
+author:      "Calinou"
+screenshot:  "/mods-decor/moreblocks.png"
+description: "装飾用のブロックを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=509"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/moreblocks/archive/master.zip"

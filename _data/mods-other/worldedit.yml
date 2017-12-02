@@ -1,0 +1,10 @@
+name:        "WorldEdit"
+author:      "sfan5"
+description: "マップ編集用のMod。マップのコピー操作などが可能。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=572"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Uberi/Minetest-WorldEdit/archive/master.zip"

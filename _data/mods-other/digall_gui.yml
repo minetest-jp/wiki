@@ -1,0 +1,14 @@
+name:        "DigAll"
+author:      "Rui"
+description: "DigAllの拡張Mod。DigAllの設定メニューを追加する。"
+links:
+  -
+    text: "解説記事"
+    url:  "http://yspn-tbx2.hatenablog.com/entry/2015/08/07/064520"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Rui-Minetest/digall_gui/archive/master.zip"
+depends:
+  -
+    text: "DigAll"
+    url:  "mods-other#digall"

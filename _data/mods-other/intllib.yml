@@ -1,0 +1,10 @@
+name:        "Internationalization Library"
+author:      "kaeza"
+description: "Modの文字列を翻訳するためのライブラリ。Mod側が対応している必要がある。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4929"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/intllib/archive/master.zip"

@@ -1,0 +1,11 @@
+name:        "Meshnodes"
+author:      "stu"
+screenshot:  "/mods-vehicle/meshnodes.png"
+description: "指定した範囲のブロックをそのまま飛行船に出来るMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=8059"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/stujones11/meshnode/archive/master.zip"

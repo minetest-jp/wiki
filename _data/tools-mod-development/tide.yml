@@ -1,0 +1,15 @@
+name:        "Tide"
+author:      "ashenk69"
+screenshot:  "/tools-mod-development/tide.png"
+description: "Modのコードを編集するツール。"
+platform:    "Windows"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=10214"
+  -
+    text: "ダウンロード (32bit)"
+    url:  "https://drive.google.com/file/d/0Bx9DccMfSPY-cE9LNU83bVBhR1k/view?pli=1"
+  -
+    text: "ダウンロード (64bit)"
+    url:  "https://drive.google.com/file/d/0Bx9DccMfSPY-c2tJWXJTal9kZkE/view?usp=sharing&pli=1"

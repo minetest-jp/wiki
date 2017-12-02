@@ -1,0 +1,11 @@
+name:        "Quartz"
+author:      "Evergreen"
+screenshot:  "/mods-mapgen/quartz.png"
+description: "水晶を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=5682"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/quartz/archive/master.zip"

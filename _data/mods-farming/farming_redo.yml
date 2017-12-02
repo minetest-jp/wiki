@@ -1,0 +1,11 @@
+name:        "Farming Redo"
+author:      "TenPlus1"
+screenshot:  "/mods-farming/farming_redo.png"
+description: "作物と料理を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9019"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/tenplus1/farming/archive/master.zip"

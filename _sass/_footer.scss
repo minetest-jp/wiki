@@ -1,0 +1,19 @@
+// フッタ
+footer {
+  background: $footer-background;
+  color: $footer-text-color;
+  padding: 1em 0;
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+
+    &:link,
+    &:visited,
+    &:hover,
+    &:focus,
+    &:active {
+      color: $footer-text-color;
+    }
+  }
+}

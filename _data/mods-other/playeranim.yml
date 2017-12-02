@@ -1,0 +1,11 @@
+name:        "Bone-Based Animation"
+author:      "Rui"
+screenshot:  "/mods-other/playeranim.png"
+description: "プレイヤーの顔が目線に合わせて動くようになるMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12189"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/playeranim/archive/master.zip"

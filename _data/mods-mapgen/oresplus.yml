@@ -1,0 +1,11 @@
+name:        "Ores Plus"
+author:      "jp"
+screenshot:  "/mods-mapgen/oresplus.png"
+description: "岩盤、エメラルド、グロウストーン、黄金のりんごを追加する。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=13120"
+  -
+    text: "ダウンロード"
+    url:  "https://forum.minetest.net/download/file.php?id=3579"

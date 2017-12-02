@@ -1,0 +1,11 @@
+name:        "Nether (PilzAdam)"
+author:      "PilzAdam"
+screenshot:  "/mods-mapgen/nether.png"
+description: "ネザーを追加するMod。ネザーポータルを作成して行き来する。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=5790"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/PilzAdam/nether/archive/voxelmanip.zip"

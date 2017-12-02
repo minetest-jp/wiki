@@ -1,0 +1,11 @@
+name:        "X-Decor"
+author:      "jp"
+screenshot:  "/mods-decor/xdecor.png"
+description: "装飾用のブロックを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12534"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/xdecor/archive/master.zip"

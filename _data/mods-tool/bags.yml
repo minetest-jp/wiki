@@ -1,0 +1,11 @@
+name:        "Bags"
+author:      "cornernote"
+screenshot:  "/mods-tool/bags.png"
+description: "アイテムを入れられる鞄を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=3081"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/cornernote/minetest-bags/archive/master.zip"

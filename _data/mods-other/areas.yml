@@ -1,0 +1,10 @@
+name:        "Advanced area protection"
+author:      "ShadowNinja"
+description: "指定した領域を他のプレイヤーから保護するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=7239"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/ShadowNinja/areas/archive/master.zip"

@@ -1,0 +1,11 @@
+name:        "Craft Guide"
+author:      "cornernote"
+screenshot:  "/mods-tool/craft_guide.png"
+description: "レシピを確認できるアイテムを追加するMod。Modで追加されたアイテムにも対応する。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2334"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/cornernote/minetest-craft_guide/archive/master.zip"

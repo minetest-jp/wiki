@@ -1,0 +1,12 @@
+name:        "MODSTER"
+author:      "Temperest"
+screenshot:  "/tools-mod-installer/modster.png"
+description: "Modを簡単に導入するツール。"
+platform:    "Windows"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=6497"
+  -
+    text: "ダウンロード"
+    url:  "https://dl.dropboxusercontent.com/u/8097754/Modster.exe"

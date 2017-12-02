@@ -1,0 +1,14 @@
+name:        "Mesecons"
+author:      "Jeija"
+screenshot:  "/mods-industry/mesecons.png"
+description: "回路を組めるMod。レッドストーンの代替。"
+links:
+  -
+    text: "公式サイト"
+    url:  "http://mesecons.net/"
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=628"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Jeija/minetest-mod-mesecons/archive/master.zip"

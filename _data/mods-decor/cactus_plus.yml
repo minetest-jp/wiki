@@ -1,0 +1,11 @@
+name:        "Cactus Mod"
+author:      "AndroidNo32"
+screenshot:  "/mods-decor/cactus_plus.png"
+description: "サボテン製のブロックとツールを追加するMod。"
+links:
+  -
+    text: "ブログ"
+    url:  "http://minetest-mod-list-youtube.blogspot.com.br"
+  -
+    text: "ダウンロード"
+    url:  "https://www.dropbox.com/s/7r4hwgz0h8x1q1l/Cactus_CactusPlusVer0103.zip?dl=1"

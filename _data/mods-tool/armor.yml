@@ -1,0 +1,11 @@
+name:        "3D Armor"
+author:      "stu"
+screenshot:  "/mods-tool/3d_armor.png"
+description: "防具を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4654"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/stujones11/minetest-3d_armor/archive/master.zip"

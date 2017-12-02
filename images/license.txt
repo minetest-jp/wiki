@@ -1,0 +1,10 @@
+Calinou and minetest.github.io contributors (CC BY-SA 3.0):
+	background.png
+	icon.png
+	icon.svg
+
+Vaadin https://www.flaticon.com/authors/vaadin (CC BY 3.0):
+	edit.svg
+	menu.svg
+	menu_close.svg
+	top.svg

@@ -1,0 +1,11 @@
+name:        "Tables"
+author:      "lisacvuk"
+screenshot:  "/mods-decor/tables.png"
+description: "テーブルを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=10556"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/lisacvuk/Minetest-Tables/archive/master.zip"

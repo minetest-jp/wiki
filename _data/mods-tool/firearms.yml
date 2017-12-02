@@ -1,0 +1,11 @@
+name:        "Firearms"
+author:      "kaeza"
+screenshot:  "/mods-tool/firearms.png"
+description: "銃を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4562"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/firearms/archive/master.zip"

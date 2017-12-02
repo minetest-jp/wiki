@@ -1,0 +1,11 @@
+name:        "Compressed Stone"
+author:      "AndroidNo32"
+screenshot:  "/mods-decor/comp_stone.png"
+description: "丸石を圧縮するMod。"
+links:
+  -
+    text: "ブログ"
+    url:  "http://minetest-mod-list-youtube.blogspot.com.br/"
+  -
+    text: "ダウンロード"
+    url:  "https://www.dropbox.com/s/yumjx91vtg5oetn/CompStoneV0201.zip?dl=1"

@@ -1,0 +1,10 @@
+name:        "Simple Mod Maker"
+author:      "rubenwardy"
+description: "簡単なModを作成するツール。ブラウザ上で動作する。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9939"
+  -
+    text: "開く"
+    url:  "http://rubenwardy.com/minetest_mod_maker"

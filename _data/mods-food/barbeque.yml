@@ -1,0 +1,11 @@
+name:        "Barbecue"
+author:      "ういんど"
+screenshot:  "/mods-food/barbeque.png"
+description: "バーベキュー･鍋料理を追加するMod。焚火の近くに素材を設置することで調理できる。焼き過ぎると焦げてしまうので注意。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=13053"
+  -
+    text: "ダウンロード"
+    url:  "http://ux.getuploader.com/minetest_jp_mod/download/44/barbecue150824.zip"

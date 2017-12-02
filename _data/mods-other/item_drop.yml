@@ -1,0 +1,10 @@
+name:        "Minecraft like item drop/pick up"
+author:      "PilzAdam"
+description: "破壊したブロックがその場に落ちるようになり、落ちているアイテムに近づくと回収できるようになるMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2656"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/PilzAdam/item_drop/archive/master.zip"

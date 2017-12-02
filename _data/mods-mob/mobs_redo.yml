@@ -1,0 +1,18 @@
+name:        "Mobs Redo"
+author:      "TenPlus1"
+screenshot: "/mods-mob/mobs_redo.png"
+description: "Mobを追加するためのAPIを提供するMod。Mobを追加するには、このAPIを利用する他のModが必要となる。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9917"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/tenplus1/mobs_redo/archive/master.zip"
+depends_optional:
+  -
+    text: "invisibility"
+  -
+    text: "intllib"
+  -
+    text: "lucky_block"

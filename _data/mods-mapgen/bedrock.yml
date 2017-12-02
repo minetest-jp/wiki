@@ -1,0 +1,11 @@
+name:        "Bedrock"
+author:      "Calinou"
+screenshot:  "/mods-mapgen/bedrock.png"
+description: "破壊できない岩盤を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9231"
+  -
+    text: "ダウンロード"
+    url:  "https://dl.dropboxusercontent.com/u/82342922/minetest/carbone-mods/bedrock.zip"

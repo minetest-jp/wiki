@@ -1,0 +1,14 @@
+name:        "Horses"
+author:      "TenPlus1"
+description: "Mob RedoのAPIを通して馬を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9917"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/tenplus1/mob_horse/archive/master.zip"
+depends:
+  -
+    text: "Mobs Redo"
+    url:  "mods-mob#mobs_redo"

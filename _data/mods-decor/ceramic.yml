@@ -1,0 +1,11 @@
+name:        "Ceramic Mod"
+author:      "AndroidNo32"
+screenshot:  "/mods-decor/ceramic.png"
+description: "セラミック製のツールやブロックを追加するMod。"
+links:
+  -
+    text: "ブログ"
+    url:  "http://minetest-mod-list-youtube.blogspot.com.br/"
+  -
+    text: "ダウンロード"
+    url:  "https://www.dropbox.com/s/x3xwiminqv1phqe/Ceramic_V0107.zip?dl=1"

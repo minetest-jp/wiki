@@ -1,0 +1,10 @@
+name:        "Extended Ban"
+author:      "kaeza"
+description: "BAN機能を拡張するMod。コマンドの説明はフォーラムを参照。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9315"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/xban2/archive/master.zip"

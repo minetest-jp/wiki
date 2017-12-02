@@ -1,0 +1,11 @@
+name:        "Industrial Lights"
+author:      "VanessaE"
+screenshot:  "/mods-decor/ilights.png"
+description: "多色のランプを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12200"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/VanessaE/ilights/archive/master.zip"

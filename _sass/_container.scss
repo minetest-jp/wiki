@@ -1,0 +1,57 @@
+// コンテナ
+#container {
+  box-sizing: border-box;
+  min-height: 100vh;
+
+  @include media-desktop {
+    border-left: $border-default;
+    border-right: $border-default;
+    box-shadow: $container-box-shadow;
+    box-sizing: border-box;
+    display: -ms-grid;
+    -ms-grid-template-columns: 20em 1fr;
+    display: grid;
+    grid-template-columns: 20em 1fr;
+    margin: 0 auto;
+    width: 85vw;
+
+    header {
+      border-bottom: $border-default;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    #menu {
+      border-right: $border-default;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    #content {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    footer {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  }
+
+  @include media-mobile {
+    margin: 0;
+    width: 100vw;
+
+    #menu {
+      display: none;
+    }
+  }
+}

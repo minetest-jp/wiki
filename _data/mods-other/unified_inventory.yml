@@ -1,0 +1,11 @@
+name:        "Unified Inventory"
+author:      "RealBadAngel"
+screenshot:  "/mods-other/unified_inventory.png"
+description: "統合的なインベントリを追加するMod。このMod単体に多くの機能が実装されている(レシピ確認、所持アイテム数増加、ホーム設定など)。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12767"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-technic/unified_inventory/archive/master.zip"

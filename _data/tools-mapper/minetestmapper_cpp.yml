@@ -1,0 +1,10 @@
+name:        "Minetest Mapper C++"
+author:      "Minetest開発チーム"
+description: "MinetestmapperをC++に移植したバージョン。コンパイルが必要。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2896"
+  -
+    text: "Github"
+    url:  "https://github.com/minetest/minetestmapper"

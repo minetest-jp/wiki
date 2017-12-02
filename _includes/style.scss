@@ -1,0 +1,68 @@
+// ブレークポイント
+@mixin media-desktop {
+    @media {{ site.media-desktop }} {
+        @content;
+    }
+}
+@mixin media-mobile {
+    @media {{ site.media-mobile }} {
+        @content;
+    }
+}
+
+// 共通
+$border-default: 1px solid #ccc;
+
+// 基本設定
+$background:       url({{ site.github.url }}/images/background.png);
+$font-family:      "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
+$font-size:        15px;
+$font-size-mobile: 16px;
+$text-color:       #444;
+
+// コンテナ
+$container-box-shadow: 0 0 10px 0 #ddd;
+
+// ヘッダ
+$header-background:              #eee;
+$header-link-color:              #694;
+$header-mobile-box-shadow:       0 0 10px 0 #ddd;
+$header-img-vertical-adjustment: -.4em;
+
+// 本文 (左メニュー含む)
+$article-background:         #fff;
+$article-link-color:         #588f3d;
+$article-link-color-visited: #456336;
+
+// 本文 - 見出し
+$article-h2-border-bottom: 1px solid #ddd;
+$article-h2-font-size:     1.5em;
+$article-h3-border-bottom: 1px dotted #ddd;
+$article-h3-font-size:     1.25em;
+$article-h4-border-bottom: 1px dashed #ddd;
+$article-h4-font-size:     1em;
+$article-h5-border-bottom: none;
+$article-h5-font-size:     1em;
+$article-h6-border-bottom: none;
+$article-h6-font-size:     1em;
+
+// フッタ
+$footer-background: #333;
+$footer-text-color: #fff;
+
+// モバイルメニュー
+$mobile-menu-background: #555;
+$mobile-menu-text-color: #fff;
+
+// Modなどのスクリーンショット
+$screenshot-background: #eee;
+
+// ----- インポート ----- //
+
+@import "scaffolding";
+@import "container";
+@import "header";
+@import "article";
+@import "footer";
+@import "mobile";
+@import "screenshot";

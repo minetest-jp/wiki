@@ -1,0 +1,11 @@
+name:        "Food Blocks"
+author:      "ういんど"
+screenshot:  "/mods-decor/foodblock.png"
+description: "食べ物のブロックを追加するMod。多くのModの食べ物に対応している。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12911"
+  -
+    text: "ダウンロード"
+    url:  "http://ux.getuploader.com/minetest_jp_mod/download/56/foodblock150912.zip"

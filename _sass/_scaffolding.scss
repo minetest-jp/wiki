@@ -1,0 +1,20 @@
+// 基本設定
+body {
+  $line-height: ($font-size * 20 / 14);
+
+  background: $background;
+  color: $text-color;
+  font-family: $font-family;
+  font-size: $font-size;
+  letter-spacing: 0.05em;
+  line-height: $line-height;
+  margin: 0;
+
+  // モバイルの場合は文字を大きく
+  @include media-mobile {
+    $line-height-mobile: ($line-height * 1.1);
+
+    font-size: $font-size-mobile;
+    line-height: $line-height-mobile;
+  }
+}

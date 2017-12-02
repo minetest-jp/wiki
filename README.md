@@ -1,0 +1,5 @@
+# Minetest JP Wiki
+
+オープンソースのサンドボックスゲーム[Minetest](https://www.minetest.net)の日本語Wikiです。
+
+このリポジトリのMarkdownファイルを編集すると自動的にWikiへ反映されます。

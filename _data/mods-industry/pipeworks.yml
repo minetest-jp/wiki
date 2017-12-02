@@ -1,0 +1,24 @@
+name:        "Pipeworks"
+author:      "VanessaE"
+screenshot:  "/mods-industry/pipeworks.png"
+description: "アイテムや水を輸送するためのパイプを追加するMod。"
+links:
+  -
+    text: "公式Wiki"
+    url:  "https://github.com/minetest-mods/pipeworks/wiki"
+  -
+    text: "解説ページ"
+    url:  "mod-manual-pipeworks"
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2155"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/pipeworks/archive/master.zip"
+depends-optional:
+  -
+    text: "Mesecons"
+    url:  "mods-industry#mesecons"
+  -
+    text: "Digilines"
+    url:  "mods-industry#digilines"

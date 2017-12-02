@@ -1,0 +1,23 @@
+# TODO: Vines and RopeをWikiに追加
+name:        "More Trees!"
+author:      "VanessaE"
+screenshot:  "/mods-mapgen/moretrees.png"
+description: "様々な木を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4394"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/moretrees/archive/master.zip"
+depends:
+  -
+    text: "Biome library"
+    url:  "mods-mapgen#biome_lib"
+depends-optional:
+  -
+    text: "More Blocks"
+    url:  "mods-decor#moreblocks"
+  -
+    text: "Vines and Rope"
+    url:  "https://forum.minetest.net/viewtopic.php?id=2344"

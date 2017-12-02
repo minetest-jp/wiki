@@ -1,0 +1,11 @@
+name:        "Carpets"
+author:      "bell07"
+screenshot:  "/mods-decor/carpets.png"
+description: "カーペットを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=15459"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/bell07/minetest-carpets/archive/master.zip"

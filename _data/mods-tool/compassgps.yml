@@ -1,0 +1,11 @@
+name:        "Compass GPS"
+author:      "Kilarin"
+screenshot:  "/mods-tool/compassgps.png"
+description: "座標ブックマーク機能付きのコンパス。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9373"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Kilarin/compassgps/archive/master.zip"

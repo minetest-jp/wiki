@@ -1,0 +1,10 @@
+name:        "Biome library"
+author:      "VanessaE"
+description: "主にVanessaE氏によるマップ生成関連のModに使用されるライブラリ。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12999"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/VanessaE/biome_lib/archive/master.zip"

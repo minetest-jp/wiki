@@ -1,0 +1,11 @@
+name:        "Home Decor"
+author:      "VanessaE"
+screenshot:  "/mods-decor/homedecor.png"
+description: "家具などの装飾用のブロックを追加するModパック。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2041"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/homedecor_modpack/archive/master.zip"

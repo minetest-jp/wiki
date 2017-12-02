@@ -1,0 +1,11 @@
+name:        "Simple Shooter"
+author:      "stu"
+screenshot:  "/mods-tool/shooter.png"
+description: "銃火器を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=7846"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/stujones11/shooter/archive/master.zip"

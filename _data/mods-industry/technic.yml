@@ -1,0 +1,31 @@
+name:        "Technic"
+author:      "RealBadAngel"
+screenshot:  "/mods-industry/technic.png"
+description: "大量の素材と機械を追加するMod。電力(EU)を使って自動化ができる。"
+links:
+  -
+    text: "レシピ一覧"
+    url:  "http://technic.kosyak.info/"
+  -
+    text: "解説ページ"
+    url:  "mod-manual-technic"
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2538"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/technic/archive/master.zip"
+depends:
+  -
+    text: "More Blocks"
+    url:  "mods-decor#moreblocks"
+  -
+    text: "Pipeworks"
+    url:  "mods-industry#pipeworks"
+depends-optional:
+  -
+    text: "More Ores"
+    url:  "mods-mapgen#moreores"
+  -
+    text: "Mesecons"
+    url:  "mods-industry#mesecons"

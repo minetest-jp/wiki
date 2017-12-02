@@ -1,0 +1,11 @@
+name:        "More Ores"
+author:      "Calinou"
+screenshot:  "/mods-mapgen/moreores.png"
+description: "鉱石を追加するMod。剣や斧、レールなども追加される。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=549"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-mods/moreores/archive/master.zip"

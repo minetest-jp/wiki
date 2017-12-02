@@ -1,0 +1,11 @@
+name:        "Hoppers"
+author:      "jordan4ibanez"
+screenshot:  "/mods-tool/hoppers.png"
+description: "ホッパーを追加するMod。落ちているアイテムを回収し、自動でチェストなどに入れてくれる。横向きに取り付ける場合、Shiftを押しながら設置する必要がある。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=12379"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/jordan4ibanez/Hoppers/archive/master.zip"

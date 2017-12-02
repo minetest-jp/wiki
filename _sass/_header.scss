@@ -1,0 +1,44 @@
+// ヘッダ
+header {
+  background: $header-background;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 1em;
+
+  @include media-mobile {
+    border-bottom: $border-default;
+    box-shadow: $container-box-shadow;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:link,
+    &:visited,
+    &:hover,
+    &:focus,
+    &:active {
+      color: $header-link-color;
+    }
+
+    > amp-img {
+      float: left;
+      margin: $header-img-vertical-adjustment 1em 0 0;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    float: right;
+    object-fit: contain;
+    padding: 0;
+
+    @include media-desktop {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+name:        "NPC Mobs"
+author:      "TenPlus1"
+description: "Mob RedoのAPIを通してNPCを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=9917"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/tenplus1/mobs_npc/archive/master.zip"
+depends:
+  -
+    text: "Mobs Redo"
+    url:  "mods-mob#mobs_redo"

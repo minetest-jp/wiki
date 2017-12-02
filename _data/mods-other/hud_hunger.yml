@@ -1,0 +1,14 @@
+name:        "Better HUD"
+author:      "BlockMen"
+screenshot:  "/mods-other/hud_hunger.png"
+description: >-
+  満腹度と耐久度を表示するMod。食べ物を食べた時、HPが直接回復するのではなく満腹度が回復する。<br>
+  満腹度が最大になると自動でHPが回復する。一方、満腹度が0になると空腹でダメージを受ける。<br>
+  3D Armorの耐久度を表示することもできる。何らかの食べ物を得られるModとの併用を推奨。
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=6342"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/BlockMen/hud_hunger/releases/download/2.x.1/hud_hunger-2_x_1-BlockMen.zip"

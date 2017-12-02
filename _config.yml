@@ -1,0 +1,73 @@
+### Minetest関連 ###
+
+# Wiki内で使用
+minetest:
+  # Minetestの最新バージョン
+  # Windowsのダウンロードリンクもこれに依存します
+  latest_version: "0.4.16"
+
+### Wiki設定 ###
+
+wiki:
+  # Wikiのタイトル
+  title: "Minetest JP Wiki"
+  # 画像フォルダのパス
+  images_dir: "images"
+
+### レイアウト関連 ###
+
+# デスクトップ判定
+media-desktop: "(min-width: 768px)"
+# モバイル端末判定
+media-mobile: "(max-width: 767px)"
+
+### Jekyll設定 ###
+
+# ページ用Markdownのパス
+source: "wiki"
+# Markdownパーサ
+markdown: "kramdown"
+# Jekyllから除外するファイル
+exclude: ["README.md", "CONTRIBUTING.md", "images/license.txt"]
+
+### ページのデフォルト設定 ###
+
+defaults:
+  -
+    # 設定を適用するパス
+    scope:
+      path: "wiki"
+    values:
+      # レイアウト名
+      layout: "default"
+      # ページのURL
+      # Markdown名をそのまま使用
+      permalink: ":basename"
+
+### SASS(SCSS)設定 ###
+
+sass:
+  # CSS生成スタイル
+  # 圧縮する
+  style: "compressed"
+
+### Kramdownの設定 ###
+
+kramdown:
+  # Markdownの書式
+  # Githubスタイルの書式を設定
+  input: "GFM"
+  # 改行するために空行を入れなくても良いようにする
+  gfm_quirks: "paragraph_end"
+  # Markdownの改行を<br>に変換する
+  hard_wrap: true
+  # HTMLコードをそのまま出力
+  html_to_native: true
+  # "#"を<h2>相当にする
+  header_offset: 1
+
+### gem ###
+
+gems:
+  # サイトマップ生成
+  - jekyll-sitemap

@@ -1,0 +1,11 @@
+name:        "Boost cart"
+author:      "Krock"
+screenshot:  "/mods-vehicle/boost_cart.png"
+description: "Cartsの改良版。高速化・安定化されている。Cartsのブロックはそのまま使用できる。ブレーキレール・パワードレールに加え、ディテクターレールが同梱されている。Meseconsが導入されている際、パワードレールはMesecons信号が必要になる。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=10172"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/SmallJoker/boost_cart/archive/master.zip"

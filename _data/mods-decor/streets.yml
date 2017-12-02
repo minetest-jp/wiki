@@ -1,0 +1,11 @@
+name:        "StreetsMod"
+author:      "webdesigner97"
+screenshot:  "/mods-decor/streets.png"
+description: "交通関係のブロックを追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2984"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/minetest-streets/streets/archive/master.zip"

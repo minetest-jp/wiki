@@ -1,0 +1,11 @@
+name:        "Ethereal NG"
+author:      "TenPlus1"
+screenshot:  "/mods-mapgen/ethereal_ng.png"
+description: "バイオームやアイテム、植物などが追加される複合的なMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=14638"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/tenplus1/ethereal/archive/master.zip"

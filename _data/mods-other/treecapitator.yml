@@ -1,0 +1,10 @@
+name:        "TreeCapitator"
+author:      "Hybrid Dog"
+description: "木をまとめて伐採できる、所謂木こりMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=4772"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/HybridDog/treecapitator/archive/master.zip"

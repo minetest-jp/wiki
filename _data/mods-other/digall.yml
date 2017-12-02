@@ -1,0 +1,10 @@
+name:        "DigAll"
+author:      "Yakisoba-PanTARO"
+description: "ブロックを一括破壊するMod。範囲指定や破壊アルゴリズムの変更も可能。"
+links:
+  -
+    text: "解説記事"
+    url:  "http://yspn-tbx2.hatenablog.com/entry/2015/08/07/064520"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Yakisoba-PanTARO/digall/archive/master.zip"

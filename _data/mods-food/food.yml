@@ -1,0 +1,11 @@
+name:        "Food"
+author:      "rubenwardy"
+screenshot:  "/mods-food/food.png"
+description: "大量の食べ物を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2960"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/rubenwardy/food/archive/master.zip"

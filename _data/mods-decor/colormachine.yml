@@ -1,0 +1,11 @@
+name:        "Spray Booth / Color Machine"
+author:      "Sokomine"
+screenshot:  "/mods-decor/colormachine.png"
+description: "ブロックを染色するMod。多くのブロックに対応している。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=6670"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/Sokomine/colormachine/archive/master.zip"

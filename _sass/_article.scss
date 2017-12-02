@@ -1,0 +1,115 @@
+// 本文
+.article {
+  background: $article-background;
+  padding: 0 1em 1em 1em;
+
+  @include media-mobile {
+    // ヘッダの高さを計算
+    $line-height: ($font-size * 20 / 14);
+    $line-height-mobile: ($line-height * 1.1);
+    $top-padding: ($line-height-mobile * 3 - $font-size-mobile);
+
+    padding-top: $top-padding;
+
+    h1[id]::before,
+    h2[id]::before,
+    h3[id]::before,
+    h4[id]::before,
+    h5[id]::before,
+    h6[id]::before {
+      content: "";
+      display: block;
+      height: $top-padding;
+      margin: -$top-padding 0 0;
+    }
+  }
+
+  > .title {
+    @include media-mobile {
+      text-align: center;
+    }
+  }
+
+  > .body {
+    a {
+      text-decoration: underline;
+
+      &:link {
+        color: $article-link-color;
+      }
+
+      &:visited,
+      &:hover,
+      &:focus,
+      &:active {
+        color: $article-link-color-visited;
+      }
+    }
+
+    dt {
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      margin-top: 0.5em;
+    }
+    
+    dd {
+      margin-left: 1.5em;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: bold;
+      line-height: 1.1em;
+      margin: 1rem 0;
+    }
+
+    h2 {
+      border-bottom: $article-h2-border-bottom;
+      font-size: $article-h2-font-size;
+    }
+
+    h3 {
+      border-bottom: $article-h3-border-bottom;
+      font-size: $article-h3-font-size;
+    }
+  
+    h4 {
+      border-bottom: $article-h4-border-bottom;
+      font-size: $article-h4-font-size;
+    }
+
+    h5 {
+      border-bottom: $article-h5-border-bottom;
+      font-size: $article-h5-font-size;
+    }
+
+    h6 {
+      border-bottom: $article-h6-border-bottom;
+      font-size: $article-h6-font-size;
+    }
+
+    p {
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+    
+    pre {
+      overflow: auto;
+      white-space: pre;
+    }
+
+    table {
+      border: $border-default;
+      border-collapse: collapse;
+
+      td, th {
+        border: $border-default;
+        padding: 0.5em;
+      }
+    }
+  }
+}

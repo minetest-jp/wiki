@@ -1,0 +1,11 @@
+name:        "Indestructible Bedrock Layer"
+author:      "Wuzzy"
+screenshot:  "/mods-mapgen/bedrock2.png"
+description: "平らな岩盤を追加するMod。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=11271"
+  -
+    text: "ダウンロード"
+    url:  "http://repo.or.cz/w/minetest_bedrock2.git/snapshot/master.zip"

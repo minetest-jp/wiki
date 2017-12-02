@@ -1,0 +1,18 @@
+name:        "Technic Addon"
+author:      "ういんど"
+screenshot:  "/mods-industry/tech_add.png"
+description: "Technicの拡張Mod。TechnicとMeseconsを連携させる機械が追加される。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=13225"
+  -
+    text: "ダウンロード"
+    url:  "https://forum.minetest.net/download/file.php?id=3732"
+depends:
+  -
+    text: "Technic"
+    url:  "mods-industry#technic"
+  -
+    text: "Mesecons"
+    url:  "mods-industry#mesecons"

@@ -1,0 +1,10 @@
+name:        "Minetestmapper"
+author:      "Celeron55"
+description: "Pythonが必要。色指定ファイルと併せて使う。"
+links:
+  -
+    text: "スクリプト"
+    url:  "https://raw.githubusercontent.com/minetest/minetest/master/util/minetestmapper.py"
+  -
+    text: "色指定ファイル"
+    url:  "https://github.com/rubenwardy/NodeBoxEditor/releases"

@@ -1,0 +1,12 @@
+name:        "NodeBoxEditor"
+author:      "rubenwardy"
+screenshot:  "/tools-mod-development/nodeboxeditor.png"
+description: "NodeBox作成ツール。"
+platform:    "Windows / Linux"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=2840"
+  -
+    text: "ダウンロード"
+    url:  "https://github.com/rubenwardy/NodeBoxEditor/releases"
