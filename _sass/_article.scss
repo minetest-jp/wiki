@@ -17,9 +17,9 @@
     h4[id]::before,
     h5[id]::before,
     h6[id]::before {
-      //content: "";
-      //height: $top-padding;
-      //margin: -$top-padding 0 0;
+      content: "";
+      height: $top-padding;
+      margin: -$top-padding 0 0;
     }
   }
 
