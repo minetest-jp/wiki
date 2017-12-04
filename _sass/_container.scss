@@ -1,7 +1,6 @@
 // コンテナ
 #container {
   box-sizing: border-box;
-  min-height: 100vh;
 
   @include media-desktop {
     border-left: $border-default;
@@ -13,6 +12,7 @@
     display: grid;
     grid-template-columns: 20em 1fr;
     margin: 0 auto;
+    min-height: 100vh;
     width: 85vw;
 
     header {
