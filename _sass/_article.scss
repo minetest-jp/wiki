@@ -18,9 +18,21 @@
     h5[id]::before,
     h6[id]::before {
       content: "";
-      display: block;
       height: $top-padding;
       margin: -$top-padding 0 0;
+    }
+  }
+
+  @include media-desktop {
+    h1[id]::before,
+    h2[id]::before,
+    h3[id]::before,
+    h4[id]::before,
+    h5[id]::before,
+    h6[id]::before {
+      content: none;
+      height: auto;
+      margin: auto;
     }
   }
 
