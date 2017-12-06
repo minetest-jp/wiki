@@ -17,9 +17,9 @@ wiki:
 ### レイアウト関連 ###
 
 # デスクトップ判定
-media-desktop: "(min-width: 768px)"
+media-desktop: "all and (min-width: 768px)"
 # モバイル端末判定
-media-mobile: "(max-width: 767px)"
+media-mobile: "not all and (min-width: 768px)"
 
 ### Jekyll設定 ###
 
