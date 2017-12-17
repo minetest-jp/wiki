@@ -7,12 +7,14 @@
     border-right: $border-default;
     box-shadow: $container-box-shadow;
     box-sizing: border-box;
-    display: -ms-grid;
-    -ms-grid-template-columns: auto 1fr;
-    -ms-grid-template-rows: auto 1fr auto;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
+    // IE11 ~
+    display: -ms-grid;
+    -ms-grid-template-columns: auto 1fr;
+    -ms-grid-template-rows: auto 1fr auto;
+    // ~ IE11
     margin: 0 auto;
     min-height: 100vh;
     width: 85vw;
@@ -23,6 +25,12 @@
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 2;
+      // IE11 ~
+      -ms-grid-column-start: 1;
+      -ms-grid-column-end: 3;
+      -ms-grid-row-start: 1;
+      -ms-grid-row-end: 2;
+      // ~ IE11
     }
 
     #menu {
@@ -31,6 +39,12 @@
       grid-column-end: 2;
       grid-row-start: 2;
       grid-row-end: 3;
+      // IE11 ~
+      -ms-grid-column-start: 1;
+      -ms-grid-column-end: 2;
+      -ms-grid-row-start: 2;
+      -ms-grid-row-end: 3;
+      // ~ IE11
     }
 
     #content {
@@ -38,6 +52,12 @@
       grid-column-end: 3;
       grid-row-start: 2;
       grid-row-end: 3;
+      // IE11 ~
+      -ms-grid-column-start: 2;
+      -ms-grid-column-end: 3;
+      -ms-grid-row-start: 2;
+      -ms-grid-row-end: 3;
+      // ~ IE11
     }
 
     footer {
@@ -45,6 +65,12 @@
       grid-column-end: 3;
       grid-row-start: 3;
       grid-row-end: 4;
+      // IE11 ~
+      -ms-grid-column-start: 1;
+      -ms-grid-column-end: 3;
+      -ms-grid-row-start: 3;
+      -ms-grid-row-end: 4;
+      // ~ IE11
     }
   }
 
