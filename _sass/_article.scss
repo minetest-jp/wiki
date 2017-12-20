@@ -18,6 +18,7 @@
     h5[id]::before,
     h6[id]::before {
       content: "";
+      display: block;
       height: $top-padding;
       margin: -$top-padding 0 0;
     }
