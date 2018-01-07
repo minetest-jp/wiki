@@ -71,13 +71,13 @@ layout: compress
       </header>
 
       <!-- 左メニュー -->
-      <section id="menu" class="article">
+      <nav id="menu" class="article">
         <h1 class="title">メニュー</h1>
-        <nav class="body">{{ menu }}</nav>
-      </section>
+        <div class="body">{{ menu }}</div>
+      </nav>
 
       <!-- 本文 -->
-      <section id="content" class="article">
+      <article id="content" class="article">
         <h1 class="title">
           {{ page.title }}
           <a title="GitHubで編集" href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}">
@@ -91,8 +91,8 @@ layout: compress
             </amp-img>
           </a>
         </h1>
-        <article class="body">{{ content }}</article>
-      </section>
+        <div class="body">{{ content }}</div>
+      </article>
 
       <!-- フッタ -->
       <footer>
