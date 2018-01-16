@@ -31,20 +31,6 @@ layout: compress
   </head>
 
   <body>
-    <!-- モバイルメニュー -->
-    <amp-sidebar id="sidebar" side="left" layout="nodisplay">
-      <button on="tap:sidebar.close">
-        <amp-img
-          height = "2em"
-          width  = "2em"
-          alt    = "閉じる"
-          src="{{ site.github.url }}/images/menu_close.svg">
-        </amp-img>
-      </button>
-      <h1>メニュー</h1>
-      {{ menu }}
-    </amp-sidebar>
-
     <!-- コンテナ -->
     <div id="container">
       <!-- ヘッダ -->
@@ -99,6 +85,20 @@ layout: compress
         © {{ site.time | date: "%Y" }} <a href="https://minetest-jp.github.io">Minetest-JP Team</a>
       </footer>
     </div>
+
+    <!-- モバイルメニュー -->
+    <amp-sidebar id="sidebar" side="left" layout="nodisplay">
+      <button on="tap:sidebar.close">
+        <amp-img
+          height = "2em"
+          width  = "2em"
+          alt    = "閉じる"
+          src="{{ site.github.url }}/images/menu_close.svg">
+        </amp-img>
+      </button>
+      <h1>メニュー</h1>
+      {{ menu }}
+    </amp-sidebar>
 
     <!-- コンテナの先頭にリンク -->
     <a href="#container">
