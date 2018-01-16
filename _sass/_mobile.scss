@@ -19,8 +19,13 @@ amp-sidebar {
   button {
     background: transparent;
     border: none;
+    display: block;
     object-fit: contain;
     padding: 0;
+
+    amp-img {
+      left: 1em;
+    }
   }
 
   h1,
