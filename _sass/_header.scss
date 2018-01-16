@@ -8,6 +8,7 @@ header {
   @include media-mobile {
     box-shadow: $header-mobile-box-shadow;
     position: fixed;
+    text-align: center;
     width: 100%;
     z-index: 9999;
   }
