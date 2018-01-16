@@ -6,8 +6,7 @@ header {
   padding: 1em;
 
   @include media-mobile {
-    border-bottom: $border-default;
-    box-shadow: $container-box-shadow;
+    box-shadow: $header-mobile-box-shadow;
     position: fixed;
     width: 100%;
     z-index: 9999;
