@@ -35,7 +35,7 @@ header {
     border: none;
     float: right;
     object-fit: contain;
-    padding: 0;
+    padding: 0 1em;
 
     @include media-desktop {
       display: none;
