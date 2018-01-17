@@ -189,25 +189,25 @@ MeseconsとDigilinesに依存していますが、無い場合は必要な機能
       <dt>テーブルによる指定その１</dt>
       <dd>
         <pre><code class="lua">
-          {
-            exmatch=false,      -- Exact matchがOFF
-            "default:wood 2",   -- default:woodが2個
-            "default:pine_wood" -- default:pine_woodが1個
-          }
+{
+  exmatch=false,      -- Exact matchがOFF
+  "default:wood 2",   -- default:woodが2個
+  "default:pine_wood" -- default:pine_woodが1個
+}
           </code></pre>
       </dd>
 
       <dt>テーブルによる指定その２</dt>
       <dd>
         <pre><code class="lua">
-          {
-            slotseq="random",              -- Sequence slots Randomly
-            nofire=false,                  -- nofireがtrueの場合、アイテムを搬出しない
-            exmatch=true,                  -- Exact matchがON
-            {name="default:wood",count=2}, -- default:woodが2個
-            {name="default:pine_wood"},    -- default:pine_woodが1スタック全部
-            {group="wood", count=3}        -- woodグループのものが3個
-          }
+{
+  slotseq="random",              -- Sequence slots Randomly
+  nofire=false,                  -- nofireがtrueの場合、アイテムを搬出しない
+  exmatch=true,                  -- Exact matchがON
+  {name="default:wood",count=2}, -- default:woodが2個
+  {name="default:pine_wood"},    -- default:pine_woodが1スタック全部
+  {group="wood", count=3}        -- woodグループのものが3個
+}
         </code></pre>
       </dd>
     </dl>
