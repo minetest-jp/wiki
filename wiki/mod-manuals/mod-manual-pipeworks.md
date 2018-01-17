@@ -182,7 +182,7 @@ MeseconsとDigilinesに依存していますが、無い場合は必要な機能
       <dt>単純な文字列による指定</dt>
       <dd>
         <pre><code class="lua">
-          "default:wood 2" -- default:woodが2個
+"default:wood 2" -- default:woodが2個
         </code></pre>
       </dd>
 
