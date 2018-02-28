@@ -1,6 +1,6 @@
 ---
 title: ダウンロード
-date:
+date: 2018-03-01
 custom-style: >-
   .red {color: #FF0000}
 ---
@@ -20,7 +20,7 @@ Minetestの最新バージョン({{ version }})をダウンロードできます
 
 # macOS
 
-[Homebrew](http://brew.sh)を導入している場合は「brew install homebrew/games/minetest」でもインストールできます。
+[Homebrew](http://brew.sh)を導入している場合は`brew install homebrew/games/minetest`でもインストールできます。
 
 [安定版](https://github.com/krondor-game/minetest/releases/tag/stable)  
 [最新版](https://github.com/krondor-game/minetest/releases)
@@ -49,7 +49,7 @@ Git･デイリービルド
 [Google Play](https://play.google.com/store/apps/details?id=net.minetest.minetest)  
 [F-Droid](https://f-droid.org/repository/browse/?fdid=net.minetest.minetest)
 
-# その他のOS
+# その他のプラットフォーム
 
 [FreeBSD](http://www.freshports.org/games/minetest)
 
