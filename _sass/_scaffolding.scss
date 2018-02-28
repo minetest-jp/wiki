@@ -17,4 +17,20 @@ body {
     background-color: $selection-background;
     color: $selection-font-color;
   }
+
+  code {
+    background: $code-background;
+    border: $code-border;
+    border-radius: $code-border-radius;
+    color: $code-color;
+    font-family: $code-font-family;
+    overflow: auto;
+    padding: $code-padding;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  pre code {
+    display: block;
+  }
 }
