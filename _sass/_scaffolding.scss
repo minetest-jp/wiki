@@ -1,15 +1,19 @@
 // 基本設定
 body {
   background: $background;
-  color: $text-color;
+  color: $font-color;
   font-family: $font-family;
   font-size: $font-size;
-  letter-spacing: 0.075em;
-  line-height: 1.4em;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
   margin: 0;
 
-  // モバイルの場合は文字を大きく
   @include media-mobile {
     font-size: $font-size-mobile;
+  }
+
+  ::selection {
+    background-color: $selection-background;
+    color: $font-color-selection;
   }
 }
