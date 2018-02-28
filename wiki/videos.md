@@ -15,7 +15,7 @@ date:
 [[Minetest]MOD紹介[額縁MOD]内装の第4回](https://www.youtube.com/watch?v=j_v7NrTYenU)
 [ノートPCで録画[Minetest]テスト動画](https://www.youtube.com/watch?v=CFNI8R16qKA)
 [[Minetest]MOD紹介[シャッターMOD]内装の第3回](https://www.youtube.com/watch?v=W_VrIL_Qdmg)
-[([Minetest]MOD紹介[時計MOD]内装の第2回](https://www.youtube.com/watch?v=HA66agPuz0c)
+[[Minetest]MOD紹介[時計MOD]内装の第2回](https://www.youtube.com/watch?v=HA66agPuz0c)
 [[Minetest]MOD紹介[煙突MOD]内装の第1回](https://www.youtube.com/watch?v=3v8v2mYMX2w)
 [[Minetest]MOD紹介[mywoodslopes]と建築(家)](https://www.youtube.com/watch?v=k_ZuBYeFXZQ)
 [[Minetest] MOD紹介 [Door2MOD] 速報版](https://www.youtube.com/watch?v=b61-QLpZbh0)
