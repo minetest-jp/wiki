@@ -64,11 +64,9 @@
 [公式Wiki](http://wiki.minetest.net/Main_Page/ja)  
 [開発Wiki](http://dev.minetest.net/Main_Page/ja)  
 [サーバ一覧](http://servers.minetest.net)  
-[Github](https://github.com/minetest)
+[Github](https://github.com/minetest)  
+[Weblate](https://hosted.weblate.org/projects/minetest/minetest/ja)
 
 # 更新履歴
 
 {% include update-history.md %}
-
-Minetestの翻訳状況  
-<a href="https://hosted.weblate.org/projects/minetest/minetest/ja"><amp-img src="https://hosted.weblate.org/widgets/minetest/ja/svg-badge.svg" height="1.5em" width="6em" alt="翻訳状況"></amp-img></a>
