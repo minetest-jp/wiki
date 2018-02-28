@@ -2,11 +2,11 @@
 layout: compress
 ---
 
-<!-- サイドメニューのMarkdownを読み込み、HTMLに変換 -->
+{% comment %}サイドメニューのMarkdownを読み込み、HTMLに変換{% endcomment %}
 {% capture menu_markdown %}{% include menu.md %}{% endcapture %}
 {% assign menu = (menu_markdown | markdownify) %}
 
-<!-- SCSSを読み込み、CSSに変換 -->
+{% comment %}SCSSを読み込み、CSSに変換{% endcomment %}
 {% capture style_scss %}{% include style.scss %}{{ page.custom-style }}{% endcapture %}
 {% assign style = (style_scss | scssify) %}
 
@@ -31,11 +31,11 @@ layout: compress
   </head>
 
   <body>
-    <!-- コンテナ -->
+    {% comment %}コンテナ{% endcomment %}
     <div id="container">
-      <!-- ヘッダ -->
+      {% comment %}ヘッダ{% endcomment %}
       <header>
-        <!-- Wikiタイトル -->
+        {% comment %}Wikiタイトル{% endcomment %}
         <a href="{{ site.github.url }}">
           <amp-img
             height = "2em"
@@ -45,7 +45,7 @@ layout: compress
           </amp-img>
           {{ site.wiki.title }}
         </a>
-        <!-- モバイルメニュー表示ボタン -->
+        {% comment %}モバイルメニュー表示ボタン{% endcomment %}
         <button on="tap:sidebar.open">
           <amp-img
             height = "2em"
@@ -56,13 +56,13 @@ layout: compress
         </button>
       </header>
 
-      <!-- 左メニュー -->
+      {% comment %}左メニュー{% endcomment %}
       <nav id="menu" class="article">
         <h1 class="title">メニュー</h1>
         <div class="body">{{ menu }}</div>
       </nav>
 
-      <!-- 本文 -->
+      {% comment %}本文{% endcomment %}
       <article id="content" class="article">
         <h1 class="title">
           {{ page.title }}
@@ -80,13 +80,13 @@ layout: compress
         <div class="body">{{ content }}</div>
       </article>
 
-      <!-- フッタ -->
+      {% comment %}フッタ{% endcomment %}
       <footer>
         © {{ site.time | date: "%Y" }} <a href="https://minetest-jp.github.io">Minetest-JP Team</a>
       </footer>
     </div>
 
-    <!-- モバイルメニュー -->
+    {% comment %}モバイルメニュー{% endcomment %}
     <amp-sidebar id="sidebar" side="left" layout="nodisplay">
       <button on="tap:sidebar.close">
         <amp-img
@@ -99,7 +99,7 @@ layout: compress
       {{ menu }}
     </amp-sidebar>
 
-    <!-- コンテナの先頭にリンク -->
+    {% comment %}コンテナの先頭にリンク{% endcomment %}
     <a href="#container">
       <amp-img
         class  = "top-button"
