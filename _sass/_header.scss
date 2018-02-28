@@ -38,12 +38,11 @@ header {
   button {
     background: transparent;
     border: none;
-    float: right;
-    left: 1em;
+    left: 0.25em;
     object-fit: contain;
-    padding: 0 1em;
+    padding: 1em;
     position: absolute;
-    top: 1em;
+    top: 0;
 
     @include media-desktop {
       display: none;
