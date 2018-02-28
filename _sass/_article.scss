@@ -1,7 +1,7 @@
 // 本文
 .article {
   background: $article-background;
-  padding: 0 2em 1em 2em;
+  padding: 0 1em 1em 1em;
 
   @include media-mobile {
     // ヘッダの高さを計算
