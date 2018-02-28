@@ -3,12 +3,10 @@ title: 権限
 date:
 ---
 
-実装されている権限の一覧です。
-MinetestおよびMinetest Gameで利用できるもののみを掲載しています。
+実装されている権限の一覧です。MinetestおよびMinetest Gameで利用できるもののみを掲載しています。
 
 権限はプレイヤーの実行できる操作を管理する機能です。
 コマンド実行などの操作で要求されます。
-
 プレイヤーの権限を変更するには[grantコマンド](commands#grant)と[revokeコマンド](commands#revoke)を使用します。
 
 - toc

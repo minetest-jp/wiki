@@ -102,7 +102,7 @@ MinetestおよびMinetest Gameで利用できるもののみ掲載していま�
 
 `/teleport <プレイヤー名１> <プレイヤー名２>`
 
-プレイヤー名１で指定したプレイヤーをプレイヤー名２で指定したプレイヤーの位置にテレポートさせる。
+プレイヤー１を、プレイヤー２の位置にテレポートさせる。
 [bring権限](privileges#bring)が必要。
 
 ## setpassword
@@ -221,7 +221,7 @@ MinetestおよびMinetest Gameで利用できるもののみ掲載していま�
 
 マップ上の全てのオブジェクトとエンティティを削除する。
 ブロックは削除されない。
-時間がかかる。。
+時間がかかる。
 [server権限](privileges#server)が必要。
 
 ## auth_reload

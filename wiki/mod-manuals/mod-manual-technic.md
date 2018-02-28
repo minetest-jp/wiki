@@ -4,7 +4,6 @@ date:
 ---
 
 工業Mod「Technic」の解説ページです。
-作成: ういんどさん
 
 - toc
 {:toc}

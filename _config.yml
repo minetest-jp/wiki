@@ -57,10 +57,6 @@ kramdown:
   # Markdownの書式
   # Githubスタイルの書式を設定
   input: "GFM"
-  # 改行するために空行を入れなくても良いようにする
-  gfm_quirks: "paragraph_end"
-  # Markdownの改行を<br>に変換する
-  hard_wrap: true
   # HTMLコードをそのまま出力
   html_to_native: true
   # "#"を<h2>相当にする

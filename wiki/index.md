@@ -26,7 +26,8 @@ custom-head: >-
 </div>
 
 **Minetest JP Wikiへようこそ。**
-このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。旧Wikiはこちらからアクセスできます: [minetest.wiki.fc2.com](http://minetest.wiki.fc2.com/)
+このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。  
+旧Wikiはこちらからアクセスできます: [minetest.wiki.fc2.com](http://minetest.wiki.fc2.com/)
 {:class="center"}
 
 **お知らせ: (2017/12/2) WikiをGithub Pagesに移行しました。**
@@ -36,5 +37,8 @@ custom-head: >-
 {:class="center"}
 
 # Minetestとは？
-[Minetest](http://www.minetest.net)は[Minecraft](https://minecraft.net)風のサンドボックス系フリーゲームです。ブロックで建築したり、洞窟を探検したり、作物を育てたりと、広い世界で自由に遊ぶことができます。
-また、MinetestはModに対応しています。Modにはブロックを追加するものからワールド全体を変えるものまで、様々なものがあります。その他の拡張要素として、テクスチャパックとサブゲームがあります。
+[Minetest](http://www.minetest.net)は[Minecraft](https://minecraft.net)風のサンドボックス系フリーゲームです。
+ブロックで建築したり、洞窟を探検したり、作物を育てたりと、広い世界で自由に遊ぶことができます。
+また、MinetestはModに対応しています。
+Modにはブロックを追加するものからワールド全体を変えるものまで、様々なものがあります。
+その他の拡張要素として、テクスチャパックとサブゲームがあります。

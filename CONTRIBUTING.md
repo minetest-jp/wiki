@@ -24,9 +24,6 @@ Forkしたリポジトリからpull requestを行ってください。
 
 ただし、以下のような違いがあります。
 
-- Markdownの改行はHTMLの改行コード(`<br />`)に変換されます。
-  - GithubのMarkdownと違い、空白行を入れなくても改行可能です。
-  - (そのためGithub上では正しく表示されない場合があります)
 - Markdown要素内にHTMLコードを書いても適用されます。
   - 例えば、コードブロック(\`\`\`~\`\`\`)内に書いた場合もHTMLコードとして認識されます。
 
@@ -84,7 +81,7 @@ description: "hogehogeを追加するMod。"
 # フォーラムへのリンクやダウンロードリンクなど。
 links:
   -
-    text: "フォーラム"
+    text: "フォーラム"
     url:  "https://forum.minetest.net"
   -
     text: "ダウンロード"
@@ -94,17 +91,17 @@ links:
 depends:
   -
     text: "TU-KA Mod"
-    url:  "mods-decor#tu_ka" # もちろんWiki内へのリンクも使用可能です。
-  -
+    url:  "mods-decor#tu_ka" # もちろんWiki内へのリンクも使用可能です。
+  -
     text: "FooBarMod"
     url:  "https://forum.minetest.net"
 
 # 連携可能/対応Modリスト (Modのみ使用可能)
 depends_optional:
   -
-    text: "Piyopiyo Mod"
-    url:  "mods-decor#piyopiyo"
-  -
+    text: "Piyopiyo Mod"
+    url:  "mods-decor#piyopiyo"
+  -
     text: "42"
     url:  "https://forum.minetest.net"
 ```
