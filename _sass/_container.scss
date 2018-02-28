@@ -17,7 +17,7 @@
     // ~ IE11
     margin: 0 auto;
     min-height: 100vh;
-    width: 80vw;
+    width: $container-width;
 
     header {
       border-bottom: $border-default;

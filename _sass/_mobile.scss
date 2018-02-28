@@ -4,7 +4,7 @@ amp-sidebar {
   color: $mobile-menu-text-color;
   padding: 1em;
   text-align: center;
-  width: 75vw;
+  width: $mobile-menu-width;
 
   a {
     &:link,
@@ -38,7 +38,7 @@ amp-sidebar {
 }
 
 .top-button {
-  opacity: 0.75;
+  opacity: $top-button-opacity;
   position: fixed;
   right: 1em;
   bottom: 1em;

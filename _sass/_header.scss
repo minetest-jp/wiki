@@ -3,8 +3,8 @@ header {
   background: $header-background;
   box-sizing: border-box;
   font-weight: bold;
-  height: 3em;
-  line-height: 3em;
+  height: $header-height;
+  line-height: $header-height;
 
   @include media-desktop {
     padding: 0 1em;

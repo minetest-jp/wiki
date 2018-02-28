@@ -26,9 +26,11 @@ $selection-font-color: #fff;
 
 // コンテナ
 $container-box-shadow: 0 0 10px 0 #ddd;
+$container-width: 80vw;
 
 // ヘッダ
 $header-background: #f2f2f2;
+$header-height: 3em;
 $header-link-color: #694;
 $header-mobile-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
 $header-img-vertical-adjustment: -.4em;
@@ -57,9 +59,15 @@ $footer-text-color: #fff;
 // モバイルメニュー
 $mobile-menu-background: #555;
 $mobile-menu-text-color: #fff;
+$mobile-menu-width: 70vw;
+
+// トップに戻るボタン
+$top-button-opacity: 0.75;
 
 // Modなどのスクリーンショット
 $screenshot-background: #eee;
+$screenshot-max-height: 250px;
+$screenshot-max-width: 500px;
 
 // ----- インポート ----- //
 
