@@ -1,6 +1,6 @@
 ---
 title: ダウンロード
-date: 2018-03-01
+date: 2018-3-1
 custom-style: >-
   .red {color: #FF0000}
 ---
