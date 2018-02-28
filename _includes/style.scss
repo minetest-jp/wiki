@@ -14,11 +14,15 @@
 $border-default: 1px solid #ccc;
 
 // 基本設定
-$background:       url({{ site.github.url }}/images/background.png);
-$font-family:      "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
-$font-size:        18px;
+$background: url({{ site.github.url }}/images/background.png);
+$font-color: #444;
+$font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
+$font-size: 18px;
 $font-size-mobile: 19px;
-$text-color:       #444;
+$letter-spacing: 0.075em;
+$line-height: 1.4em;
+$selection-background: #659b4b;
+$selection-font-color: #fff;
 
 // コンテナ
 $container-box-shadow: 0 0 10px 0 #ddd;
