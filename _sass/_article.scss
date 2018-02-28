@@ -4,7 +4,9 @@
   padding: 0 1em 1em 1em;
 
   @include media-mobile {
-    $top-padding: calc($header-height - $font-size-mobile);
+    $line-height: ($font-size * 20 / 14);
+    $line-height-mobile: ($line-height * 1.1);
+    $top-padding: ($line-height-mobile * 3 - $font-size-mobile);
 
     padding-top: $top-padding;
 
