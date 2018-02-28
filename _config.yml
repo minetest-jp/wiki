@@ -28,7 +28,7 @@ source: "wiki"
 # Markdownパーサ
 markdown: "kramdown"
 # Jekyllから除外するファイル
-exclude: ["README.md", "CONTRIBUTING.md", "images/license.txt"]
+exclude: ["README.md", "CONTRIBUTING.md", "images/LICENSE.txt"]
 
 ### ページのデフォルト設定 ###
 
