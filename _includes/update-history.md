@@ -7,14 +7,11 @@ Markdownの作成
 {% endcomment %}
 {% capture list %}
   {% comment %}
-  全てのページのリストを更新日時でソート
+  全てのページのリストを更新日時でソートし逆順にする
   {% endcomment %}
-  {% assign sorted_pages = (site.pages | sort: "date") %}
+  {% assign sorted_pages = (site.pages | sort: "date" | reverse) %}
 
-  {% comment %}
-  逆順(新しいものから)でFor実行
-  {% endcomment %}
-  {% for page in sorted_pages reversed %}
+  {% for page in sorted_pages limit: 10 %}
     {% comment %}
     更新日時未記入の場合スキップ
     {% endcomment %}
