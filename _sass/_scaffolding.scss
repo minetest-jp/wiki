@@ -24,12 +24,12 @@ body {
     color: $code-color;
     font-family: $code-font-family;
     overflow: auto;
-    padding: $code-padding;
     word-break: break-all;
     word-wrap: break-word;
   }
 
   pre code {
     display: block;
+    padding: $pre-code-padding;
   }
 }
