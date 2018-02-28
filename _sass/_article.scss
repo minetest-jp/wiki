@@ -4,11 +4,8 @@
   padding: 0 1em 1em 1em;
 
   @include media-mobile {
-    $line-height: ($font-size * 20 / 14);
-    $line-height-mobile: ($line-height * 1.1);
-    $top-padding: ($line-height-mobile * 3 - $font-size-mobile);
-
-    padding-top: $top-padding;
+    $top-padding: calc(#{$header-height} - #{$font-size-mobile});
+    $top-padding-minus: calc(#{$top-padding} * -1);
 
     h1[id]::before,
     h2[id]::before,
@@ -19,7 +16,7 @@
       content: "";
       display: block;
       height: $top-padding;
-      margin: -$top-padding 0 0;
+      margin-top: $top-padding-minus;
     }
   }
 

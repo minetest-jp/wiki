@@ -67,5 +67,9 @@
     #menu {
       display: none;
     }
+
+    #content {
+      padding-top: calc(#{$header-height} - #{$font-size-mobile} + #{$container-padding-top-mobile});
+    }
   }
 }
