@@ -36,11 +36,15 @@ header {
   }
 
   button {
+    // (ヘッダーサイズ - アイコンサイズ) / 2
+    // TODO: アイコンサイズを変数にする
+    $padding: calc(calc(#{$header-height} - 2em) / 2)
+
     background: transparent;
     border: none;
     left: 0;
     object-fit: contain;
-    padding: 1em;
+    padding: $padding;
     position: absolute;
     top: 0;
 
