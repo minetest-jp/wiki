@@ -38,7 +38,7 @@ header {
   button {
     // (ヘッダーサイズ - アイコンサイズ) / 2
     // TODO: アイコンサイズを変数にする
-    $padding: calc(calc(#{$header-height} - 2em) / 2)
+    $padding: calc(calc(#{$header-height} - 2em) / 2);
 
     background: transparent;
     border: none;
