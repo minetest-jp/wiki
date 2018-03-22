@@ -36,17 +36,16 @@ header {
   }
 
   button {
-    // (ヘッダーサイズ - アイコンサイズ) / 2
-    // TODO: アイコンサイズを変数にする
-    $padding: calc(calc(#{$header-height} - 2em) / 2);
-
     background: transparent;
     border: none;
+    display: block;
+    font-size: inherit;
+    height: $header-height;
     left: 0;
     object-fit: contain;
-    padding: $padding;
     position: absolute;
     top: 0;
+    width: $header-height;
 
     @include media-desktop {
       display: none;
