@@ -24,14 +24,6 @@ $line-height: 1.4em;
 $selection-background: #659b4b;
 $selection-font-color: #fff;
 
-// <code>
-$code-background: #f5f5f5;
-$code-border: 1px solid #ccc;
-$code-border-radius: 4px;
-$code-color: #333;
-$code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-$pre-code-padding: 9.5px;
-
 // コンテナ
 $container-box-shadow: 0 0 10px 0 #ddd;
 $container-padding-top-mobile: 1em;
@@ -60,6 +52,14 @@ $article-h5-border-bottom: none;
 $article-h5-font-size: 1em;
 $article-h6-border-bottom: none;
 $article-h6-font-size: 1em;
+
+// 本文 - ソースコード
+$article-code-background: #f5f5f5;
+$article-code-border: 1px solid #ccc;
+$article-code-border-radius: 4px;
+$article-code-color: #333;
+$article-code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+$article-pre-code-padding: 9.5px;
 
 // フッタ
 $footer-background: #333;

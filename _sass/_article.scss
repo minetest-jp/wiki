@@ -107,5 +107,21 @@
         padding: 0.5em;
       }
     }
+
+    code {
+      background: $article-code-background;
+      border: $article-code-border;
+      border-radius: $article-code-border-radius;
+      color: $article-code-color;
+      font-family: $article-code-font-family;
+      overflow: auto;
+      word-break: break-all;
+      word-wrap: break-word;
+    }
+
+    pre code {
+      display: block;
+      padding: $article-pre-code-padding;
+    }
   }
 }
