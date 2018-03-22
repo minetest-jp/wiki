@@ -13,6 +13,9 @@ wiki:
   title: "Minetest JP Wiki"
   # 画像フォルダのパス
   images_dir: "images"
+  # テーマカラー
+  # モバイル版Chromeのタブ色に使用される
+  theme_color: "#f2f2f2"
 
 ### レイアウト関連 ###
 
