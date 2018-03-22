@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><style>.a{fill:#444;}</style><path d="M0 1h16v3h-16v-3z" class="a"/><path d="M0 6h16v3h-16v-3z" class="a"/><path d="M0 11h16v3h-16v-3z" class="a"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<g>
+<title>background</title>
+<rect x="-1" y="-1" width="582" height="402" fill="none"/>
+</g>
+<g>
+<title>Layer 1</title>
+<path d="m4 10h24c1.104 0 2-0.896 2-2s-0.896-2-2-2h-24c-1.104 0-2 0.896-2 2s0.896 2 2 2zm24 4h-24c-1.104 0-2 0.896-2 2s0.896 2 2 2h24c1.104 0 2-0.896 2-2s-0.896-2-2-2zm0 8h-24c-1.104 0-2 0.896-2 2s0.896 2 2 2h24c1.104 0 2-0.896 2-2s-0.896-2-2-2z" fill="#609040"/>
+</g>
+</svg>
