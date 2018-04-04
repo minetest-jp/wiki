@@ -1,69 +1,14 @@
 {% comment %}
-引数: なし
+  引数:
+    limit: 表示する日付数
 {% endcomment %}
 
-{% comment %}
-Markdownの作成
-{% endcomment %}
-{% capture list %}
-  {% comment %}
-  全てのページのリストを更新日時でソートし逆順にする
-  {% endcomment %}
-  {% assign sorted_pages = (site.pages | sort: "date" | reverse) %}
-
-  {% for page in sorted_pages limit: 10 %}
-    {% comment %}
-    更新日時未記入の場合スキップ
-    {% endcomment %}
-    {% if page.date == null %}
-      {% continue %}
-    {% endif %}
-
-    {% comment %}
-    日付を書式化
-    {% endcomment %}
-    {% assign date = (page.date | date: "%Y-%m-%d") %}
-
-    {% comment %}
-    日付がループ前のものと一致しない場合
-    {% endcomment %}
-    {% if date != current_date %}
-      {% comment %}
-      split用文字
-      {% endcomment %}
-      {% if current_date %}\\{% endif %}
-
-      {% comment %}
-      日付見出し
-      {% endcomment %}
-      **{{ date }}**
-
-      {% comment %}
-      変数のスコープが切れないことを利用
-      {% endcomment %}
-      {% assign current_date = date %}
-    {% endif %}
-
-    {% comment %}
-    改行
-    {% endcomment %}
-    <br>
-
-    {% comment %}
-    リンクの挿入
-    {% endcomment %}
-    [{{ page.title }}]({{ site.github.url }}/{{ page.url }})
+{% assign groups = site.pages | where_exp: "item", "item.date != null" | group_by: "date" | sort: "name" | reverse %}
+{% for group in groups limit: include.limit %}
+<p>
+  <strong>{{ group.name | date: "%Y-%m-%d" }}</strong>
+  {% for item in group.items %}
+    <br><a href="{{ site.github.url }}/{{ item.url }}">{{ item.title }}</a>
   {% endfor %}
-{% endcapture %}
-
-{% comment %}
-"\\"で区切ったリスト
-{% endcomment %}
-{% assign lines = (list | split: "\\") %}
-{% for line in lines %}
-{% comment %}
-改行、空白を取り除いて表示
-Markdownはインデント不可
-{% endcomment %}
-{{ line | strip_newlines | strip }}
+</p>
 {% endfor %}

@@ -69,4 +69,6 @@
 
 # 更新履歴
 
-{% include update-history.md %}
+{% include update-history.md
+  limit = 10
+%}
