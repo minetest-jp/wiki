@@ -1,10 +1,11 @@
 {% comment %}
-  引数:
-    data_list: データ
+引数: なし (assignされたdata変数を参照)
 {% endcomment %}
 
+{% comment %}
+空のリストを作成
+{% endcomment %}
 {% assign details = "" | split: "|" %}
-{% assign data = include.data_list %}
 
 {% comment %}
 リンク
