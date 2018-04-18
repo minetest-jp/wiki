@@ -6,6 +6,8 @@ body {
   font-size: $font-size;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
+
+  font-feature-settings: "palt";
   margin: 0;
 
   @include media-mobile {
