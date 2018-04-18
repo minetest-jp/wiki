@@ -26,8 +26,9 @@ $selection-font-color: #fff;
 
 // コンテナ
 $container-box-shadow: 0 0 10px 0 #ddd;
+$container-columns: 30% 70%;
 $container-padding-top-mobile: 1em;
-$container-width: 80vw;
+$container-max-width: 1024px;
 
 // ヘッダ
 $header-background: #f2f2f2;

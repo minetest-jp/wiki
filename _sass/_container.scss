@@ -8,16 +8,16 @@
     box-shadow: $container-box-shadow;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: $container-columns;
     grid-template-rows: auto 1fr auto;
     // IE11 ~
     display: -ms-grid;
-    -ms-grid-columns: auto 1fr;
+    -ms-grid-columns: $container-columns;
     -ms-grid-rows: auto 1fr auto;
     // ~ IE11
     margin: 0 auto;
     min-height: 100vh;
-    width: $container-width;
+    max-width: $container-max-width;
 
     header {
       border-bottom: $border-default;
