@@ -1,3 +1,8 @@
+title: "Minetest JP Wiki"
+description: "Minetestの非公式Wikiです。Modの情報や掲示板があります。"
+google_site_verification: "SzmyhmFa1r6eafWLqLct1hOKj-Awxn0JH8r0U4PUCyc"
+lang: "ja_JP"
+
 ### Minetest関連 ###
 
 # Wiki内で使用
@@ -10,6 +15,7 @@ minetest:
 
 wiki:
   # Wikiのタイトル
+  # TODO: site.titleを使用する
   title: "Minetest JP Wiki"
   # 画像フォルダのパス
   images_dir: "images"
@@ -65,8 +71,9 @@ kramdown:
   # "#"を<h2>相当にする
   header_offset: 1
 
-### gem ###
+### プラグイン ###
 
-gems:
+plugins:
+  - "jekyll-seo-tag"
   # サイトマップ生成
-  - jekyll-sitemap
+  - "jekyll-sitemap"
