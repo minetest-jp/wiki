@@ -1,13 +1,13 @@
 ---
 title: ダウンロード
-date: 2018-3-1
+date: 2018-4-18
 custom-style: >-
   .red {color: #FF0000}
 ---
 {% comment %}短縮{% endcomment %}
 {% assign version = site.minetest.latest_version %}
 
-Minetestの最新バージョン({{ version }})をダウンロードできます。
+このページでは、Minetestの最新バージョン({{ version }})をダウンロードできます。
 
 - toc
 {:toc}
@@ -17,6 +17,8 @@ Minetestの最新バージョン({{ version }})をダウンロードできます
 [64bit版](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win64.zip)  
 [32bit版 (MinGW)](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32-mingw.zip)  
 [32bit版 (MSVC)](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32-msvc.zip)
+
+MinGW版とMSVC版はどちらを選択しても問題ありません。(コンパイラが異なります)
 
 # macOS
 
@@ -43,7 +45,7 @@ Git･デイリービルド
 
 # Android
 
-注意: 海賊版がGoogle Playに出回っているようです。
+注意: Minetestの海賊版がGoogle Playに出回っているようです。
 {: class="red"}
 
 [Google Play](https://play.google.com/store/apps/details?id=net.minetest.minetest)  

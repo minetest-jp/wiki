@@ -1,14 +1,7 @@
 ---
 title: トップページ
-date: 2017-12-2
+date: 2018-4-18
 custom-style: >-
-  .center {
-    text-align: center;
-  }
-  .news {
-    color: #fff;
-    background-color: #808080;
-  }
   .carousel {
     margin: auto;
     max-width: 500px;
@@ -25,20 +18,22 @@ custom-head: >-
   </amp-carousel>
 </div>
 
-**Minetest JP Wikiへようこそ。**
+# このサイトについて
+
 このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。  
 旧Wikiはこちらからアクセスできます: [minetest.wiki.fc2.com](http://minetest.wiki.fc2.com/)
-{:class="center"}
-
-**お知らせ: (2017/12/2) WikiをGithub Pagesに移行しました。**
-{:class="center news"}
-
-現在の最新バージョンは{{ site.minetest.latest_version }}です。アップデートの内容は[アップデート情報](changelog)をご覧ください。
-{:class="center"}
 
 # Minetestとは？
-[Minetest](http://www.minetest.net)は[Minecraft](https://minecraft.net)風のサンドボックス系フリーゲームです。
-ブロックで建築したり、洞窟を探検したり、作物を育てたりと、広い世界で自由に遊ぶことができます。
-また、MinetestはModに対応しています。
-Modにはブロックを追加するものからワールド全体を変えるものまで、様々なものがあります。
-その他の拡張要素として、テクスチャパックとサブゲームがあります。
+
+[Minetest](http://www.minetest.net)は、InfiniMinerや[Minecraft](https://minecraft.net)に似たフリーゲームです。
+ソースコードは[GitHub](https://github.com/minetest/minetest)にあり、LGPLライセンスのもとで公開されています。
+
+Minetestは厳密にはゲームエンジンであり、Minetest Gameと呼ばれるゲームが同梱されています。
+Minetest Gameでは、ブロックで建築したり、洞窟を探検したり、作物を育てたりできます。
+公式フォーラムではMinetest Game以外のゲームも配布されています。
+
+MinetestはModとテクスチャパックに対応しています。
+Modにはブロックを追加するものからワールド全体を変えるものまで様々です。
+このWikiのModリストや、公式フォーラムから探してみましょう。
+
+現在のMinetestのバージョンは{{ site.minetest.latest_version }}です。アップデートの内容は[アップデート情報](changelog)をご覧ください。
