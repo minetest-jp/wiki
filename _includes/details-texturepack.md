@@ -10,17 +10,21 @@
 {% comment %}
 リンク
 {% endcomment %}
-{% capture link_list %}
-  {% for link_data in data.links %}
-    {% if forloop.first != true %}/{% endif %}
-    <a href="{{ link_data.url }}">{{ link_data.text }}</a>
-  {% endfor %}
-{% endcapture %}
+{% if data.links %}
+  {% capture link_list %}
+    <nav>
+      {% for link_data in data.links %}
+        {% if forloop.first != true %}/{% endif %}
+        <a href="{{ link_data.url }}">{{ link_data.text }}</a>
+      {% endfor %}
+    </nav>
+  {% endcapture %}
 
-{% assign links = "" | split: "|" %}
-{% assign links = links | push: "リンク" %}
-{% assign links = links | push: link_list %}
-{% assign details = details | push: links %}
+  {% assign links = "" | split: "|" %}
+  {% assign links = links | push: "リンク" %}
+  {% assign links = links | push: link_list %}
+  {% assign details = details | push: links %}
+{% endif %}
 
 {% comment %}
 製作者

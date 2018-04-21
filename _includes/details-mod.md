@@ -10,17 +10,21 @@
 {% comment %}
 リンク
 {% endcomment %}
-{% capture link_list %}
-  {% for link_data in data.links %}
-    {% if forloop.first != true %}/{% endif %}
-    <a href="{{ link_data.url }}">{{ link_data.text }}</a>
-  {% endfor %}
-{% endcapture %}
+{% if data.links %}
+  {% capture link_list %}
+    <nav>
+      {% for link_data in data.links %}
+        {% if forloop.first != true %}/{% endif %}
+        <a href="{{ link_data.url }}">{{ link_data.text }}</a>
+      {% endfor %}
+    </nav>
+  {% endcapture %}
 
-{% assign links = "" | split: "|" %}
-{% assign links = links | push: "リンク" %}
-{% assign links = links | push: link_list %}
-{% assign details = details | push: links %}
+  {% assign links = "" | split: "|" %}
+  {% assign links = links | push: "リンク" %}
+  {% assign links = links | push: link_list %}
+  {% assign details = details | push: links %}
+{% endif %}
 
 {% comment %}
 開発者
@@ -43,13 +47,15 @@
 {% endcomment %}
 {% if data.depends %}
   {% capture depend_list %}
-    {% for depend in data.depends %}
-      {% if depend.url %}
-        <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
-      {% else %}
-        {{ depend.text }}{% if forloop.last != true %},{% endif %}
-      {% endif %}
-    {% endfor %}
+    <nav>
+      {% for depend in data.depends %}
+        {% if depend.url %}
+          <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
+        {% else %}
+          {{ depend.text }}{% if forloop.last != true %},{% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
   {% endcapture %}
 
   {% assign depends = "" | split: "|" %}
@@ -63,13 +69,15 @@
 {% endcomment %}
 {% if data.depends-optional %}
   {% capture optionally_depend_list %}
-    {% for depend in data.depends-optional %}
-      {% if depend.url %}
-        <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
-      {% else %}
-        {{ depend.text }}{% if forloop.last != true %},{% endif %}
-      {% endif %}
-    {% endfor %}
+    <nav>
+      {% for depend in data.depends-optional %}
+        {% if depend.url %}
+          <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
+        {% else %}
+          {{ depend.text }}{% if forloop.last != true %},{% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
   {% endcapture %}
 
   {% assign depends_optional = "" | split: "|" %}
