@@ -12,12 +12,10 @@
 {% endcomment %}
 {% if data.links %}
   {% capture link_list %}
-    <nav>
-      {% for link_data in data.links %}
-        {% if forloop.first != true %}/{% endif %}
-        <a href="{{ link_data.url }}">{{ link_data.text }}</a>
-      {% endfor %}
-    </nav>
+    {% for link_data in data.links %}
+      {% if forloop.first != true %}/{% endif %}
+      <a href="{{ link_data.url }}">{{ link_data.text }}</a>
+    {% endfor %}
   {% endcapture %}
 
   {% assign links = "" | split: "|" %}
@@ -47,15 +45,13 @@
 {% endcomment %}
 {% if data.depends %}
   {% capture depend_list %}
-    <nav>
-      {% for depend in data.depends %}
-        {% if depend.url %}
-          <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
-        {% else %}
-          {{ depend.text }}{% if forloop.last != true %},{% endif %}
-        {% endif %}
-      {% endfor %}
-    </nav>
+    {% for depend in data.depends %}
+      {% if depend.url %}
+        <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
+      {% else %}
+        {{ depend.text }}{% if forloop.last != true %},{% endif %}
+      {% endif %}
+    {% endfor %}
   {% endcapture %}
 
   {% assign depends = "" | split: "|" %}
@@ -69,15 +65,13 @@
 {% endcomment %}
 {% if data.depends-optional %}
   {% capture optionally_depend_list %}
-    <nav>
-      {% for depend in data.depends-optional %}
-        {% if depend.url %}
-          <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
-        {% else %}
-          {{ depend.text }}{% if forloop.last != true %},{% endif %}
-        {% endif %}
-      {% endfor %}
-    </nav>
+    {% for depend in data.depends-optional %}
+      {% if depend.url %}
+        <a href="{{ depend.url }}">{{ depend.text }}</a>{% if forloop.last != true %},{% endif %}
+      {% else %}
+        {{ depend.text }}{% if forloop.last != true %},{% endif %}
+      {% endif %}
+    {% endfor %}
   {% endcapture %}
 
   {% assign depends_optional = "" | split: "|" %}
