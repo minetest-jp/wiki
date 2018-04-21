@@ -114,6 +114,8 @@
       border-radius: $article-code-border-radius;
       color: $article-code-color;
       font-family: $article-code-font-family;
+
+      line-height: initial;
       overflow: auto;
       word-break: break-all;
       word-wrap: break-word;
