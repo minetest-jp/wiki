@@ -2,6 +2,9 @@ title: "Minetest JP Wiki"
 description: "Minetestの非公式Wikiです。Modの情報や掲示板があります。"
 google_site_verification: "SzmyhmFa1r6eafWLqLct1hOKj-Awxn0JH8r0U4PUCyc"
 lang: "ja_JP"
+logo: "images/icon.png"
+author: "Minetest-JP Team"
+publisher: "Minetest-JP Team"
 
 ### Minetest関連 ###
 
@@ -52,6 +55,14 @@ defaults:
       # ページのURL
       # Markdown名をそのまま使用
       permalink: ":basename"
+      # SEO対策
+      seo:
+        type: "WebSite"
+      # 構造化データ用の画像(アイコンを指定)
+      image:
+        path: "images/icon.png"
+        width: 600
+        height: 603
 
 ### SASS(SCSS)設定 ###
 
