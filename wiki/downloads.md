@@ -15,10 +15,7 @@ custom-style: >-
 # Windows
 
 [64bit版](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win64.zip)  
-[32bit版 (MinGW)](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32-mingw.zip)  
-[32bit版 (MSVC)](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32-msvc.zip)
-
-MinGW版とMSVC版はどちらを選択しても問題ありません。(コンパイラが異なります)
+[32bit版](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32.zip)
 
 # macOS
 

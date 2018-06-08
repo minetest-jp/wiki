@@ -12,7 +12,7 @@ publisher: "Minetest-JP Team"
 minetest:
   # Minetestの最新バージョン
   # Windowsのダウンロードリンクもこれに依存します
-  latest_version: "0.4.16"
+  latest_version: "0.4.17"
 
 ### Wiki設定 ###
 
