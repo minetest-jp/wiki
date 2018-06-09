@@ -8,6 +8,22 @@
 {% assign details = "" | split: "|" %}
 
 {% comment %}
+開発者
+{% endcomment %}
+{% assign author = "" | split: "|" %}
+{% assign author = author | push: "開発者" %}
+{% assign author = author | push: data.author %}
+{% assign details = details | push: author %}
+
+{% comment %}
+説明
+{% endcomment %}
+{% assign description = "" | split: "|" %}
+{% assign description = description | push: "説明" %}
+{% assign description = description | push: data.description %}
+{% assign details = details | push: description %}
+
+{% comment %}
 リンク
 {% endcomment %}
 {% if data.links %}
@@ -23,22 +39,6 @@
   {% assign links = links | push: link_list %}
   {% assign details = details | push: links %}
 {% endif %}
-
-{% comment %}
-開発者
-{% endcomment %}
-{% assign author = "" | split: "|" %}
-{% assign author = author | push: "開発者" %}
-{% assign author = author | push: data.author %}
-{% assign details = details | push: author %}
-
-{% comment %}
-説明
-{% endcomment %}
-{% assign description = "" | split: "|" %}
-{% assign description = description | push: "説明" %}
-{% assign description = description | push: data.description %}
-{% assign details = details | push: description %}
 
 {% comment %}
 テンプレートをインクルード

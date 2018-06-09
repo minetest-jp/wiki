@@ -1,0 +1,17 @@
+#markdown-toc {
+  background: $toc-background;
+  border: $toc-border;
+  border-radius: $toc-border-radius;
+  display: inline-block;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+
+  &::before {
+    content: "目次";
+    display: block;
+    font-weight: bold;
+    margin-left: calc(1em - 40px);
+    padding-bottom: 0.5em;
+  }
+}

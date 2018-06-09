@@ -3,8 +3,6 @@ amp-sidebar {
   background: $mobile-menu-background;
   color: $mobile-menu-text-color;
   padding: 1em;
-  text-align: center;
-  width: $mobile-menu-width;
 
   a {
     &:link,
@@ -19,12 +17,7 @@ amp-sidebar {
   button {
     background: transparent;
     border: none;
-    display: block;
-    left: 0;
     object-fit: contain;
-    padding: 1em;
-    position: absolute;
-    top: 0;
   }
 
   h1,

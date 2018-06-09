@@ -1,10 +1,10 @@
 // スクリーンショット
 .screenshot {
-  background: $screenshot-background;
   max-height: $screenshot-max-height;
   max-width: $screenshot-max-width;
 
   img {
     object-fit: contain;
+    object-position: 0%;
   }
 }

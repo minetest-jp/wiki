@@ -125,5 +125,11 @@
       display: block;
       padding: $article-pre-code-padding;
     }
+
+    dl {
+      dt {
+        font-style: normal;
+      }
+    }
   }
 }
