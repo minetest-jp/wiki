@@ -14,8 +14,8 @@ custom-style: >-
 
 # Windows
 
-[64bit版](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win64.zip)  
-[32bit版](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32.zip)
+[64bit ({{ version }})](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win64.zip)  
+[32bit ({{ version }})](https://github.com/minetest/minetest/releases/download/{{ version }}/minetest-{{ version }}-win32.zip)
 
 # macOS
 
@@ -54,5 +54,5 @@ Git･デイリービルド
 
 # ソースコード
 
-[Minetest](https://github.com/minetest/minetest/archive/master.zip)  
-[Minetest Game](https://github.com/minetest/minetest_game/archive/master.zip)
+[Minetest (master)](https://github.com/minetest/minetest/archive/master.zip)  
+[Minetest Game (master)](https://github.com/minetest/minetest_game/archive/master.zip)
