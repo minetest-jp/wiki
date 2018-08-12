@@ -1,3 +1,5 @@
+### サイト設定 ###
+
 title: "Minetest JP Wiki"
 description: ""
 google_site_verification: "SzmyhmFa1r6eafWLqLct1hOKj-Awxn0JH8r0U4PUCyc"
@@ -6,43 +8,49 @@ logo: "images/icon.png"
 author: "Minetest-JP Team"
 publisher: "Minetest-JP Team"
 
-### Minetest関連 ###
-
-# Wiki内で使用
-minetest:
-  # Minetestの最新バージョン
-  # Windowsのダウンロードリンクもこれに依存します
-  latest_version: "0.4.17"
 
 ### Wiki設定 ###
 
+minetest:
+  # Minetestの最新バージョン
+  # Windowsのダウンロードリンクもこれに依存します
+  latest_version: "0.4.17.1"
+
 wiki:
-  # Wikiのタイトル
-  # TODO: site.titleを使用する
-  title: "Minetest JP Wiki"
   # 画像フォルダのパス
   images_dir: "images"
   # テーマカラー
   # モバイル版Chromeのタブ色に使用される
   theme_color: "#f2f2f2"
 
-### レイアウト関連 ###
-
 # デスクトップ判定
 media-desktop: "all and (min-width: 768px)"
+
 # モバイル端末判定
 media-mobile: "not all and (min-width: 768px)"
 
-### Jekyll設定 ###
 
-# ページ用Markdownのパス
-source: "wiki"
+### Jekyllの設定 ###
+
+# Jekyllから除外するファイル
+exclude: ["README.md", "CONTRIBUTING.md", "images/LICENSE.txt", "vendor"]
+
 # Markdownパーサ
 markdown: "kramdown"
-# Jekyllから除外するファイル
-exclude: ["README.md", "CONTRIBUTING.md", "images/LICENSE.txt"]
 
-### ページのデフォルト設定 ###
+kramdown:
+  # Markdownの書式はGithubスタイル
+  input: "GFM"
+  # HTMLコードをそのまま出力
+  html_to_native: true
+  # "#"を<h2>相当にする
+  header_offset: 1
+
+sass:
+  style: "compressed"
+
+compress_html:
+  comments: all
 
 defaults:
   -
@@ -64,27 +72,6 @@ defaults:
         width: 600
         height: 603
 
-### SASS(SCSS)設定 ###
-
-sass:
-  # CSS生成スタイル
-  # 圧縮する
-  style: "compressed"
-
-### Kramdownの設定 ###
-
-kramdown:
-  # Markdownの書式
-  # Githubスタイルの書式を設定
-  input: "GFM"
-  # HTMLコードをそのまま出力
-  html_to_native: true
-  # "#"を<h2>相当にする
-  header_offset: 1
-
-### プラグイン ###
-
 plugins:
   - "jekyll-seo-tag"
-  # サイトマップ生成
-  - "jekyll-sitemap"
+  - "jekyll-sitemap" # サイトマップ生成

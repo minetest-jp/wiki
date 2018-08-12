@@ -18,7 +18,7 @@ $background: url({{ site.github.url }}/images/background.png);
 $font-color: #333;
 $font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
 $font-size: 18px;
-$font-size-mobile: 16px;
+$font-size-mobile: 14px;
 $letter-spacing: 0.005em;
 $line-height: 1.5;
 $selection-background: #659b4b;
@@ -26,9 +26,9 @@ $selection-font-color: #fff;
 
 // コンテナ
 $container-box-shadow: 0 0 10px 0 #ddd;
-$container-columns: 25% 75%;
+$container-columns: 80% 20%;
 $container-padding-top-mobile: 1em;
-$container-max-width: 1024px;
+$container-max-width: 1280px;
 
 // ヘッダ
 $header-background: #f2f2f2;
@@ -37,8 +37,10 @@ $header-link-color: #694;
 $header-mobile-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
 $header-img-vertical-adjustment: -.4em;
 
-// 本文 (左メニュー含む)
+// 本文 (右メニュー含む)
 $article-background: #fff;
+$article-padding: 0 1em 1em 1em;
+$article-padding-mobile: 0 0.5em 1em 0.5em;
 $article-link-color: #588f3d;
 $article-link-color-visited: #456336;
 
@@ -71,10 +73,6 @@ $toc-border-radius: 10px;
 $footer-background: #333;
 $footer-text-color: #fff;
 
-// モバイルメニュー
-$mobile-menu-background: #555;
-$mobile-menu-text-color: #fff;
-
 // Modなどのスクリーンショット
 $screenshot-max-height: 250px;
 $screenshot-max-width: 500px;
@@ -87,7 +85,6 @@ $screenshot-max-width: 500px;
 @import "header";
 @import "article";
 @import "footer";
-@import "mobile";
 
 @import "toc";
 @import "screenshot";

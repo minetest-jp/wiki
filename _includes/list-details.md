@@ -7,47 +7,20 @@
       name: データ名
 {% endcomment %}
 
-{% comment %}
-アンカー名でソートする
-{% endcomment %}
-
-{% comment %}
-全てのアンカー名を一つの文字列にする
-{% endcomment %}
-{% capture keys %}
-  {% for data in include.list %}
-    {{ data[0] }}
-  {% endfor %}
+<!-- 全アンカー名をスペース区切りで結合 -->
+{% capture anchors %}
+{% for data in include.list %} {{ data[0] }} {% endfor %}
 {% endcapture %}
 
-{% comment %}
-アンカー名を空白で区切ってソートする
-{% endcomment %}
-{% assign sorted_keys = (keys | split: " " | sort) %}
+<!-- anchorsを空白で区切ってソート -->
+{% assign sorted-anchors = anchors | split: " " | sort %}
 
-{% comment %}
-使用するテンプレートファイル名
-{% endcomment %}
-{% capture template %}details-{{ include.type }}.md{% endcapture %}
+<!-- detailsタイプからテンプレートファイル名を作成 -->
+{% capture template-name %}details-{{ include.type }}.md{% endcapture %}
 
-{% comment %}
-ソートしたアンカーリストでFor実行
-{% endcomment %}
-{% for key in sorted_keys %}
-  {% comment %}
-  assignした変数はinclude先でも参照できる
-  アンカー名で参照
-  {% endcomment %}
-  {% assign data = include.list[key] %}
-
-  {% comment %}
-  Markdownはインデント不可
-  {% endcomment %}
-# {{ data.name }} {#{{ key }}}
-
-  {% comment %}
-  テンプレートを表示
-  同じくインデント不可
-  {% endcomment %}
-{% include {{ template }} %}
+<!-- ソートしたアンカー順でリスト展開 -->
+<!-- NOTE: Markdownはインデントできないのでforの中身はインデントなし -->
+{% for anchor in sorted-anchors %}
+# {{ include.list[anchor].name }} {#{{ anchor }}}
+{% include {{ template-name }} list=include.list key=anchor %}
 {% endfor %}

@@ -4,14 +4,14 @@ layout: compress
 
 {% comment %}サイドメニューのMarkdownを読み込み、HTMLに変換{% endcomment %}
 {% capture menu_markdown %}{% include menu.md %}{% endcapture %}
-{% assign menu = (menu_markdown | markdownify) %}
+{% assign menu = menu_markdown | markdownify %}
 
 {% comment %}SCSSを読み込み、CSSに変換{% endcomment %}
 {% capture style_scss %}{% include style.scss %}{{ page.custom-style }}{% endcapture %}
-{% assign style = (style_scss | scssify) %}
+{% assign style = style_scss | scssify %}
 
 {% comment %}アイコンのURL{% endcomment %}
-{% assign icon_url = (site.github.url | append: "/images/icon.png") %}
+{% assign icon_url = site.github.url | append: "/images/icon.png" %}
 
 {% capture amp-boilerplate %}
 body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
@@ -32,8 +32,6 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
     <link rel="apple-touch-icon" href="{{ icon_url }}">
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-
     <style amp-custom>{{ style }}</style>
     <style amp-boilerplate>{{ amp-boilerplate }}</style>
     <noscript>
@@ -48,33 +46,29 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
     {% comment %}コンテナ{% endcomment %}
     <div id="container">
       {% comment %}ヘッダ{% endcomment %}
-      <header>
+      <header class="header">
         {% comment %}Wikiタイトル{% endcomment %}
-        <a href="{{ site.github.url }}">
+        <a class="header-title" href="{{ site.github.url }}">
           <amp-img
+            class  = "header-icon"
             height = "2em"
             width  = "2em"
             alt    = ""
             src    = "{{ site.github.url }}/images/icon.svg">
           </amp-img>
-          {{ site.wiki.title }}
+          {{ site.title }}
         </a>
         {% comment %}モバイルメニュー表示ボタン{% endcomment %}
-        <button on="tap:sidebar.open">
+        <a class="header-menu" href="#footer-menu">
           <amp-img
+            class  = "header-icon"
             height = "2em"
             width  = "2em"
             alt    = "メニュー"
             src    = "{{ site.github.url }}/images/menu.svg">
           </amp-img>
-        </button>
+        </a>
       </header>
-
-      {% comment %}左メニュー{% endcomment %}
-      <nav id="menu" class="article">
-        <h1 class="title">メニュー</h1>
-        <div class="body">{{ menu }}</div>
-      </nav>
 
       {% comment %}本文{% endcomment %}
       <article id="content" class="article">
@@ -94,23 +88,17 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
         <div class="body">{{ content }}</div>
       </article>
 
+      {% comment %}右メニュー{% endcomment %}
+      <nav id="menu" class="article">
+        <h1 class="title">メニュー</h1>
+        <div class="body">{{ menu }}</div>
+      </nav>
+
       {% comment %}フッタ{% endcomment %}
       <footer>
+        <div id="footer-menu" class="menu">{{ menu }}</div>
         © {{ site.time | date: "%Y" }} <a href="https://minetest-jp.github.io">Minetest-JP Team</a>
       </footer>
     </div>
-
-    {% comment %}モバイルメニュー{% endcomment %}
-    <amp-sidebar id="sidebar" side="left" layout="nodisplay">
-      <button on="tap:sidebar.close">
-        <amp-img
-          height = "2em"
-          width  = "2em"
-          alt    = "閉じる"
-          src="{{ site.github.url }}/images/menu_close.svg">
-        </amp-img>
-      </button>
-      {{ menu }}
-    </amp-sidebar>
   </body>
 </html>

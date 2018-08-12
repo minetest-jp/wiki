@@ -20,8 +20,7 @@ custom-head: >-
 
 # このサイトについて
 
-このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。  
-旧Wikiはこちらからアクセスできます: [minetest.wiki.fc2.com](http://minetest.wiki.fc2.com/)
+このサイトは[Minetest](http://www.minetest.net)の**非公式**Wikiです。
 
 # Minetestとは？
 

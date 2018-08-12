@@ -1,7 +1,7 @@
 name:        "Minetest Mapper GUI"
 author:      "addi"
 screenshot:  "/tools-mapper/minetestmapper_gui.png"
-description: "Minetest Mapper C++のGUIフロントエンド。"
+description: "Minetest Mapper C++のGUIバージョンです。"
 platform:    "Windows"
 links:
   -

@@ -1,5 +1,5 @@
 // ヘッダ
-header {
+.header {
   background: $header-background;
   box-sizing: border-box;
   font-weight: bold;
@@ -11,44 +11,40 @@ header {
   }
 
   @include media-mobile {
-    box-shadow: $header-mobile-box-shadow;
-    position: fixed;
-    width: 100%;
     text-align: center;
-    z-index: 9999;
   }
+}
 
-  a {
-    text-decoration: none;
+.header-icon {
+  margin-top: $header-img-vertical-adjustment;
+  vertical-align: middle;
+}
 
-    &:link,
-    &:visited,
-    &:hover,
-    &:focus,
-    &:active {
-      color: $header-link-color;
-    }
+.header-title {
+  text-decoration: none;
 
-    > amp-img {
-      margin-top: $header-img-vertical-adjustment;
-      vertical-align: middle;
-    }
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: $header-link-color;
   }
+}
 
-  button {
-    background: transparent;
-    border: none;
-    display: block;
-    font-size: inherit;
-    height: $header-height;
-    left: 0;
-    object-fit: contain;
-    position: absolute;
-    top: 0;
-    width: $header-height;
+.header-menu {
+  background: transparent;
+  border: none;
+  display: block;
+  font-size: inherit;
+  height: $header-height;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: $header-height;
 
-    @include media-desktop {
-      display: none;
-    }
+  @include media-desktop {
+    display: none;
   }
 }

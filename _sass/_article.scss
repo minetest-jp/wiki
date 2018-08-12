@@ -1,9 +1,12 @@
 // 本文
 .article {
   background: $article-background;
-  padding: 0 1em 1em 1em;
+  padding: $article-padding;
+  word-break: break-word;
 
   @include media-mobile {
+    padding: $article-padding-mobile;
+
     $top-padding: calc(#{$header-height} - #{$font-size-mobile});
     $top-padding-minus: calc(#{$top-padding} * -1);
 
@@ -115,8 +118,9 @@
       color: $article-code-color;
       font-family: $article-code-font-family;
 
-      line-height: initial;
+      line-height: 2;
       overflow: auto;
+      padding: 0 0.5em;
       word-break: break-all;
       word-wrap: break-word;
     }

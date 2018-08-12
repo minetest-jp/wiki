@@ -16,4 +16,13 @@ footer {
       color: $footer-text-color;
     }
   }
+
+  
+  > div.menu {
+    display: none;
+
+    @include media-mobile {
+      display: block;
+    }
+  }
 }
