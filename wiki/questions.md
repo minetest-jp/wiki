@@ -10,17 +10,19 @@ date:
 
 **Windows**
 
-古いバージョンから以下のファイルとフォルダを移動してください。
+古いバージョンから新しいバージョンに以下のファイルとフォルダを移動してください。
 
 <dl>
   <dt>ファイル:</dt>
   <dd>minetest.conf</dd>
 
   <dt>フォルダ:</dt>
-  <dd>worlds</dd>
-  <dd>mods (Modを導入している場合)</dd>
-  <dd>textures (テクスチャパックを導入している場合)</dd>
-  <dd>games (サブゲームを導入している場合のみ移動、中のminetest_gameフォルダは移動しない)</dd>
+  <dd>
+    worlds<br>
+    mods (Modを導入している場合)<br>
+    textures (テクスチャパックを導入している場合)<br>
+    games (サブゲームを導入している場合のみ移動、中のminetest_gameフォルダは移動しない)
+  </dd>
 </dl>
 
 **その他**

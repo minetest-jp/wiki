@@ -1,0 +1,10 @@
+name: "Content database"
+author: "rubenwardy"
+description: "フォーラムにあるModのデータベースです。Web上でModを検索することができます。Minetest 0.5.0からはこのデータベースを用いたModの検索とインストール機能が標準搭載されます。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=20174"
+  -
+    text: "データベース"
+    url:  "https://content.minetest.net"

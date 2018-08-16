@@ -1,0 +1,18 @@
+name: "Minetest Mods for Android"
+author: "rubenwardy"
+screenshot: "/tools-mod-installer/minetest_mods_android.png"
+description: "Modの検索とインストール/アンインストールが可能なAndroid用のMod管理ツールです。ModのデータベースはWebからも参照できます。"
+platform: "Android"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=14280"
+  -
+    text: "データベース"
+    url:  "https://minetest-mods.rubenwardy.com"
+  -
+    text: "Google Play"
+    url:  "https://play.google.com/store/apps/details?id=com.rubenwardy.minetestmodmanager"
+  -
+    text: "F-Droid"
+    url:  "https://f-droid.org/en/packages/com.rubenwardy.minetestmodmanager"

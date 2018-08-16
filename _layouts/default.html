@@ -43,61 +43,41 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
   </head>
 
   <body>
-    {% comment %}コンテナ{% endcomment %}
-    <div id="container">
-      {% comment %}ヘッダ{% endcomment %}
-      <header class="header">
-        {% comment %}Wikiタイトル{% endcomment %}
+    <div class="container">
+      <header class="container_header header">
         <a class="header-title" href="{{ site.github.url }}">
-          <amp-img
-            class  = "header-icon"
-            height = "2em"
-            width  = "2em"
-            alt    = ""
-            src    = "{{ site.github.url }}/images/icon.svg">
+          <amp-img class="header-icon" height="2em" width="2em"
+            alt="" src="{{ site.github.url }}/images/icon.svg">
           </amp-img>
           {{ site.title }}
         </a>
-        {% comment %}モバイルメニュー表示ボタン{% endcomment %}
         <a class="header-menu" href="#footer-menu">
-          <amp-img
-            class  = "header-icon"
-            height = "2em"
-            width  = "2em"
-            alt    = "メニュー"
-            src    = "{{ site.github.url }}/images/menu.svg">
+          <amp-img class="header-icon" height="2em" width="2em"
+            alt="メニュー" src="{{ site.github.url }}/images/menu.svg">
           </amp-img>
         </a>
       </header>
 
-      {% comment %}本文{% endcomment %}
-      <article id="content" class="article">
+      <article class="container_content article">
         <h1 class="title">
           {{ page.title }}
           <a title="GitHubで編集" href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}">
-            <amp-img
-              class  = "edit"
-              height = "0.75em"
-              width  = "0.75em"
-              alt    = "編集"
-              src    = "{{ site.github.url }}/images/edit.svg"
-              media  = "{{ site.media-desktop }}">
+            <amp-img class="edit" height="0.75em" width="0.75em" media="{{ site.media-desktop }}"
+              alt="編集" src="{{ site.github.url }}/images/edit.svg">
             </amp-img>
           </a>
         </h1>
         <div class="body">{{ content }}</div>
       </article>
 
-      {% comment %}右メニュー{% endcomment %}
-      <nav id="menu" class="article">
+      <nav class="container_menu article">
         <h1 class="title">メニュー</h1>
         <div class="body">{{ menu }}</div>
       </nav>
 
-      {% comment %}フッタ{% endcomment %}
-      <footer>
+      <footer class="container_footer">
         <div id="footer-menu" class="menu">{{ menu }}</div>
-        © {{ site.time | date: "%Y" }} <a href="https://minetest-jp.github.io">Minetest-JP Team</a>
+        <span>© {{ site.time | date: "%Y" }} <a href="https://minetest-jp.github.io">Minetest-JP Team</a></span>
       </footer>
     </div>
   </body>

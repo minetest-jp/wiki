@@ -1,0 +1,11 @@
+name: "Amidst for Minetest"
+author: "DrFrankenstone"
+screenshot: "/tools-map/amidst.png"
+description: "Javaで実装されたseed値プレビューツールです。seed値から地形やバイオームのプレビューを見ることができます。"
+links:
+  -
+    text: "フォーラム"
+    url:  "https://forum.minetest.net/viewtopic.php?t=19869"
+  -
+    text: "ダウンロード"
+    url: "https://github.com/Treer/amidstest/releases"

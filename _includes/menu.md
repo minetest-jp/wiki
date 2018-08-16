@@ -49,7 +49,7 @@
 
 # ツール
 
-[マッパー](tools-mapper)  
+[マップ関連ツール](tools-map)  
 [Mod導入補助ツール](tools-mod-installer)  
 [Mod開発補助ツール](tools-mod-development)
 
