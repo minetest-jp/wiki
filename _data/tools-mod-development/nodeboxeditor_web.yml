@@ -1,0 +1,12 @@
+name: "Simplistic Web Node Box Creator"
+author: "IcyDiamond"
+screenshot: "/tools-mod-development/nodeboxeditor_web.png"
+description: "ウェブブラウザ上でNodeBoxを作成するツールです。作ったNodeBoxはLuaとしてエクスポートできます。"
+platform: "Windows / Linux"
+links:
+  -
+    text: "https://lunasqu.ee/apps/3d/nodebox"
+    url: "https://lunasqu.ee/apps/3d/nodebox"
+  -
+    text: "フォーラム"
+    url: "https://forum.minetest.net/viewtopic.php?t=19895"

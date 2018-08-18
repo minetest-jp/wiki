@@ -14,7 +14,7 @@
 $border-default: 1px solid #ccc;
 
 // 基本設定
-$background: url({{ site.github.url }}/images/background.png);
+$background: url({{ site.github.url }}/{{ site.wiki.images_dir }}/background.png);
 $font-color: #333;
 $font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
 $font-size: 18px;
@@ -31,7 +31,7 @@ $container-padding-top-mobile: 1em;
 $container-max-width: 1280px;
 
 // ヘッダ
-$header-background: #f2f2f2;
+$header-background: #fff;
 $header-height: 3em;
 $header-link-color: #694;
 $header-mobile-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);

@@ -1,12 +1,15 @@
-name:        "NodeBoxEditor"
-author:      "rubenwardy"
-screenshot:  "/tools-mod-development/nodeboxeditor.png"
-description: "NodeBox作成ツール。"
-platform:    "Windows / Linux"
+name: "NodeBoxEditor"
+author: "rubenwardy"
+screenshot: "/tools-mod-development/nodeboxeditor.png"
+description: "NodeBoxを作成するツールです。作ったNodeBoxはLuaやその他のモデル形式で保存することができます。<br>Windows以外はソースからビルドする必要があります。ビルド手順は<a href=\"https://github.com/rubenwardy/NodeBoxEditor/blob/master/docs/developers.md#building-and-installation\">こちら</a>を参照してください。"
+platform: "Windows / Linux"
 links:
   -
     text: "フォーラム"
-    url:  "https://forum.minetest.net/viewtopic.php?t=2840"
+    url: "https://forum.minetest.net/viewtopic.php?t=2840"
   -
-    text: "ダウンロード"
-    url:  "https://github.com/rubenwardy/NodeBoxEditor/releases"
+    text: "ダウンロード(Windows)"
+    url: "https://github.com/rubenwardy/NodeBoxEditor/releases/download/v0.9.0/NodeBoxEditor_0_9_0_WindowsBuild.zip"
+  -
+    text: "ダウンロード(ソースコード)"
+    url: "https://github.com/rubenwardy/NodeBoxEditor/releases"

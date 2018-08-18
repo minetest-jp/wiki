@@ -1,10 +1,10 @@
-name:        "Simple Mod Maker"
-author:      "rubenwardy"
-description: "簡単なModを作成するツール。ブラウザ上で動作する。"
+name: "Simple Mod Maker"
+author: "rubenwardy"
+description: "ウェブブラウザ上でModを作成できるツールです。ノード(ブロック)とレシピを追加するModが作成できます。<br>実装結果はLuaソースコードとして出力されます。"
 links:
   -
-    text: "フォーラム"
-    url:  "https://forum.minetest.net/viewtopic.php?t=9939"
+    text: "https://rubenwardy.com/minetest_mod_maker"
+    url: "https://rubenwardy.com/minetest_mod_maker"
   -
-    text: "開く"
-    url:  "http://rubenwardy.com/minetest_mod_maker"
+    text: "フォーラム"
+    url: "https://forum.minetest.net/viewtopic.php?t=9939"

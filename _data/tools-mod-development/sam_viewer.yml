@@ -1,0 +1,11 @@
+name: "SAM-Viewer"
+author: "stu"
+screenshot: "/tools-mod-development/sam_viewer.png"
+description: "Irrlichtで作られた3Dモデルビューワです。アニメーションの再生や他モデルのアタッチなどの機能があります。<br>手動でビルドする必要があります。ビルド手順は<a href=\"https://github.com/stujones11/SAM-Viewer#installation\">こちら</a>を参照してください。"
+links:
+  -
+    text: "フォーラム"
+    url: "https://forum.minetest.net/viewtopic.php?t=20171"
+  -
+    text: "ソースコード"
+    url: "https://github.com/stujones11/SAM-Viewer"
