@@ -1,10 +1,16 @@
-name:        "DigAll"
-author:      "Yakisoba-PanTARO"
-description: "ブロックを一括破壊するMod。範囲指定や破壊アルゴリズムの変更も可能。"
+name: DigAll
+author: tacigar
+description:
+  ブロックを一括破壊できるようにするModです。
+  <br>
+  このModの機能を利用するためにはdigall権限が必要になります。
+  コマンドに<code>/grant プレイヤー名 digall</code>を入力することで権限を付与できます。
+  <br>
+  利用できるコマンドの一覧は<code>/digall</code>コマンドで見ることができます。
 links:
   -
-    text: "解説記事"
-    url:  "http://yspn-tbx2.hatenablog.com/entry/2015/08/07/064520"
+    text: フォーラム
+    url: https://forum.minetest.net/viewtopic.php?t=18670
   -
-    text: "ダウンロード"
-    url:  "https://github.com/Yakisoba-PanTARO/digall/archive/master.zip"
+    text: ダウンロード
+    url: https://github.com/tacigar/minetest-digall/archive/master.zip

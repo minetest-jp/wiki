@@ -1,11 +1,20 @@
-name: "Minetest Realtime Tileserver"
-author: "BuckarooBanzay"
-screenshot: "/tools-map/minetest_tileserver.png"
-description: "Javaで実装されたリアルタイムのマップ画像サーバーです。Webインターフェース上でマップを見ることができます。<br><code class=\"highlighter-rouge\">java -jar tileserver.jar</code>と実行することで起動します。<br>設定ファイルの内容は<a href=\"https://github.com/thomasrudin-mt/minetest-tile-server#configuring\">https://github.com/thomasrudin-mt/minetest-tile-server#configuring</a>を参照してください。<br>実行には、Postgresqlをバックエンドにしたワールドが必要です。また、実行する前にワールドのバックアップを取ることが推奨されます。"
+name: Minetest Realtime Tileserver
+author: BuckarooBanzay
+screenshot: /tools-map/minetest_tileserver.png
+description:
+  Javaで実装されたリアルタイムのマップ画像サーバーです。
+  Webインターフェース上でマップを見ることができます。
+  <br>
+  <code>java -jar tileserver.jar</code>と実行することで起動します。
+  <br>
+  設定ファイルの内容は<a href="https://github.com/thomasrudin-mt/minetest-tile-server#configuring">https://github.com/thomasrudin-mt/minetest-tile-server#configuring</a>を参照してください。
+  <br>
+  実行には、Postgresqlをバックエンドにしたワールドが必要です。
+  また、実行する前にワールドのバックアップを取ることが推奨されます。
 links:
   -
-    text: "フォーラム"
-    url:  "https://forum.minetest.net/viewtopic.php?t=20371"
+    text: フォーラム
+    url: https://forum.minetest.net/viewtopic.php?t=20371
   -
-    text: "ダウンロード"
-    url: "https://github.com/thomasrudin-mt/minetest-tile-server/releases"
+    text: ダウンロード
+    url: https://github.com/thomasrudin-mt/minetest-tile-server/releases

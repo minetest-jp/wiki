@@ -1,10 +1,16 @@
-name: "Minetest Mapper C++"
-author: "Minetest開発チーム"
-description: "C++で実装されたワールドのマップ画像生成ツールです。コマンドライン上で利用します。<br><code class=\"highlighter-rouge\">minetestmapper(Windowsの場合はminetestmapper.exe) -i ワールドのパス -o 画像ファイル名</code>と実行することで指定したワールドのマップ画像を作成できます。<br><code class=\"highlighter-rouge\">minetestmapper --help</code>と実行するか、<a href=\"https://github.com/minetest/minetestmapper#parameters\">https://github.com/minetest/minetestmapper#parameters</a>からその他のオプションを見ることができます。"
+name: Minetest Mapper C++
+author: Minetest開発チーム
+description:
+  C++で実装されたワールドのマップ画像生成ツールです。
+  コマンドライン上で利用します。
+  <br>
+  <code>minetestmapper(Windowsの場合はminetestmapper.exe) -i ワールドのパス -o 画像ファイル名</code>と実行することで指定したワールドのマップ画像を作成できます。
+  <br>
+  <code>minetestmapper --help</code>と実行するか、<a href="https://github.com/minetest/minetestmapper#parameters">https://github.com/minetest/minetestmapper#parameters</a>からその他のオプションを見ることができます。
 links:
   -
-    text: "Github"
-    url:  "https://github.com/minetest/minetestmapper"
+    text: Github
+    url: https://github.com/minetest/minetestmapper
   -
-    text: "ダウンロード"
-    url: "https://github.com/minetest/minetestmapper/releases"
+    text: ダウンロード
+    url: https://github.com/minetest/minetestmapper/releases

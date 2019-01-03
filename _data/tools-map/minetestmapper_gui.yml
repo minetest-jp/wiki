@@ -1,15 +1,17 @@
-name: "Minetest Mapper GUI"
-author: "addi"
-screenshot: "/tools-map/minetestmapper_gui.png"
-description: "Minetest Mapper C++のGUIバージョンです。様々なオプションをGUIから変更することができます。"
-platform: "Windows"
+name: Minetest Mapper GUI
+author: addi
+platform: Windows
+screenshot: /tools-map/minetestmapper_gui.png
+description:
+  Minetest Mapper C++のGUIバージョンです。
+  様々なオプションをGUIから変更することができます。
 links:
   -
-    text: "フォーラム"
-    url:  "https://forum.minetest.net/viewtopic.php?t=12139"
+    text: フォーラム
+    url: https://forum.minetest.net/viewtopic.php?t=12139
   -
-    text: "ダウンロード (32bit)"
-    url:  "https://bitbucket.org/adrido/minetestmappergui/downloads/MinetestMapperGui_32.7z"
+    text: ダウンロード (32bit)
+    url: https://bitbucket.org/adrido/minetestmappergui/downloads/MinetestMapperGui_32.7z
   -
-    text: "ダウンロード (64bit)"
-    url:  "https://bitbucket.org/adrido/minetestmappergui/downloads/MinetestMapperGui_64.7z"
+    text: ダウンロード (64bit)
+    url: https://bitbucket.org/adrido/minetestmappergui/downloads/MinetestMapperGui_64.7z
