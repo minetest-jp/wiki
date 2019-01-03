@@ -1,8 +1,8 @@
-# コントリビュート
+# 編集
 
-コントリビュート方法及びガイドラインです。
+編集方法とガイドラインです。
 
-- [commit方法について](#commit方法について)
+- [コミットについて](#コミットについて)
 - [Markdownの構文について](#markdownの構文について)
 - [目次の追加](#目次の追加)
 - [ページ更新日について](#ページ更新日について)
@@ -12,24 +12,24 @@
 - [紹介する動画について](#紹介する動画について)
 
 
-## commit方法について
+## コミットについて
 
-Forkしたリポジトリからpull requestを行ってください。
+Forkしたリポジトリからプルリクエストを行ってください。
 
-[minetest-jp](https://github.com/minetest-jp)のメンバーであれば直接commitすることも可能です。
+[minetest-jp](https://github.com/minetest-jp)のメンバーは直接コミットしていただいても構いません。
 
 ## Markdownの構文について
 
-基本的にGithubと同じ構文が使用できます。
+基本的にGithubと同じ書式です。
 
-ただし、以下のような違いがあります。
+ただし、以下の違いがあります。
 
-- Markdown要素内にHTMLコードを書けます。
- - 例えば、Markdownのコードブロック(\`\`\`~\`\`\`)内に書いた場合もHTMLコードとして認識されます。(但し、HTMLブロック内でMarkdown構文は使用できません)
+- Markdown要素内にHTML要素を書けます。
+ - 例えば、Markdownのコードブロック(\`\`\`~\`\`\`)内にHTML要素を書いた場合もHTML要素として認識されます。(但し、HTMLブロック内でMarkdown構文は使用できません)
 
 ## 目次の追加
 
-目次を追加する場合は以下のコードを挿入してください。
+目次を追加したい場所に以下を挿入してください。
 ```
 - toc
 {:toc}
@@ -77,8 +77,8 @@ screenshot: "/mods-decor/hogehoge.png"
 platform: "Windows / Linux"
 
 # 説明文
-# HTMLコードも使用できます。
-description: "hogehogeを追加するMod。"
+# HTMLも使用できます。
+description: "hogehogeを追加するModです。"
 
 # 関連リンクリスト
 # フォーラムへのリンクやダウンロードリンクなど。

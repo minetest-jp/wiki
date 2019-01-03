@@ -9,24 +9,22 @@
 {% capture IMAGE_DIR %}{{ site.github.url }}/{{ site.wiki.images_dir }}{% endcapture %}
 {% assign IMAGE_ALT = "スクリーンショット" %}
 
-<p>
-  {% if include.screenshot %}
-    {% assign screenshot = IMAGE_DIR | append: include.screenshot %}
-    <amp-img
-      class  = "screenshot"
-      layout = "responsive"
-      height = "1"
-      width  = "2"
-      alt    = "{{ IMAGE_ALT }}"
-      src    = "{{ screenshot }}"
-      tabindex>
-    </amp-img>
-  {% endif %}
+{% if include.screenshot %}
+  {% assign screenshot = IMAGE_DIR | append: include.screenshot %}
+  <amp-img
+    class  = "screenshot"
+    layout = "responsive"
+    height = "1"
+    width  = "2"
+    alt    = "{{ IMAGE_ALT }}"
+    src    = "{{ screenshot }}"
+    tabindex>
+  </amp-img>
+{% endif %}
 
-  <dl>
-    {% for detail in include.details %}
-      <dt>{{ detail[0] }}</dt>
-      <dd>{{ detail[1] }}</dd>
-    {% endfor %}
-  </dl>
-</p>
+<dl>
+  {% for detail in include.details %}
+    <dt>{{ detail[0] }}</dt>
+    <dd>{{ detail[1] }}</dd>
+  {% endfor %}
+</dl>
