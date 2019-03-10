@@ -10,8 +10,7 @@ date:
 
 # Pipeworksとは
 
-{% assign data = site.data.mods-industry.pipeworks %}
-{% include details-mod.md %}
+{% include details-mod.md list=site.data.mods-industry key=pipeworks %}
 
 アイテムや水を輸送することを目的としたModです。また、輸送されたアイテムを使用する機械なども含まれています。
 MeseconsやTechnic等を組み合わせることにより様々なことが可能となるModです。
