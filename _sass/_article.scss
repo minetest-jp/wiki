@@ -22,12 +22,6 @@
     }
   }
 
-  > .title {
-    @include media-mobile {
-      text-align: center;
-    }
-  }
-
   > .body {
     dl {
       display: inline-grid;

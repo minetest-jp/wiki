@@ -72,7 +72,12 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
             </amp-img>
           </a>
         </h1>
+
         <div class="body">{{ content }}</div>
+
+        {% if page.date %}
+        <aside class="main-date">最終更新日: <time>{{ page.date }}</time></aside>
+        {% endif %}
       </article>
 
       <footer class="container_footer">
