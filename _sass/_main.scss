@@ -1,15 +1,23 @@
 .main {
-	background: var(--main-bg);
+  background: var(--main-bg);
 
-	@include media-desktop {
-	  border-top: var(--main-border-topleft);
-	  border-left: var(--main-border-topleft);
-	  border-radius: var(--main-border-radius);
-	}
+  @include media-desktop {
+    border-top: var(--main-border-topleft);
+    border-left: var(--main-border-topleft);
+    border-radius: var(--main-border-radius);
+  }
 }
 
 .main-date {
-	color: var(--main-date-color);
-	text-align: right;
-	margin: 1em 0;
+  text-align: right;
+  margin: 1em 0;
+
+  a {
+    color: var(--main-date-color);
+    text-decoration: none;
+	}
+
+	a:hover {
+    text-decoration: underline;
+	}
 }

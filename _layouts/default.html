@@ -76,7 +76,11 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
         <div class="body">{{ content }}</div>
 
         {% if page.date %}
-        <aside class="main-date">最終更新日: <time>{{ page.date }}</time></aside>
+        <aside class="main-date">
+          <a title="変更履歴" href="{{ site.github.repository_url }}/commits/gh-pages/{{ page.path }}">
+            最終更新日: <time>{{ page.date }}</time>
+          </a>
+        </aside>
         {% endif %}
       </article>
 

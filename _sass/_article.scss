@@ -43,11 +43,7 @@
       margin-bottom: 0.5em;
     }
 
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    h2, h3, h4, h5, h6 {
       font-weight: bold;
       line-height: 1.1em;
       margin: 1rem 0;
@@ -79,8 +75,7 @@
     }
 
     p {
-      margin-bottom: 1em;
-      margin-top: 1em;
+      margin: 1em 0;
     }
 
     pre {
@@ -117,10 +112,8 @@
       padding: var(--article-pre-code-padding);
     }
 
-    dl {
-      dt {
-        font-style: normal;
-      }
+    dl dt {
+      font-style: normal;
     }
   }
 }
