@@ -8,7 +8,7 @@
 <p>
   <strong>{{ group.name | date: "%Y-%m-%d" }}</strong>
   {% for item in group.items %}
-    <br><a href="{{ item.url }}">{{ item.title }}</a>
+    <br><a href="{{ item.url | remove_first: "/" }}">{{ item.title }}</a>
   {% endfor %}
 </p>
 {% endfor %}
