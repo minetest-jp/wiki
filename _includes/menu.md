@@ -17,6 +17,12 @@
 
 # ゲームデータ
 
+[コマンド](commands)
+<br>
+[権限](privileges)
+
+## Minetest Game
+
 {% comment %}
 まだ未作成
 [ブロック](blocks)
@@ -30,15 +36,11 @@
 <br>
 [アイテム(公式Wiki)](https://wiki.minetest.net/Items/ja)
 <br>
+[農業](farming)
+<br>
 [鉱石](ores)
 <br>
 [精錬](smelting)
-<br>
-[農業](farming)
-<br>
-[権限](privileges)
-<br>
-[コマンド](commands)
 
 # カスタマイズ
 
