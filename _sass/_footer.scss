@@ -1,7 +1,7 @@
 // フッタ
 footer {
-  background: $footer-background;
-  color: $footer-text-color;
+  background: var(--footer-bg);
+  color: var(--footer-color);
   padding: 1em 0;
   text-align: center;
 
@@ -13,7 +13,7 @@ footer {
     &:hover,
     &:focus,
     &:active {
-      color: $footer-text-color;
+      color: var(--footer-color);
     }
   }
 

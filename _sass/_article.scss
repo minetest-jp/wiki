@@ -1,13 +1,12 @@
 // 本文
 .article {
-  background: $article-background;
-  padding: $article-padding;
+  padding: var(--article-padding);
   word-break: break-word;
 
   @include media-mobile {
-    padding: $article-padding-mobile;
+    padding: var(--article-padding-mobile);
 
-    $top-padding: calc(#{$header-height} - #{$font-size-mobile});
+    $top-padding: calc(var(--header-height) - var(--font-size-mobile));
     $top-padding-minus: calc(#{$top-padding} * -1);
 
     h1[id]::before,
@@ -18,8 +17,8 @@
     h6[id]::before {
       content: "";
       display: block;
-      height: $top-padding;
-      margin-top: $top-padding-minus;
+      height: var(--top-padding);
+      margin-top: var(--top-padding-minus);
     }
   }
 
@@ -30,21 +29,6 @@
   }
 
   > .body {
-    a {
-      text-decoration: underline;
-
-      &:link {
-        color: $article-link-color;
-      }
-
-      &:visited,
-      &:hover,
-      &:focus,
-      &:active {
-        color: $article-link-color-visited;
-      }
-    }
-
     dt {
       font-style: italic;
       font-weight: bold;
@@ -53,9 +37,9 @@
     }
 
     dd {
-      //background: $article-dd-background;
-      //border: $border-default;
-      //border-radius: $article-dd-border-radius;
+      //background: var(--article-dd-bg);
+      //border: var(--border-common);
+      //border-radius: var(--article-dd-border-radius);
       margin-left: 1.5em;
       //padding: 1em;
     }
@@ -71,28 +55,28 @@
     }
 
     h2 {
-      border-bottom: $article-h2-border-bottom;
-      font-size: $article-h2-font-size;
+      border-bottom: var(--article-h2-border-bottom);
+      font-size: var(--article-h2-font-size);
     }
 
     h3 {
-      border-bottom: $article-h3-border-bottom;
-      font-size: $article-h3-font-size;
+      border-bottom: var(--article-h3-border-bottom);
+      font-size: var(--article-h3-font-size);
     }
 
     h4 {
-      border-bottom: $article-h4-border-bottom;
-      font-size: $article-h4-font-size;
+      border-bottom: var(--article-h4-border-bottom);
+      font-size: var(--article-h4-font-size);
     }
 
     h5 {
-      border-bottom: $article-h5-border-bottom;
-      font-size: $article-h5-font-size;
+      border-bottom: var(--article-h5-border-bottom);
+      font-size: var(--article-h5-font-size);
     }
 
     h6 {
-      border-bottom: $article-h6-border-bottom;
-      font-size: $article-h6-font-size;
+      border-bottom: var(--article-h6-border-bottom);
+      font-size: var(--article-h6-font-size);
     }
 
     p {
@@ -102,25 +86,25 @@
 
     pre {
       overflow: auto;
-      white-space: pre;
+      white-space: pre-wrap;
     }
 
     table {
-      border: $border-default;
+      border: var(--border-common);
       border-collapse: collapse;
 
       td, th {
-        border: $border-default;
+        border: var(--border-common);
         padding: 0.5em;
       }
     }
 
     code {
-      background: $article-code-background;
-      border: $article-code-border;
-      border-radius: $article-code-border-radius;
-      color: $article-code-color;
-      font-family: $article-code-font-family;
+      background: var(--article-code-bg);
+      border: var(--article-code-border);
+      border-radius: var(--article-code-border-radius);
+      color: var(--article-code-color);
+      font-family: var(--article-code-font-family);
 
       line-height: 2;
       overflow: auto;
@@ -131,7 +115,7 @@
 
     pre code {
       display: block;
-      padding: $article-pre-code-padding;
+      padding: var(--article-pre-code-padding);
     }
 
     dl {

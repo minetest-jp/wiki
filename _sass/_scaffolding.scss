@@ -1,26 +1,44 @@
-html body {
+html, body {
   box-sizing: border-box;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: $background;
-  color: $font-color;
-  font-family: $font-family;
-  font-size: $font-size;
-  letter-spacing: $letter-spacing;
-  line-height: $line-height;
+  background: var(--bg);
+  color: var(--color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
 
   font-feature-settings: "palt";
 
   @include media-mobile {
-    font-size: $font-size-mobile;
+    font-size: var(--font-size-mobile);
   }
 
   ::selection {
-    background-color: $selection-background;
-    color: $selection-font-color;
+    background-color: var(--selection-bg);
+    color: var(--selection-color);
+  }
+}
+
+a {
+  text-decoration: underline;
+
+  &:link {
+    color: var(--color-link);
+  }
+
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--color-link-visited);
   }
 }

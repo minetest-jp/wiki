@@ -1,7 +1,7 @@
 // スクリーンショット
 .screenshot {
-  max-height: $screenshot-max-height;
-  max-width: $screenshot-max-width;
+  max-height: var(--screenshot-max-height);
+  max-width: var(--screenshot-max-width);
 
   img {
     object-fit: contain;

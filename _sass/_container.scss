@@ -1,6 +1,6 @@
 // コンテナ
 .container {
-  box-sizing: border-box;
+  background: var(--container-bg);
   display: grid;
   grid-template-rows: auto 1fr auto;
   display: -ms-grid;
@@ -12,7 +12,7 @@
     -ms-grid-row: 1;
   }
 
-  .container_content {
+  .container_main {
     grid-row: 2 / 3;
     -ms-grid-row: 2;
   }
@@ -28,32 +28,28 @@
   }
 
   @include media-desktop {
-    border-left: $border-default;
-    border-right: $border-default;
-    box-shadow: $container-box-shadow;
-    grid-template-columns: $container-columns;
-    -ms-grid-columns: $container-columns;
-    max-width: $container-max-width;
+    box-shadow: var(--container-shadow);
+    grid-template-columns: var(--container-columns);
+    -ms-grid-columns: var(--container-columns);
+    max-width: var(--container-max-width);
 
     margin: 0 auto;
     min-height: 100vh;
 
     .container_header {
-      border-bottom: $border-default;
       grid-column: 1 / 3;
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;
     }
 
-    .container_content {
+    .container_menu {
       grid-column: 1 / 2;
-      -ms-grid-column: 1;
+      -ms-grid-column: 2;
     }
 
-    .container_menu {
-      border-left: $border-default;
+    .container_main {
       grid-column: 2 / 3;
-      -ms-grid-column: 2;
+      -ms-grid-column: 1;
     }
 
     .container_footer {
@@ -68,7 +64,7 @@
     width: 100vw;
 
     .container_header {
-      border-bottom: $border-default;
+      border-bottom: var(--border-common);
     }
 
     .container_menu {

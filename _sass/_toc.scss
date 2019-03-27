@@ -1,7 +1,7 @@
 #markdown-toc {
-  background: $toc-background;
-  border: $toc-border;
-  border-radius: $toc-border-radius;
+  background: var(--toc-bg);
+  border: var(--toc-border);
+  border-radius: var(--toc-border-radius);
   display: inline-block;
   padding-top: 1em;
   padding-right: 1em;

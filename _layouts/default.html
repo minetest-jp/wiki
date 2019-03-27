@@ -58,7 +58,12 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
         </a>
       </header>
 
-      <article class="container_content article">
+      <nav class="container_menu article menu">
+        <h1 class="title">メニュー</h1>
+        <div class="body">{{ menu }}</div>
+      </nav>
+
+      <article class="container_main article main">
         <h1 class="title">
           {{ page.title }}
           <a title="GitHubで編集" href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.path }}">
@@ -69,11 +74,6 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
         </h1>
         <div class="body">{{ content }}</div>
       </article>
-
-      <nav class="container_menu article">
-        <h1 class="title">メニュー</h1>
-        <div class="body">{{ menu }}</div>
-      </nav>
 
       <footer class="container_footer">
         <div id="footer-menu" class="menu">{{ menu }}</div>

@@ -1,92 +1,101 @@
-// ブレークポイント
+:root {
+  --border-common: 1px solid #ccc;
+
+  --bg: url({{ site.url }}/{{ site.wiki.img_dir }}/background.png);
+  --color: #333;
+  --color-link: #588f3d;
+  --color-link-visited: #456336;
+  --font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
+  --font-size: 17px;
+  --font-size-mobile: 14px;
+  --letter-spacing: 0.005rem;
+  --line-height: 1.5;
+  --selection-bg: #659b4b;
+  --selection-color: #fff;
+
+  // コンテナ
+  --container-bg: #f5f5f5;
+  --container-shadow: 0 0 10px 0 #ddd;
+  --container-columns: 21% 79%;
+  --container-padding-top-mobile: 1em;
+  --container-max-width: 1280px;
+
+  // ヘッダ
+  --header-bg: none;
+  --header-height: 3rem;
+  --header-color: #694;
+  --header-font-size: 1.25em;
+  --header-font-weight: 500;
+  --header-icon-vertical-adjustment: -.4em;
+
+  // メニュー
+  --menu-bg: none;
+
+  // メインコンテンツ
+  --main-bg: #fff;
+  --main-border-topleft: var(--border-common);
+  --main-border-radius: 10px 0 0 0;
+
+  // 本文 (右メニュー含む)
+  --article-padding: 0 1.25em 1em 1.25em;
+  --article-padding-mobile: 0 1em 1em 1em;
+
+  --article-dd-bg: #fcfcfc;
+  --article-dd-border-radius: 10px;
+
+  // 本文 - 見出し
+  --article-h2-border-bottom: 1px solid #ddd;
+  --article-h2-font-size: 1.5em;
+  --article-h3-border-bottom: 1px dotted #ddd;
+  --article-h3-font-size: 1.25em;
+  --article-h4-border-bottom: 1px dashed #ddd;
+  --article-h4-font-size: 1em;
+  --article-h5-border-bottom: none;
+  --article-h5-font-size: 1em;
+  --article-h6-border-bottom: none;
+  --article-h6-font-size: 1em;
+
+  // 本文 - ソースコード
+  --article-code-bg: #fefefe;
+  --article-code-border: 1px solid #ccc;
+  --article-code-border-radius: 10px;
+  --article-code-color: #333;
+  --article-code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --article-pre-code-padding: 9.5px;
+
+  // 本文 - 目次
+  --toc-bg: #fcfcfc;
+  --toc-border: 1px solid #ccc;
+  --toc-border-radius: 10px;
+
+  // フッタ
+  --footer-bg: #333;
+  --footer-color: #fff;
+
+  // Modなどのスクリーンショット
+  --screenshot-max-height: 250px;
+  --screenshot-max-width: 500px;
+}
+
 @mixin media-desktop {
-    @media {{ site.media-desktop }} {
-        @content;
-    }
+  @media {{ site.media-desktop }} {
+    @content;
+  }
 }
+
 @mixin media-mobile {
-    @media {{ site.media-mobile }} {
-        @content;
-    }
+  @media {{ site.media-mobile }} {
+    @content;
+  }
 }
-
-// 共通
-$border-default: 1px solid #ccc;
-
-// 基本設定
-$background: url({{ site.url }}/{{ site.wiki.img_dir }}/background.png);
-$font-color: #333;
-$font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "meiryo", "arial", "sans-serif";
-$font-size: 18px;
-$font-size-mobile: 14px;
-$letter-spacing: 0.005em;
-$line-height: 1.5;
-$selection-background: #659b4b;
-$selection-font-color: #fff;
-
-// コンテナ
-$container-box-shadow: 0 0 10px 0 #ddd;
-$container-columns: 80% 20%;
-$container-padding-top-mobile: 1em;
-$container-max-width: 1280px;
-
-// ヘッダ
-$header-background: #fff;
-$header-height: 3em;
-$header-link-color: #694;
-$header-mobile-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
-$header-img-vertical-adjustment: -.4em;
-
-// 本文 (右メニュー含む)
-$article-background: #fff;
-$article-padding: 0 1em 1em 1em;
-$article-padding-mobile: 0 0.5em 1em 0.5em;
-$article-link-color: #588f3d;
-$article-link-color-visited: #456336;
-
-$article-dd-background: #fcfcfc;
-$article-dd-border-radius: 10px;
-
-// 本文 - 見出し
-$article-h2-border-bottom: 1px solid #ddd;
-$article-h2-font-size: 1.5em;
-$article-h3-border-bottom: 1px dotted #ddd;
-$article-h3-font-size: 1.25em;
-$article-h4-border-bottom: 1px dashed #ddd;
-$article-h4-font-size: 1em;
-$article-h5-border-bottom: none;
-$article-h5-font-size: 1em;
-$article-h6-border-bottom: none;
-$article-h6-font-size: 1em;
-
-// 本文 - ソースコード
-$article-code-background: #fcfcfc;
-$article-code-border: 1px solid #ccc;
-$article-code-border-radius: 10px;
-$article-code-color: #333;
-$article-code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-$article-pre-code-padding: 9.5px;
-
-// 本文 - 目次
-$toc-background: #fcfcfc;
-$toc-border: 1px solid #ccc;
-$toc-border-radius: 10px;
-
-// フッタ
-$footer-background: #333;
-$footer-text-color: #fff;
-
-// Modなどのスクリーンショット
-$screenshot-max-height: 250px;
-$screenshot-max-width: 500px;
-
-// ----- インポート ----- //
 
 @import "normalize";
 @import "scaffolding";
 @import "container";
 @import "header";
 @import "article";
+@import "menu";
+@import "main";
 @import "footer";
 
 @import "toc";

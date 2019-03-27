@@ -1,0 +1,9 @@
+.main {
+	background: var(--main-bg);
+
+	@include media-desktop {
+	  border-top: var(--main-border-topleft);
+	  border-left: var(--main-border-topleft);
+	  border-radius: var(--main-border-radius);
+	}
+}
