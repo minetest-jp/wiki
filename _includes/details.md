@@ -6,7 +6,7 @@
       値: <dd>に表示される説明
 {% endcomment %}
 
-{% capture IMAGE_DIR %}{{ site.github.url }}/{{ site.wiki.images_dir }}{% endcapture %}
+{% capture IMAGE_DIR %}{{ site.url }}/{{ site.wiki.img_dir }}{% endcapture %}
 {% assign IMAGE_ALT = "スクリーンショット" %}
 
 {% if include.screenshot %}

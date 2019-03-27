@@ -13,8 +13,8 @@ custom-head: >-
 
 <div class="carousel">
   <amp-carousel type="slides" layout="responsive" autoplay loop delay="2000" width="500" height="380">
-    <amp-img layout="fill" src="{{ site.wiki.images_dir }}/screenshot/1.png"></amp-img>
-    <amp-img layout="fill" src="{{ site.wiki.images_dir }}/screenshot/2.png"></amp-img>
+    <amp-img layout="fill" src="{{ site.wiki.img_dir }}/screenshot/1.png"></amp-img>
+    <amp-img layout="fill" src="{{ site.wiki.img_dir }}/screenshot/2.png"></amp-img>
   </amp-carousel>
 </div>
 
