@@ -11,9 +11,7 @@
 <br>
 [アップデート情報](changelog)
 <br>
-[よくある質問](questions)
-<br>
-[トラブルシューティング](troubleshooting)
+[よくある質問とトラブルシューティング](questions)
 
 # ゲームデータ
 
@@ -44,7 +42,7 @@
 
 # カスタマイズ
 
-[Mod導入方法](mod-installing)
+[Modの導入方法](mod-installing)
 <br>
 [Mod解説集](mod-manuals)
 <br>
