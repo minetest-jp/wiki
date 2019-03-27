@@ -29,19 +29,24 @@
   }
 
   > .body {
+    dl {
+      display: inline-grid;
+      grid-template-columns: auto 1fr;
+      display: -ms-inline-grid;
+      -ms-grid-columns: auto 1fr;
+    }
+
     dt {
+      grid-column: 1;
+      -ms-grid-column: 1;
       font-style: italic;
       font-weight: bold;
-      margin-bottom: 0.5em;
-      margin-top: 0.5em;
     }
 
     dd {
-      //background: var(--article-dd-bg);
-      //border: var(--border-common);
-      //border-radius: var(--article-dd-border-radius);
-      margin-left: 1.5em;
-      //padding: 1em;
+      grid-column: 2;
+      -ms-grid-column: 2;
+      margin-bottom: 0.5em;
     }
 
     h2,
