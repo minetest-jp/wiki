@@ -1,6 +1,6 @@
 ---
 title: 鉱石
-date:
+date: 2019-3-27
 ---
 
 - toc

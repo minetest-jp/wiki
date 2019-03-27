@@ -1,6 +1,6 @@
 ---
 title: トップページ
-date: 2018-4-18
+date: 2019-3-27
 custom-style: >-
   .carousel {
     margin: auto;
@@ -24,15 +24,15 @@ custom-head: >-
 
 # Minetestとは？
 
-**Minetest** (マインテスト) は、InfiniMinerやMinecraftに似たフリーゲームです。
-ソースコードは[GitHub](https://github.com/minetest/minetest)にあり、LGPLライセンスのもとで公開されています。
+**Minetest** (マインテスト) は、[InfiniMiner](http://www.zachtronics.com/infiniminer)や[Minecraft](https://www.minecraft.net/ja-jp)に似た[オープンソース](https://ja.wikipedia.org/wiki/オープンソース)のフリーゲームです。
+ソースコードは[GitHub](https://github.com/minetest/minetest)にあり、[LGPLライセンス](https://ja.wikipedia.org/wiki/GNU_Lesser_General_Public_License)のもとで公開されています。
 
 Minetestは**厳密にはゲームエンジン**であり、**Minetest Game**と呼ばれるゲームが同梱されています。
 Minetest Gameでは、ブロックで建築したり、洞窟を探検したり、作物を育てたりできます。
-公式フォーラムではMinetest Game以外のゲームも配布されています。
+[公式フォーラム](https://forum.minetest.net)ではMinetest Game以外のゲームも配布されています。
 
 Minetestは**Modとテクスチャパックに対応**しています。
 Modにはブロックを追加するものからワールド全体を変えるものまで様々です。
-このWikiのModリストや、公式フォーラムから探してみましょう。
+このWikiのModリストや、[公式フォーラム](https://forum.minetest.net)から探してみましょう。
 
 現在のMinetestのバージョンは**{{ site.minetest.latest_version }}**です。アップデートの内容は[アップデート情報](changelog)をご覧ください。
