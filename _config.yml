@@ -10,7 +10,6 @@ logo: "img/icon.png"
 author: Minetest-JP Team
 publisher: Minetest-JP Team
 
-
 ### Wiki設定 ###
 
 minetest:
@@ -35,7 +34,7 @@ media-mobile: "not all and (min-width: 768px)"
 ### Jekyllの設定 ###
 
 # Jekyllから除外するファイル
-exclude: ["README.md", "CONTRIBUTING.md", "images/LICENSE.txt", "vendor"]
+exclude: ["README.md", "CONTRIBUTING.md", "img/LICENSE.txt", "vendor"]
 
 # Markdownパーサ
 markdown: "kramdown"
@@ -71,7 +70,7 @@ defaults:
         type: "WebSite"
       # 構造化データ用の画像(アイコンを指定)
       image:
-        path: "images/icon.png"
+        path: "img/icon.png"
         width: 600
         height: 603
 
