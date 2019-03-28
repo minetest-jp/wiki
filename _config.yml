@@ -75,5 +75,4 @@ defaults:
         height: 603
 
 plugins:
-  - "jekyll-seo-tag"
   - "jekyll-sitemap" # サイトマップ生成

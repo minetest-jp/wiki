@@ -30,6 +30,11 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
     <meta name="theme-color" content="{{ site.wiki.theme_color }}">
     <link rel="shortcut icon" href="{{ icon_url }}">
     <link rel="apple-touch-icon" href="{{ icon_url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    {% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+    {% endif %}
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <style amp-custom>{{ style }}</style>
@@ -38,7 +43,6 @@ body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:non
       <style amp-boilerplate>{{ amp-boilerplate-noscript }}</style>
     </noscript>
 
-    {% seo %}
     {{ page.custom-head }}
   </head>
 
