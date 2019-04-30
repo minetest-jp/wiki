@@ -15,7 +15,7 @@ publisher: Minetest-JP Team
 minetest:
   # Minetestの最新バージョン
   # Windowsのダウンロードリンクもこれに依存します
-  latest_version: "5.0.0"
+  latest_version: "5.0.1"
 
 wiki:
   # 画像フォルダのパス
