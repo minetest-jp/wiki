@@ -96,6 +96,8 @@
 <br>
 [MediaWiki版日本語Wiki](https://minetestja.miraheze.org)
 <br>
+[コンテンツデータベース](https://content.minetest.net)
+<br>
 [サーバ一覧](http://servers.minetest.net)
 <br>
 [Github](https://github.com/minetest)

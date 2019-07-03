@@ -4,7 +4,7 @@ description: "フォーラムにあるModのデータベースです。Web上で
 links:
   -
     text: "フォーラム"
-    url:  "https://forum.minetest.net/viewtopic.php?t=20174"
+    url: "https://forum.minetest.net/viewtopic.php?t=20174"
   -
     text: "データベース"
-    url:  "https://content.minetest.net"
+    url: "https://content.minetest.net"
