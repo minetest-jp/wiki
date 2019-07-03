@@ -5,7 +5,7 @@ title: 配布マップ
 - toc
 {:toc}
 
-{% include list-details.md
+{% include list-contents.md
   type = "map"
   list = site.data.maps
 %}

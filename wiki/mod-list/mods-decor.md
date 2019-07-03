@@ -5,4 +5,4 @@ title: Modリスト - 装飾
 - toc
 {:toc}
 
-{% include list-details.md type="mod" list=site.data.mods-decor %}
+{% include list-contents.md type="mod" list=site.data.mods-decor %}

@@ -5,7 +5,7 @@ title: テクスチャパック
 - toc
 {:toc}
 
-{% include list-details.md
+{% include list-contents.md
   type = "texturepack"
   list = site.data.texturepacks
 %}
