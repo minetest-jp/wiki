@@ -104,4 +104,4 @@
 
 # 更新履歴
 
-{% include update-history.md limit=10 %}
+{% include wiki-updates.md limit=10 %}
