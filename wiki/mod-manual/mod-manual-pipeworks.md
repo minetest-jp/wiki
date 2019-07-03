@@ -10,7 +10,7 @@ date:
 
 # Pipeworksとは
 
-{% include details-mod.md list=site.data.mods-industry key=pipeworks %}
+{% include content-mod.md list=site.data.mods-industry key=pipeworks %}
 
 アイテムや水を輸送することを目的としたModです。また、輸送されたアイテムを使用する機械なども含まれています。
 MeseconsやTechnic等を組み合わせることにより様々なことが可能となるModです。
@@ -97,7 +97,7 @@ MeseconsとDigilinesに依存していますが、無い場合は必要な機能
     搬送の優先順位(後述)が高いチューブです。主に搬送経路を固定したいときに使用します。
     Sorting Pneumatic Tube Segmentでも同様な処理は可能ですが、こちらの方が処理が軽くなります。
   </dd>
- 
+
   <dt>Teleporting Pneumatic Tube Segment</dt>
   <dd>
     アイテムを別のTeleporting Pneumatic Tube Segmentに転送するチューブです。

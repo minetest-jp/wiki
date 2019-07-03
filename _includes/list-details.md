@@ -16,7 +16,7 @@
 {% assign sorted-anchors = anchors | split: " " | sort %}
 
 <!-- detailsタイプからテンプレートファイル名を作成 -->
-{% capture template-name %}details-{{ include.type }}.md{% endcapture %}
+{% capture template-name %}content-{{ include.type }}.md{% endcapture %}
 
 <!-- ソートしたアンカー順でリスト展開 -->
 <!-- NOTE: Markdownはインデントできないのでforの中身はインデントなし -->

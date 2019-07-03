@@ -4,18 +4,10 @@
 <!-- 空のリストを作成 -->
 {% assign details = "" | split: "|" %}
 
-<!-- プラットフォーム -->
-{% if data.platform %}
-  {% assign platform = "" | split: "|" %}
-  {% assign platform = platform | push: "プラットフォーム" %}
-  {% assign platform = platform | push: data.platform %}
-  {% assign details = details | push: platform %}
-{% endif %}
-
-<!-- 開発者 -->
+<!-- 製作者 -->
 {% if data.author %}
   {% assign author = "" | split: "|" %}
-  {% assign author = author | push: "開発者" %}
+  {% assign author = author | push: "製作者" %}
   {% assign author = author | push: data.author %}
   {% assign details = details | push: author %}
 {% endif %}
@@ -44,4 +36,4 @@
 {% endif %}
 
 <!-- テンプレートをインクルード -->
-{% include details.md screenshot=data.screenshot details=details %}
+{% include content.md screenshot=data.screenshot details=details %}

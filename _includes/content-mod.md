@@ -72,4 +72,4 @@
 {% endif %}
 
 <!-- テンプレートをインクルード -->
-{% include details.md screenshot=data.screenshot details=details %}
+{% include content.md screenshot=data.screenshot details=details %}
