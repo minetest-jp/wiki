@@ -10,8 +10,7 @@ date:
 
 # Technicとは？
 
-{% assign data = site.data.mods-industry.technic %}
-{% include content-mod.md %}
+{% include content-mod.md data=site.data.mods-industry.technic %}
 
 「Technic」はMinetestの工業化Modです。
 『電力(EU)』という新しい仕組みを使って、いろいろな作業を自動化したり、新しい道具や機械を開発したりできます。

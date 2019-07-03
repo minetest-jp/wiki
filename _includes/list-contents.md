@@ -21,6 +21,7 @@
 <!-- ソートしたアンカー順でリスト展開 -->
 <!-- NOTE: Markdownはインデントできないのでforの中身はインデントなし -->
 {% for anchor in sorted-anchors %}
-# {{ include.list[anchor].name }} {#{{ anchor }}}
-{% include {{ template-name }} list=include.list key=anchor %}
+{% assign content-data = include.list[anchor] %}
+# {{ content-data.name }} {#{{ anchor }}}
+{% include {{ template-name }} data=content-data %}
 {% endfor %}

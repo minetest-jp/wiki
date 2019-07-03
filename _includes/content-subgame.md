@@ -1,5 +1,5 @@
 <!-- 渡されてきたデータ -->
-{% assign data = include.list[include.key] %}
+{% assign data = include.data %}
 
 <!-- 空のリストを作成 -->
 {% assign details = "" | split: "|" %}
