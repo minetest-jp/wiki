@@ -1,5 +1,3 @@
-### サイト設定 ###
-
 repository: minetest-jp/wiki
 url: https://minetest-jp.github.io/wiki
 title: Minetest JP Wiki
@@ -8,8 +6,9 @@ lang: ja_JP
 logo: "img/icon.png"
 author: Minetest-JP Team
 publisher: Minetest-JP Team
-
-### Wiki設定 ###
+media-desktop: "all and (min-width: 768px)"
+media-mobile: "not all and (min-width: 768px)"
+exclude: ["README.md", "CONTRIBUTING.md", "imgs/LICENSE.txt", "vendor"]
 
 minetest:
   # Minetestの最新バージョン
@@ -17,33 +16,13 @@ minetest:
   latest_version: "5.0.1"
 
 wiki:
-  # 画像フォルダのパス
   img_dir: "imgs"
-  # テーマカラー
-  # モバイル版Chromeのタブ色に使用される
-  theme_color: "#fff"
-
-# デスクトップ判定
-media-desktop: "all and (min-width: 768px)"
-
-# モバイル端末判定
-media-mobile: "not all and (min-width: 768px)"
-
-### Jekyllの設定 ###
-
-# Jekyllから除外するファイル
-exclude: ["README.md", "CONTRIBUTING.md", "img/LICENSE.txt", "vendor"]
-
-# Markdownパーサ
-markdown: "kramdown"
+  theme_color: "#fff" # モバイル版Chromeのタブ色
 
 kramdown:
-  # Markdownの書式はGithubスタイル
   input: "GFM"
-  # HTMLコードをそのまま出力
   html_to_native: true
-  # "#"を<h2>相当にする
-  header_offset: 1
+  header_offset: 1 # Markdownの"#"を<h2>として扱う
 
 sass:
   style: "compressed"
@@ -64,10 +43,8 @@ defaults:
     values:
       date: 2018-1-1
       layout: "default"
-      # SEO対策
       seo:
         type: "WebSite"
-      # 構造化データ用の画像(アイコンを指定)
       image:
         path: "img/icon.png"
         width: 600

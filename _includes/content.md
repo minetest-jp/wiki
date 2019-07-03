@@ -1,17 +1,14 @@
-<!-- 渡されてきたデータ -->
 {% assign data = include.data %}
 
 {% if data.screenshot %}
   {% capture IMAGE_DIR %}{{ site.baseurl }}/{{ site.wiki.img_dir }}{% endcapture %}
-  {% assign IMAGE_ALT = "スクリーンショット" %}
-  {% assign screenshot = IMAGE_DIR | append: data.screenshot %}
   <amp-img
     class  = "screenshot"
     layout = "responsive"
     height = "1"
     width  = "2"
-    alt    = "{{ IMAGE_ALT }}"
-    src    = "{{ screenshot }}"
+    alt    = "スクリーンショット"
+    src    = "{{ IMAGE_DIR }}{{ data.screenshot }}"
     tabindex>
   </amp-img>
 {% endif %}
