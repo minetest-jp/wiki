@@ -94,6 +94,8 @@
 <br>
 [開発Wiki](http://dev.minetest.net/Main_Page/ja)
 <br>
+[MediaWiki版日本語Wiki](https://minetestja.miraheze.org)
+<br>
 [サーバ一覧](http://servers.minetest.net)
 <br>
 [Github](https://github.com/minetest)
