@@ -22,9 +22,7 @@ custom-style: >-
 
 [Homebrew](http://brew.sh)を導入している場合は`brew install homebrew/games/minetest`でもインストールできます。
 
-[安定版](https://github.com/krondor-game/minetest/releases/tag/stable)
-<br>
-[最新版](https://github.com/krondor-game/minetest/releases)
+[リリース一覧](https://github.com/krondor-game/minetest/releases)
 
 # Linux
 
@@ -65,7 +63,7 @@ Git･デイリービルド
 
 [FreeBSD](http://www.freshports.org/games/minetest)
 
-# ソースコード
+# ソースコード (zip)
 
 [Minetest (master)](https://github.com/minetest/minetest/archive/master.zip)
 <br>
