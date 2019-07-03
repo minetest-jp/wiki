@@ -8,7 +8,7 @@ links:
     url:  "https://github.com/minetest-mods/pipeworks/wiki"
   -
     text: "解説ページ"
-    url:  "mod-manual-pipeworks"
+    url:  "%BASEURL%/modmanual/pipeworks.html"
   -
     text: "フォーラム"
     url:  "https://forum.minetest.net/viewtopic.php?t=2155"

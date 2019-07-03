@@ -8,5 +8,5 @@
 
 ```
 bundle install --path vendor/bundle
-bundle exec jekyll serve --baseurl ""
+bundle exec jekyll serve --baseurl "$PWD/_site"
 ```

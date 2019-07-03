@@ -18,7 +18,7 @@ minetest:
 
 wiki:
   # 画像フォルダのパス
-  img_dir: "img"
+  img_dir: "imgs"
   # テーマカラー
   # モバイル版Chromeのタブ色に使用される
   theme_color: "#fff"
@@ -28,7 +28,6 @@ media-desktop: "all and (min-width: 768px)"
 
 # モバイル端末判定
 media-mobile: "not all and (min-width: 768px)"
-
 
 ### Jekyllの設定 ###
 
@@ -52,18 +51,19 @@ sass:
 compress_html:
   comments: all
 
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
 defaults:
   -
-    # 設定を適用するパス
     scope:
-      path: "wiki"
+      path: ""
+      type: "pages"
     values:
-      # レイアウト名
+      date: 2018-1-1
       layout: "default"
-      # ページのURL
-      # Markdown名をそのまま使用
-      # サブディレクトリ無し
-      permalink: ":basename"
       # SEO対策
       seo:
         type: "WebSite"

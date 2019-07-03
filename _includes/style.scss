@@ -1,7 +1,7 @@
 :root {
   --border-common: 1px solid #ccc;
 
-  --bg: url({{ site.url }}/{{ site.wiki.img_dir }}/background.png);
+  --bg: url({{ site.baseurl }}/{{ site.wiki.img_dir }}/background.png);
   --color: #333;
   --color-link: #588f3d;
   --color-link-visited: #456336;

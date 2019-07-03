@@ -8,7 +8,7 @@ links:
     url:  "http://technic.kosyak.info/"
   -
     text: "解説ページ"
-    url:  "mod-manual-technic"
+    url:  "%BASEURL%/modmanual/technic.html"
   -
     text: "フォーラム"
     url:  "https://forum.minetest.net/viewtopic.php?t=2538"
